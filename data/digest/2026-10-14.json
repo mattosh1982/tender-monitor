@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-14T17:02:07+00:00",
+ "run_at": "2026-10-14T17:11:51+00:00",
  "date": "2026-10-14",
  "window_from": "2026-10-10",
  "first_run": false,
@@ -8,23 +8,23 @@
    "status": "ok",
    "matches": 31,
    "read": null,
-   "seconds": 10
+   "seconds": 15
   },
   "DE oeffentlichevergabe.de": {
    "status": "ok",
    "matches": 0,
    "read": 2188,
-   "seconds": 109
+   "seconds": 104
   },
   "PL BZP": {
    "status": "ok",
-   "matches": 0,
+   "matches": 3,
    "read": 2957,
-   "seconds": 93
+   "seconds": 113
   },
   "CH simap": {
    "status": "chyba",
-   "error": "simap HTTP 0: <urlopen error [Errno 111] Connection refused>"
+   "error": "simap HTTP 0: <urlopen error _ssl.c:993: The handshake operation timed out>"
   },
   "SK UVOstat": {
    "status": "vypnuté (chýba API kľúč)"
@@ -33,6 +33,63 @@
    "status": "vypnuté (chýba API kľúč)"
   }
  },
- "new_count": 0,
- "new": []
+ "new_count": 3,
+ "new": [
+  {
+   "id": "PL-2026/BZP00481618",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Sukcesywne dostawy galaretek chłodzonych w 2027r. – wraz z rozładunkiem w magazynach 32 WOG zlokalizowanych w kompleksach wojskowych znajdujących się w rejonie działania 32 WOG, w zakresie 4 części.",
+   "buyer": "32 Wojskowy Oddział Gospodarczy w Zamościu (Zamość)",
+   "published": "2026-10-12",
+   "deadline": "2026-10-21",
+   "cpv": [
+    "15833100"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df2835-71e3-1f50-5997-b200010645f0",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00487603",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Organizacja szkoleń/kursów dla uczniów w ramach projektu pn. „Świętokrzyska Edukacja Zawodowa”",
+   "buyer": "WOJEWÓDZKI URZĄD PRACY W KIELCACH (Kielce)",
+   "published": "2026-10-14",
+   "deadline": "2026-10-26",
+   "cpv": [
+    "80500000",
+    "80530000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df29ed-8c7c-0843-5997-b2000144e12d",
+   "match": [
+    "dron v texte oznámenia: „DRON“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00487869",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Ubezpieczenie mienia i odpowiedzialności cywilnej Powiatu Ostrołęckiego",
+   "buyer": "POWIAT OSTROŁĘCKI (Ostrołęka)",
+   "published": "2026-10-14",
+   "deadline": "2026-10-28",
+   "cpv": [
+    "66510000",
+    "66512100",
+    "66514110",
+    "66514140",
+    "66514150",
+    "66515000",
+    "66515100",
+    "66515200"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df29f6-6df0-1fd4-5997-b2000144e272",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  }
+ ]
 }
