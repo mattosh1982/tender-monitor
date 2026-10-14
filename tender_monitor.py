@@ -51,6 +51,7 @@ def _gai_v4(host, *a, **k):  # GitHub runnery nemajú IPv6 → simap.ch padal na
     return v4 or res
 socket.getaddrinfo = _gai_v4
 
+SAMPLES = {}  # vzorky názvov na diagnostiku
 READ = {}  # počet prečítaných záznamov na zdroj (diagnostika)
 
 _cookies = http.cookiejar.CookieJar()
@@ -236,6 +237,7 @@ def src_de():
                 domains = re.findall(r"<cbc:RegulatoryDomain>([^<]+)<", xml)
                 if domains and any(re.match(r"^3\d{4}[LR]\d{4}$", d) for d in domains):
                     continue  # EÚ postup – zachytí TED
+                SAMPLES.setdefault("DE", []).append(_x(xml, r"<cac:ProcurementProject>.*?<cbc:Name[^>]*>([^<]+)<")[:120]) if len(SAMPLES.get("DE", [])) < 60 else None
                 proj = _x(xml, r"<cac:ProcurementProject>(.*?)</cac:ProcurementProject>")
                 title = _x(xml, r"<cac:ProcurementProject>.*?<cbc:Name[^>]*>([^<]+)<")
                 desc = _x(xml, r"<cac:ProcurementProject>.*?<cbc:Description[^>]*>([^<]+)<")
@@ -280,6 +282,8 @@ def src_pl():
             if not isinstance(rows, list):
                 raise RuntimeError(f"BZP neočakávaná odpoveď: {str(txt)[:200]}")
             READ["PL"] = READ.get("PL", 0) + len(rows)
+            if rows and "PL" not in SAMPLES:
+                SAMPLES["PL"] = {"keys": sorted(rows[0].keys()), "titles": [clean(r.get("orderObject"))[:120] for r in rows[:40]]}
             for n in rows:
                 cpvs = re.findall(r"(\d{8})-\d", str(n.get("cpvCode") or ""))
                 title = clean(n.get("orderObject"))
@@ -466,6 +470,7 @@ def main():
     txt = json.dumps(digest, ensure_ascii=False, indent=1)
     (DATA / "latest.json").write_text(txt, encoding="utf-8")
     (DATA / "digest" / f"{TODAY}.json").write_text(txt, encoding="utf-8")
+    (DATA / "debug_samples.json").write_text(json.dumps(SAMPLES, ensure_ascii=False, indent=1), encoding="utf-8")
     log(f"Hotovo: {len(new)} nových, spolu sledovaných {len(seen)}")
     if all(s.get("status") == "chyba" for s in status.values() if s.get("status") != "vypnuté (chýba API kľúč)"):
         sys.exit(1)
