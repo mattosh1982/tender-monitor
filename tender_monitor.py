@@ -43,6 +43,16 @@ SINCE = TODAY - dt.timedelta(days=int(CFG.get("lookback_days", 4)))
 ISO3_TO_2 = {"DEU": "DE", "AUT": "AT", "CHE": "CH", "CZE": "CZ", "POL": "PL", "DNK": "DK",
              "NOR": "NO", "SWE": "SE", "FIN": "FI", "SVK": "SK", "SVN": "SI"}
 
+import socket
+_orig_gai = socket.getaddrinfo
+def _gai_v4(host, *a, **k):  # GitHub runnery nemajú IPv6 → simap.ch padal na Errno 101
+    res = _orig_gai(host, *a, **k)
+    v4 = [r for r in res if r[0] == socket.AF_INET]
+    return v4 or res
+socket.getaddrinfo = _gai_v4
+
+READ = {}  # počet prečítaných záznamov na zdroj (diagnostika)
+
 _cookies = http.cookiejar.CookieJar()
 _opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(_cookies))
 
@@ -219,6 +229,7 @@ def src_de():
                 if not name.endswith(".xml"):
                     continue
                 xml = zf.read(name).decode("utf-8", "replace")
+                READ["DE"] = READ.get("DE", 0) + 1
                 t = re.search(r'<cbc:NoticeTypeCode listName="([^"]+)"', xml)
                 if not t or t.group(1) not in ("competition", "planning"):
                     continue
@@ -268,6 +279,7 @@ def src_pl():
             rows = json.loads(txt or "[]")
             if not isinstance(rows, list):
                 raise RuntimeError(f"BZP neočakávaná odpoveď: {str(txt)[:200]}")
+            READ["PL"] = READ.get("PL", 0) + len(rows)
             for n in rows:
                 cpvs = re.findall(r"(\d{8})-\d", str(n.get("cpvCode") or ""))
                 title = clean(n.get("orderObject"))
@@ -314,6 +326,7 @@ def src_ch():
         if st != 200:
             raise RuntimeError(f"simap HTTP {st}: {str(txt)[:200]}")
         js = json.loads(txt)
+        READ["CH"] = READ.get("CH", 0) + len(js.get("projects", []))
         for p in js.get("projects", []):
             title = pick_lang(p.get("title"), ("de", "fr", "it", "en"))
             cpvs = [str(c) for c in (p.get("cpvCodes") or [])] if isinstance(p.get("cpvCodes"), list) else []
@@ -347,6 +360,7 @@ def src_sk():
             raise RuntimeError(f"UVOstat HTTP {st}: {str(txt)[:200]}")
         js = json.loads(txt)
         data = js.get("data") or []
+        READ["SK"] = READ.get("SK", 0) + len(data)
         for n in data:
             cpvs = re.findall(r"(\d{8})", " ".join([str(n.get("hlavne_cpv") or "")] +
                                                    [str(x) for x in (n.get("dodatkove_cpv") or [])]))
@@ -422,7 +436,8 @@ def main():
                 log(f"{name}: preskočené – chýba kľúč")
                 continue
             found += res
-            status[name] = {"status": "ok", "matches": len(res), "seconds": round(time.time() - t0)}
+            status[name] = {"status": "ok", "matches": len(res), "read": READ.get(name.split()[0]),
+                            "seconds": round(time.time() - t0)}
             log(f"{name}: {len(res)} zhôd")
         except Exception as e:
             status[name] = {"status": "chyba", "error": str(e)[:400]}
