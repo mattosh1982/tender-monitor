@@ -27,7 +27,7 @@ jobs:
         env:
           UVOSTAT_API_TOKEN: ${{ secrets.UVOSTAT_API_TOKEN }}
           DOFFIN_API_KEY: ${{ secrets.DOFFIN_API_KEY }}
-        run: python tender_monitor.py --debug
+        run: python tender_monitor.py
 
       - name: Uložiť výsledky do repozitára
         if: always()

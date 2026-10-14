@@ -288,6 +288,13 @@ def src_pl():
                 cpvs = re.findall(r"(\d{8})-\d", str(n.get("cpvCode") or ""))
                 title = clean(n.get("orderObject"))
                 reasons = classify(title, cpvs)
+                if not reasons:  # drony hľadať aj v plnom texte oznámenia
+                    body = re.sub(r"<[^>]+>", " ", str(n.get("htmlBody") or ""))
+                    for pat in RX["dron"]:
+                        m = pat.search(body)
+                        if m:
+                            reasons = [f"dron v texte oznámenia: „{m.group(0)}“"]
+                            break
                 if not reasons:
                     continue
                 bzp = clean(n.get("bzpNumber")).replace(" ", "")
@@ -470,7 +477,8 @@ def main():
     txt = json.dumps(digest, ensure_ascii=False, indent=1)
     (DATA / "latest.json").write_text(txt, encoding="utf-8")
     (DATA / "digest" / f"{TODAY}.json").write_text(txt, encoding="utf-8")
-    (DATA / "debug_samples.json").write_text(json.dumps(SAMPLES, ensure_ascii=False, indent=1), encoding="utf-8")
+    if DEBUG:
+        (DATA / "debug_samples.json").write_text(json.dumps(SAMPLES, ensure_ascii=False, indent=1), encoding="utf-8")
     log(f"Hotovo: {len(new)} nových, spolu sledovaných {len(seen)}")
     if all(s.get("status") == "chyba" for s in status.values() if s.get("status") != "vypnuté (chýba API kľúč)"):
         sys.exit(1)
