@@ -329,13 +329,15 @@ SIMAP_SEARCH = ["Drohne", "Drohnen", "drone", "UAV", "Kanalinspektion", "Kanal-T
 def src_ch():
     base = "https://www.simap.ch/api"
     http(f"{base}/cantons/v1?lang=de")  # nastaví session cookie
-    out = {}
+    out, fails = {}, []
     queries = [{"search": s} for s in SIMAP_SEARCH] + [{"cpvCodes": c} for c in CFG["ted_cpv"]]
     for q in queries:
         params = {"lang": "de", "newestPublicationFrom": SINCE.isoformat(), **q}
-        st, txt = http(f"{base}/publications/v2/project/project-search?" + urllib.parse.urlencode(params))
+        st, txt = http(f"{base}/publications/v2/project/project-search?" + urllib.parse.urlencode(params),
+                       timeout=60, retries=4)
         if st != 200:
-            raise RuntimeError(f"simap HTTP {st}: {str(txt)[:200]}")
+            fails.append(f"{q}: HTTP {st} {str(txt)[:80]}")
+            continue
         js = json.loads(txt)
         READ["CH"] = READ.get("CH", 0) + len(js.get("projects", []))
         for p in js.get("projects", []):
@@ -353,6 +355,10 @@ def src_ch():
                                   f"https://www.simap.ch/de/project-detail/{pid}" if pid else "https://www.simap.ch",
                                   reasons, {"project_number": p.get("projectNumber")})
         time.sleep(1)
+    if len(fails) == len(queries):
+        raise RuntimeError("simap: všetky dotazy zlyhali – " + fails[0])
+    if fails:
+        log(f"  simap: {len(fails)}/{len(queries)} dotazov zlyhalo")
     return list(out.values())
 
 
