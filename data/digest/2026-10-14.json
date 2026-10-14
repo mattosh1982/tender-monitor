@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-14T15:12:50+00:00",
+ "run_at": "2026-10-14T17:02:07+00:00",
  "date": "2026-10-14",
  "window_from": "2026-10-10",
  "first_run": false,
@@ -8,25 +8,23 @@
    "status": "ok",
    "matches": 31,
    "read": null,
-   "seconds": 17
+   "seconds": 10
   },
   "DE oeffentlichevergabe.de": {
    "status": "ok",
    "matches": 0,
    "read": 2188,
-   "seconds": 103
+   "seconds": 109
   },
   "PL BZP": {
    "status": "ok",
    "matches": 0,
-   "read": 2916,
-   "seconds": 78
+   "read": 2957,
+   "seconds": 93
   },
   "CH simap": {
-   "status": "ok",
-   "matches": 0,
-   "read": 11,
-   "seconds": 252
+   "status": "chyba",
+   "error": "simap HTTP 0: <urlopen error [Errno 111] Connection refused>"
   },
   "SK UVOstat": {
    "status": "vypnuté (chýba API kľúč)"
