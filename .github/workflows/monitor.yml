@@ -1,0 +1,39 @@
+name: Monitor dronových tendrov
+
+on:
+  schedule:
+    - cron: "15 4 * * *"   # denne 04:15 UTC (06:15 SELČ / 05:15 SEČ)
+  workflow_dispatch: {}      # ručné spustenie tlačidlom "Run workflow"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tender-monitor
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Spustiť monitor
+        env:
+          UVOSTAT_API_TOKEN: ${{ secrets.UVOSTAT_API_TOKEN }}
+          DOFFIN_API_KEY: ${{ secrets.DOFFIN_API_KEY }}
+        run: python tender_monitor.py --debug
+
+      - name: Uložiť výsledky do repozitára
+        if: always()
+        run: |
+          git config user.name "tender-monitor-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Tendre $(date -u +%F)"
+          git push
