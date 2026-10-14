@@ -362,6 +362,65 @@ def src_ch():
     return list(out.values())
 
 
+
+# ---------------------------------------------------------------- Slovensko (ÚVO vestník – RSS + detail)
+SEEN = {}
+
+
+def _html_lines(page):
+    import html as _h
+    t = re.sub(r"<script.*?</script>|<style.*?</style>", "", page, flags=re.S)
+    t = _h.unescape(re.sub(r"<[^>]+>", "\n", t))
+    return [l.strip() for l in t.split("\n") if l.strip()]
+
+
+def src_uvo():
+    st, rss = http("https://www.uvo.gov.sk/vestnik-a-registre/vestnik/rss", headers={"Accept": "*/*"})
+    if st != 200:
+        raise RuntimeError(f"ÚVO RSS HTTP {st}")
+    items = re.findall(r"<item><title>(.*?)</title>.*?<link>(.*?)</link>.*?<pubDate>(.*?)</pubDate>", rss, re.S)
+    READ["SK"] = len(items)
+    out = {}
+    for title, link, pub in items:
+        t = title.lower()
+        if "oprava" in t or "výsled" in t or "zmen" in t or not any(
+                k in t for k in ("vyhlásen", "výzva", "koncesi", "súťaž návrhov", "súťaži návrhov")):
+            continue
+        nid = link.rstrip("/").split("/")[-1]
+        key = f"SK-UVO-{nid}"
+        if key in SEEN:
+            continue
+        time.sleep(3)
+        st, page = http(link, headers={"Accept": "text/html"}, timeout=60)
+        if st != 200:
+            log(f"  ÚVO detail {nid}: HTTP {st}")
+            continue
+        L = _html_lines(page)
+        def val(prefix):
+            for l in L:
+                if l.startswith(prefix):
+                    return l[len(prefix):].strip()
+            return ""
+        name = re.sub(r"\s*\(ID: \d+\)$", "", val("Zákazka:"))
+        org = re.sub(r"\s*\(ID: \d+\)$", "", val("Organizácia:"))
+        desc = val("Opis:")
+        cpv_lines = " ".join(l for l in L if "CPV kód" in l)
+        cpvs = re.findall(r"\b(\d{8})\b", cpv_lines)
+        dl = val("Lehota na predkladanie ponúk (dátum):") or val("Lehota na predkladanie žiadostí o účasť (dátum):")
+        m = re.match(r"(\d{2})\.(\d{2})\.(\d{4})", dl)
+        deadline = f"{m.group(3)}-{m.group(2)}-{m.group(1)}" if m else ""
+        value = val("Predpokladaná hodnota (BT-27-Procedure) (hodnota):")
+        reasons = classify(f"{name} {desc} {cpv_lines}", cpvs)
+        if not reasons:
+            continue
+        try:
+            pubd = dt.datetime.strptime(pub.strip()[:16], "%a, %d %b %Y").date().isoformat()
+        except ValueError:
+            pubd = TODAY.isoformat()
+        out[key] = mk("ÚVO vestník", "SK", key, name or title, org, pubd, deadline, cpvs, link, reasons,
+                      {"description": desc[:600], "value_eur": value})
+    return list(out.values())
+
 # ---------------------------------------------------------------- Slovensko (UVOstat)
 def src_sk():
     token = os.environ.get("UVOSTAT_API_TOKEN", "").strip()
@@ -433,7 +492,7 @@ def src_no():
 
 # ---------------------------------------------------------------- beh
 SOURCES = [("TED", src_ted), ("DE oeffentlichevergabe.de", src_de), ("PL BZP", src_pl),
-           ("CH simap", src_ch), ("SK UVOstat", src_sk), ("NO Doffin", src_no)]
+           ("CH simap", src_ch), ("SK ÚVO vestník", src_uvo), ("SK UVOstat", src_sk), ("NO Doffin", src_no)]
 
 
 def main():
@@ -441,6 +500,7 @@ def main():
     (DATA / "digest").mkdir(exist_ok=True)
     seen_path = DATA / "seen.json"
     seen = json.loads(seen_path.read_text()) if seen_path.exists() else {}
+    SEEN.update(seen)
     first_run = not seen
 
     status, found = {}, []
