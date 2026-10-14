@@ -2,7 +2,7 @@ name: Monitor dronových tendrov
 
 on:
   schedule:
-    - cron: "15 4 * * *"   # denne 04:15 UTC (06:15 SELČ / 05:15 SEČ)
+    - cron: "0 5 * * *"    # denne 05:00 UTC (07:00 SELČ / 06:00 SEČ) – po vydaní vestníka ÚVO (~06:40)
   workflow_dispatch: {}      # ručné spustenie tlačidlom "Run workflow"
 
 permissions:
