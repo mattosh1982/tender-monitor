@@ -1,0 +1,122 @@
+{
+ "run_at": "2026-10-17T05:27:52+00:00",
+ "date": "2026-10-17",
+ "window_from": "2026-10-13",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 40,
+   "read": null,
+   "seconds": 17
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 0,
+   "read": 3879,
+   "seconds": 16
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 12,
+   "read": 3994,
+   "seconds": 135
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 0,
+   "read": 14,
+   "seconds": 276
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 87,
+   "seconds": 124
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 4,
+ "new": [
+  {
+   "id": "PL-2026/BZP00491432",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Dostawa bezzałogowych statków powietrznych dla Straży Miejskiej Miasta Krakowa",
+   "buyer": "STRAŻ MIEJSKA MIASTA KRAKOWA (Kraków)",
+   "published": "2026-10-16",
+   "deadline": "2026-10-26",
+   "cpv": [
+    "34711200"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df2b68-5a52-831b-701a-d000015ac552",
+   "match": [
+    "dron: „bezzałogow“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00491944",
+   "source": "BZP",
+   "country": "PL",
+   "title": "„Zakup sprzętu na potrzeby zespołu zarządzania kryzysowego w ramach Programu Ochrony Ludności i Obrony Cywilnej na lata 2025 – 2026 z podziałem na 5 części”",
+   "buyer": "Powiat Lubliniecki (Lubliniec)",
+   "published": "2026-10-16",
+   "deadline": "2026-10-27",
+   "cpv": [
+    "31121000",
+    "31122000",
+    "31400000",
+    "31682530",
+    "34223300",
+    "34711200",
+    "42650000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df2b75-b922-ccfc-701a-d000015ac7e3",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00492487",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Dostawa trzech zestawów bezzałogowych statków powietrznych (BSP) z modułem RTK wraz z akcesoriami na potrzeby Wojewódzkiego Biura Geodezji i Urządzania Terenów Rolnych w Lublinie",
+   "buyer": "WOJEWÓDZKIE BIURO GEODEZJI I URZĄDZANIA TERENÓW ROLNYCH W LUBLINIE (Lublin)",
+   "published": "2026-10-16",
+   "deadline": "2026-10-27",
+   "cpv": [
+    "34711200"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df2b82-9a64-dcad-701a-d000015aca82",
+   "match": [
+    "dron: „bezzałogow“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00492720",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Dostawa pomocy dydaktycznych i wyposażenia – sprzęt dydaktyczny specjalistyczny",
+   "buyer": "Zespół Szkół im.A. Średniawskiego (Myślenice)",
+   "published": "2026-10-16",
+   "deadline": "2026-10-26",
+   "cpv": [
+    "30232100",
+    "38650000",
+    "38651000",
+    "39162100",
+    "42994200",
+    "48322000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df2ba2-56cc-86b9-701a-d0000184efb1",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  }
+ ]
+}
