@@ -1,0 +1,171 @@
+{
+ "run_at": "2026-10-19T05:31:53+00:00",
+ "date": "2026-10-19",
+ "window_from": "2026-10-15",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 25,
+   "read": null,
+   "seconds": 14
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 0,
+   "read": 3292,
+   "seconds": 19
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 10,
+   "read": 1817,
+   "seconds": 79
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 0,
+   "read": 3,
+   "seconds": 173
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 52,
+   "seconds": 149
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 6,
+ "new": [
+  {
+   "id": "TED-722157-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Security, fire-fighting, police and defence equipment – MESA-Radar und Abfangdrohne",
+   "buyer": "Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Innern, vertreten durch das Beschaffungsamt des BMI",
+   "published": "2026-10-19",
+   "deadline": "",
+   "cpv": [
+    "34711200",
+    "35000000",
+    "38115000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/722157-2026",
+   "match": [
+    "dron: „drohne“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-720958-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Specialist vehicles – Beschaffung und Ausstattung eines Fahrzeugs zum Einsatz als Mobiler Tele-Arbeitsplatz (MoTA)",
+   "buyer": "Universitätsklinikum Aachen AöR",
+   "published": "2026-10-19",
+   "deadline": "2026-11-17",
+   "cpv": [
+    "34114000",
+    "34144200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/720958-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-719276-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Mainframe operating system software package – Avinor AS - T-192989 - Procurement - Scorecard system",
+   "buyer": "AVINOR AS",
+   "published": "2026-10-19",
+   "deadline": "",
+   "cpv": [
+    "48000000",
+    "48400000",
+    "48621000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/719276-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-720282-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Repair and maintenance services of security and defence materials – „Usługa – naprawa i wsparcie techniczne systemu do wykrywania i przeciwdziałania bezzałogowym statkom powietrznym SKYctrl w latach 2026 – 2029”.",
+   "buyer": "1 REGIONALNA BAZA LOGISTYCZNA",
+   "published": "2026-10-19",
+   "deadline": "",
+   "cpv": [
+    "50600000",
+    "50660000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/720282-2026",
+   "match": [
+    "dron: „bezzałogow“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-721320-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Sewer cleaning services – Spolbilstjänster",
+   "buyer": "Stenungsunds kommun",
+   "published": "2026-10-19",
+   "deadline": "2026-11-23",
+   "cpv": [
+    "90470000",
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/721320-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-inspektion“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-720264-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Architectural, construction, engineering and inspection services – Konkurrensutsättning av DIS Tekniska Konsulter 49848, Energideklaration",
+   "buyer": "Botkyrka kommun",
+   "published": "2026-10-19",
+   "deadline": "",
+   "cpv": [
+    "71000000",
+    "71200000",
+    "71210000",
+    "71220000",
+    "71221000",
+    "71222000",
+    "71223000",
+    "71230000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/720264-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
+   ],
+   "notice_type": "can-standard"
+  }
+ ]
+}
