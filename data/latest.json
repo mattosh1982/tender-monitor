@@ -1,38 +1,36 @@
 {
- "run_at": "2026-10-19T05:31:53+00:00",
- "date": "2026-10-19",
- "window_from": "2026-10-15",
+ "run_at": "2026-10-20T05:32:26+00:00",
+ "date": "2026-10-20",
+ "window_from": "2026-10-16",
  "first_run": false,
  "sources": {
   "TED": {
    "status": "ok",
-   "matches": 25,
+   "matches": 29,
    "read": null,
-   "seconds": 14
+   "seconds": 20
   },
   "DE oeffentlichevergabe.de": {
-   "status": "ok",
-   "matches": 0,
-   "read": 3292,
-   "seconds": 19
+   "status": "chyba",
+   "error": "oeffentlichevergabe.de HTTP 504 pre 2026-10-19"
   },
   "PL BZP": {
    "status": "ok",
-   "matches": 10,
-   "read": 1817,
-   "seconds": 79
+   "matches": 6,
+   "read": 1563,
+   "seconds": 61
   },
   "CH simap": {
    "status": "ok",
    "matches": 0,
    "read": 3,
-   "seconds": 173
+   "seconds": 312
   },
   "SK ÚVO vestník": {
    "status": "ok",
    "matches": 0,
-   "read": 52,
-   "seconds": 149
+   "read": 7,
+   "seconds": 2
   },
   "SK UVOstat": {
    "status": "vypnuté (chýba API kľúč)"
@@ -41,131 +39,310 @@
    "status": "vypnuté (chýba API kľúč)"
   }
  },
- "new_count": 6,
+ "new_count": 15,
  "new": [
   {
-   "id": "TED-722157-2026",
+   "id": "TED-724669-2026",
    "source": "TED",
-   "country": "DE",
-   "title": "Germany – Security, fire-fighting, police and defence equipment – MESA-Radar und Abfangdrohne",
-   "buyer": "Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Innern, vertreten durch das Beschaffungsamt des BMI",
-   "published": "2026-10-19",
-   "deadline": "",
+   "country": "CZ",
+   "title": "Czechia – Targets for shooting practice – Rámcová dohoda - Polotovar pro kompletaci bezpilotního terče",
+   "buyer": "Vojenský technický ústav, s.p.",
+   "published": "2026-10-20",
+   "deadline": "2026-11-27",
    "cpv": [
-    "34711200",
-    "35000000",
-    "38115000"
+    "34740000",
+    "35210000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/722157-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/724669-2026",
    "match": [
-    "dron: „drohne“"
-   ],
-   "notice_type": "can-standard"
-  },
-  {
-   "id": "TED-720958-2026",
-   "source": "TED",
-   "country": "DE",
-   "title": "Germany – Specialist vehicles – Beschaffung und Ausstattung eines Fahrzeugs zum Einsatz als Mobiler Tele-Arbeitsplatz (MoTA)",
-   "buyer": "Universitätsklinikum Aachen AöR",
-   "published": "2026-10-19",
-   "deadline": "2026-11-17",
-   "cpv": [
-    "34114000",
-    "34144200"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/720958-2026",
-   "match": [
-    "TED fulltext (výraz v texte oznámenia)"
+    "dron: „UAV“"
    ],
    "notice_type": "cn-standard"
   },
   {
-   "id": "TED-719276-2026",
+   "id": "TED-723705-2026",
    "source": "TED",
-   "country": "NO",
-   "title": "Norway – Mainframe operating system software package – Avinor AS - T-192989 - Procurement - Scorecard system",
-   "buyer": "AVINOR AS",
-   "published": "2026-10-19",
-   "deadline": "",
+   "country": "DE",
+   "title": "Germany – Special-purpose motor vehicles – Kanalinspektionsfahrzeug Grundleitungen",
+   "buyer": "Stadt Bochum, Referat Zentrale Vergabestelle",
+   "published": "2026-10-20",
+   "deadline": "2026-11-19",
    "cpv": [
-    "48000000",
-    "48400000",
-    "48621000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/719276-2026",
-   "match": [
-    "TED fulltext (výraz v texte oznámenia)"
-   ],
-   "notice_type": "can-standard"
-  },
-  {
-   "id": "TED-720282-2026",
-   "source": "TED",
-   "country": "PL",
-   "title": "Poland – Repair and maintenance services of security and defence materials – „Usługa – naprawa i wsparcie techniczne systemu do wykrywania i przeciwdziałania bezzałogowym statkom powietrznym SKYctrl w latach 2026 – 2029”.",
-   "buyer": "1 REGIONALNA BAZA LOGISTYCZNA",
-   "published": "2026-10-19",
-   "deadline": "",
-   "cpv": [
-    "50600000",
-    "50660000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/720282-2026",
-   "match": [
-    "dron: „bezzałogow“"
-   ],
-   "notice_type": "can-standard"
-  },
-  {
-   "id": "TED-721320-2026",
-   "source": "TED",
-   "country": "SE",
-   "title": "Sweden – Sewer cleaning services – Spolbilstjänster",
-   "buyer": "Stenungsunds kommun",
-   "published": "2026-10-19",
-   "deadline": "2026-11-23",
-   "cpv": [
-    "90470000",
+    "34114000",
+    "34144000",
+    "50117100",
     "90491000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/721320-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/723705-2026",
    "match": [
-    "vnútorná inšpekcia/kanalizácia: „TV-inspektion“",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "vnútorná inšpekcia/kanalizácia: „Kanalinspektion“",
     "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
     "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
    ],
    "notice_type": "cn-standard"
   },
   {
-   "id": "TED-720264-2026",
+   "id": "TED-724764-2026",
    "source": "TED",
-   "country": "SE",
-   "title": "Sweden – Architectural, construction, engineering and inspection services – Konkurrensutsättning av DIS Tekniska Konsulter 49848, Energideklaration",
-   "buyer": "Botkyrka kommun",
-   "published": "2026-10-19",
+   "country": "DE",
+   "title": "Germany – Aerial mapping services – Bildflugprogramm 2027",
+   "buyer": "Land Hessen, vertreten durch das Hessische Competence Center -Beschaffungen-",
+   "published": "2026-10-20",
+   "deadline": "2026-11-17",
+   "cpv": [
+    "71354200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/724764-2026",
+   "match": [
+    "mapovanie: „fotogram“",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-726225-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Non-residential property renting or leasing services – 25/00188 Avinor airports: The rental of premises for business activities within Bank and Exchange services.",
+   "buyer": "AVINOR AS",
+   "published": "2026-10-20",
    "deadline": "",
    "cpv": [
-    "71000000",
-    "71200000",
-    "71210000",
-    "71220000",
-    "71221000",
-    "71222000",
-    "71223000",
-    "71230000"
+    "66180000",
+    "70220000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/720264-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/726225-2026",
    "match": [
-    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
+    "TED fulltext (výraz v texte oznámenia)"
    ],
    "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-723391-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Judicial services – Legal services related to privacy - other notices",
+   "buyer": "Lørenskog kommune",
+   "published": "2026-10-20",
+   "deadline": "",
+   "cpv": [
+    "75231000",
+    "79100000",
+    "79110000",
+    "79111000",
+    "79112000",
+    "79140000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/723391-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-722797-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Sewer survey services – Framework agreement for pressure testing, disinfection and neutralisation, etc. 2026",
+   "buyer": "Bærum kommune",
+   "published": "2026-10-20",
+   "deadline": "",
+   "cpv": [
+    "45232150",
+    "65100000",
+    "65110000",
+    "65130000",
+    "71900000",
+    "90400000",
+    "90491000",
+    "90713100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/722797-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Inspekce kanaliz“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "PL-2026/BZP00494494",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Dostawa dronów dla potrzeb Ochotniczych Straży Pożarnych Części I - II",
+   "buyer": "Związek Gmin Dorzecza Wisłoki (Jasło)",
+   "published": "2026-10-19",
+   "deadline": "2026-10-27",
+   "cpv": [
+    "34711200"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df2dd8-4127-31bc-701a-d0000132da2b",
+   "match": [
+    "dron: „dron“"
+   ]
+  },
+  {
+   "id": "TED-725231-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Insurance services – Ubezpieczenie odpowiedzialności cywilnej, mienia, rzeczy osobistych, następstw nieszczęśliwych wypadków i kosztów leczenia, pojazdów mechanicznych oraz jednostek pływających z dodatkowym wyposażeniem, dronów w okresie od 01.01.2027 r. do 31.12.2028 r.",
+   "buyer": "Dyrektor Urzędu Morskiego w Szczecinie",
+   "published": "2026-10-20",
+   "deadline": "2026-11-25",
+   "cpv": [
+    "66510000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/725231-2026",
+   "match": [
+    "dron: „dron“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-725075-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Medical practice services – Usługi z zakresu medycyny pracy",
+   "buyer": "21 Baza Lotnictwa Taktycznego",
+   "published": "2026-10-20",
+   "deadline": "2026-11-17",
+   "cpv": [
+    "85121000",
+    "85121200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/725075-2026",
+   "match": [
+    "dron: „BEZZAŁOGOW“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-724638-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Teaching equipment – Dostawa i montaż wyposażenia do SOiT CONRADINUM w Gdańsku przy ul. Piramowicza, w ramach programu Gdańsk Miastem Zawodowców- etap II - część A",
+   "buyer": "Dyrekcja Rozbudowy Miasta Gdańska działająca w imieniu i na rzecz Gminy Miasta Gdańska",
+   "published": "2026-10-20",
+   "deadline": "",
+   "cpv": [
+    "30200000",
+    "31710000",
+    "34150000",
+    "34711200",
+    "39162100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/724638-2026",
+   "match": [
+    "dron: „dron“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-724575-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Sensors – Rozbudowa Pracowni Technologii Bezzałogowych Statków Powietrznych - Modułowy system przeciwdziałania systemom BSP (CUAS) II",
+   "buyer": "Akademia Marynarki Wojennej im. Bohaterów Westerplatte",
+   "published": "2026-10-20",
+   "deadline": "",
+   "cpv": [
+    "32230000",
+    "35125000",
+    "35125100",
+    "35125300",
+    "38115000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/724575-2026",
+   "match": [
+    "dron: „dron“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-724409-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Vocational training services – Zorganizowanie i przeprowadzenie szkolenia zawodowego „Operator statków powietrznych STS-01 VLOS oraz STS-02 BVLOS z elementami foto-video” dla 6 uczestników projektu „Kompas Kariery”",
+   "buyer": "Lubelska Wojewódzka Komenda Ochotniczych Hufców Pracy",
+   "published": "2026-10-20",
+   "deadline": "2026-10-27",
+   "cpv": [
+    "80500000",
+    "80510000",
+    "80530000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/724409-2026",
+   "match": [
+    "dron: „dron“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-724207-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – IT services: consulting, software development, Internet and support – Wykonanie modernizacji systemu GIS-PPN i ortofotomap wraz z zaimplementowaniem ich do geoportalu PPN",
+   "buyer": "PIENIŃSKI PARK NARODOWY",
+   "published": "2026-10-20",
+   "deadline": "",
+   "cpv": [
+    "38221000",
+    "48610000",
+    "48821000",
+    "71354000",
+    "71355100",
+    "72000000",
+    "72222200",
+    "72263000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/724207-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "PL-2026/BZP00495227",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Zakup i dostawa wyposażenia pracowni szkolnych w projekcie „Kompleksowy program rozwoju Zespołu Szkół w Połańcu”",
+   "buyer": "ZESPÓŁ SZKÓŁ IM. ODDZIAŁU PARTYZANCKIEGO AK „JĘDRUSIE” W POŁAŃCU (Połaniec)",
+   "published": "2026-10-20",
+   "deadline": "2026-10-29",
+   "cpv": [
+    "34711200",
+    "38341300",
+    "38410000",
+    "39162100"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df2e69-0231-7dc7-701a-d00001b6490e",
+   "match": [
+    "dron v texte oznámenia: „Dron“"
+   ]
+  },
+  {
+   "id": "TED-724001-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Sewer cleaning services – Spolning, slamsugning och TV-inspektion av brunnar och ledningar",
+   "buyer": "Botkyrka kommun",
+   "published": "2026-10-20",
+   "deadline": "2026-11-20",
+   "cpv": [
+    "90000000",
+    "90470000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/724001-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-inspektion“"
+   ],
+   "notice_type": "cn-standard"
   }
  ]
 }
