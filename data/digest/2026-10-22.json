@@ -1,0 +1,273 @@
+{
+ "run_at": "2026-10-22T05:28:10+00:00",
+ "date": "2026-10-22",
+ "window_from": "2026-10-18",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 41,
+   "read": null,
+   "seconds": 16
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 0,
+   "read": 2754,
+   "seconds": 15
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 5,
+   "read": 3050,
+   "seconds": 100
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 0,
+   "read": 3,
+   "seconds": 144
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 0,
+   "seconds": 2
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 12,
+ "new": [
+  {
+   "id": "TED-732842-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewage, refuse, cleaning and environmental services – Kanalreinigung, Reinigung an Abwasserbetriebsstellen und Kanal TV-Untersuchungen im Stadtgebiet Erkelenz",
+   "buyer": "Stadt Erkelenz ­ Der Bürgermeister",
+   "published": "2026-10-22",
+   "deadline": "2026-11-24",
+   "cpv": [
+    "90000000",
+    "90400000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/732842-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Kanal TV“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-732767-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewer construction work – Entwässerung BA1",
+   "buyer": "Landratsamt Landshut Kreiseigener Hochbau",
+   "published": "2026-10-22",
+   "deadline": "2026-11-23",
+   "cpv": [
+    "45231100",
+    "45232400",
+    "45232450",
+    "45233222"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/732767-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-Inspektion“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-733247-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Engineering-related scientific and technical services – Vermessungstechnische Straßenbefahrung 2027",
+   "buyer": "Kommunalreferat, Recht und Verwaltung, Zentrale Dienste, Submissionsbüro",
+   "published": "2026-10-22",
+   "deadline": "2026-11-24",
+   "cpv": [
+    "71350000",
+    "71355100",
+    "72316000",
+    "72319000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/733247-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „befahrung“",
+    "mapovanie: „LiDAR“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-731527-2026",
+   "source": "TED",
+   "country": "DK",
+   "title": "Denmark – Security, fire-fighting, police and defence equipment – NATO Class 1 mini/micro multirotor Strike UAS for the Danish Defence",
+   "buyer": "Danish Ministry of Defence Acquisition and Logistics Organisation",
+   "published": "2026-10-22",
+   "deadline": "",
+   "cpv": [
+    "35000000",
+    "35613000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/731527-2026",
+   "match": [
+    "dron: „UAS“",
+    "CPV 35613000 – bezpilotné lietadlá (UAV)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-730122-2026",
+   "source": "TED",
+   "country": "FI",
+   "title": "Finland – Unmanned aerial vehicles – Micro-UAS Procurement",
+   "buyer": "The Finnish Border Guard",
+   "published": "2026-10-22",
+   "deadline": "",
+   "cpv": [
+    "35613000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/730122-2026",
+   "match": [
+    "dron: „UAS“",
+    "CPV 35613000 – bezpilotné lietadlá (UAV)",
+    "CPV 35613000 – bezpilotné lietadlá (UAV)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-733127-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Digital mapping services – Geo-growth procurement: LACIBU61 Region Viken FKB-C",
+   "buyer": "Statens Kartverk",
+   "published": "2026-10-22",
+   "deadline": "2026-11-20",
+   "cpv": [
+    "71354100",
+    "71355000",
+    "71355100",
+    "71355200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/733127-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "PL-2026/BZP00498304",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Dostawa obiektywów stałoogniskowych (2szt.) kompatybilnych z kamerą Zenmuse P1 dla WGGiIŚ - KC-DE-zp.25.518.2026",
+   "buyer": "Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie (Kraków)",
+   "published": "2026-10-21",
+   "deadline": "2026-10-29",
+   "cpv": [
+    "38650000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df2f54-ae1a-7620-701a-d0000164acdc",
+   "match": [
+    "dron v texte oznámenia: „bezzałogow“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00499788",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Wykonanie usług w zakresie przeglądów kominiarskich oraz przeglądów instalacji gazu w budynkach administrowanych przez Zakład Gospodarowania Nieruchomościami Dzielnicy Targówek m.st. Warszawy",
+   "buyer": "\"ZAKŁAD GOSPODAROWANIA NIERUCHOMOŚCIAMI W DZIELNICY TARGÓWEK M.ST. WARSZAWY\" (Warszawa)",
+   "published": "2026-10-21",
+   "deadline": "2026-10-29",
+   "cpv": [
+    "50531200",
+    "71356100",
+    "90915000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df2f9b-f557-c34d-701a-d00001f0e584",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „przeglądów komin“"
+   ]
+  },
+  {
+   "id": "TED-733095-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Laboratory, optical and precision equipments (excl. glasses) – Rozbudowa Pracowni Technologii Bezzałogowych Statków Powietrznych – Wyposażenie laboratorium",
+   "buyer": "Akademia Marynarki Wojennej im. Bohaterów Westerplatte",
+   "published": "2026-10-22",
+   "deadline": "",
+   "cpv": [
+    "30200000",
+    "31600000",
+    "34731000",
+    "38000000",
+    "39100000",
+    "39522530"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/733095-2026",
+   "match": [
+    "dron: „Bezzałogow“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-732100-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Medical practice services – Usługi z zakresu medycyny pracy",
+   "buyer": "21 Baza Lotnictwa Taktycznego",
+   "published": "2026-10-22",
+   "deadline": "2026-11-17",
+   "cpv": [
+    "85121000",
+    "85121200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/732100-2026",
+   "match": [
+    "dron: „BEZZAŁOGOW“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-731810-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Security services – Świadczenie usług ochrony osób i mienia, konserwacji i napraw systemów zabezpieczeń technicznych w obiektach PAŻP",
+   "buyer": "Polska Agencja Żeglugi Powietrznej",
+   "published": "2026-10-22",
+   "deadline": "2026-11-06",
+   "cpv": [
+    "50610000",
+    "79710000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/731810-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-731757-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Aircraft liability insurance services – Obowiązkowe ubezpieczenie odpowiedzialności cywilnej operatora systemu bezzałogowego statku powietrznego",
+   "buyer": "Akademia Marynarki Wojennej im. Bohaterów Westerplatte",
+   "published": "2026-10-22",
+   "deadline": "",
+   "cpv": [
+    "66516200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/731757-2026",
+   "match": [
+    "dron: „bezzałogow“"
+   ],
+   "notice_type": "can-standard"
+  }
+ ]
+}
