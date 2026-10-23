@@ -1,0 +1,302 @@
+{
+ "run_at": "2026-10-23T05:30:00+00:00",
+ "date": "2026-10-23",
+ "window_from": "2026-10-19",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 49,
+   "read": null,
+   "seconds": 16
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 0,
+   "read": 3191,
+   "seconds": 19
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 11,
+   "read": 3790,
+   "seconds": 142
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 0,
+   "read": 7,
+   "seconds": 278
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 0,
+   "seconds": 2
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 14,
+ "new": [
+  {
+   "id": "TED-736782-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewer survey services – ZVS-2026-098 Kanal-Reinigung und TV-Inspektion „Teilgebiet Rechts der Murg – Kernstadt“",
+   "buyer": "Stadt Rastatt Fachbereich Sicherheit und Ordnung Kundenbereich Recht und Zentrale Vergabestelle",
+   "published": "2026-10-23",
+   "deadline": "2026-11-24",
+   "cpv": [
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/736782-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-Inspektion“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-736701-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewer cleaning services – Rahmenvertrag reinigung Entwässerungseinrichtungen im Bereich der Außenstelle Lübeck",
+   "buyer": "Die Autobahn GmbH des Bundes - NL Nord",
+   "published": "2026-10-23",
+   "deadline": "2026-11-23",
+   "cpv": [
+    "90470000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/736701-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-Inspektion“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-736502-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewer cleaning services – Brk: Kanalreinigung und TV-Untersuchung",
+   "buyer": "Magistrat der Stadt Bruchköbel",
+   "published": "2026-10-23",
+   "deadline": "",
+   "cpv": [
+    "90470000",
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/736502-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-Untersuchung“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-734149-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewer survey services – Dienstleistungsrahmenvertrag über VDE Wiederholungsprüfungen und Instandsetzungen von stationären ESF-Anlagen",
+   "buyer": "Hamburger Stadtentwässerung AöR",
+   "published": "2026-10-23",
+   "deadline": "",
+   "cpv": [
+    "90480000",
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/734149-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Inspekce kanaliz“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-736809-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – IT services: consulting, software development, Internet and support – Avinor AS - T - 192855 - Anskaffelse - System for Occurrence Reporting and Risk Management",
+   "buyer": "AVINOR AS",
+   "published": "2026-10-23",
+   "deadline": "",
+   "cpv": [
+    "72000000",
+    "72200000",
+    "72260000",
+    "72268000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/736809-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-735955-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – IT services: consulting, software development, Internet and support – Avinor AS - K-190980 - Dynamic purchasing system Licences - Request Citrix",
+   "buyer": "AVINOR AS",
+   "published": "2026-10-23",
+   "deadline": "",
+   "cpv": [
+    "72000000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/735955-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "PL-2026/BZP00500096",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Dostawa kontenerów 10 stopowych typu stróżówka.",
+   "buyer": "32 Wojskowy Oddział Gospodarczy w Zamościu (Zamość)",
+   "published": "2026-10-22",
+   "deadline": "2026-10-30",
+   "cpv": [
+    "44211100"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3008-d7a7-5397-701a-d00001ab1bc0",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00500254",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Zakup sprzętu do prowadzenia akcji ratowniczych dla OSP Rogóźno – II postępowanie",
+   "buyer": "Gmina Domaniewice (Domaniewice)",
+   "published": "2026-10-22",
+   "deadline": "2026-10-30",
+   "cpv": [
+    "35110000",
+    "35111000",
+    "35112000",
+    "35613000",
+    "38520000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df300e-0121-9ed7-701a-d00001ab1c9a",
+   "match": [
+    "CPV 35613000 – bezpilotné lietadlá (UAV)"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00500701",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Specjalistyczne szkolenie z zakresu teledetekcji, fotogrametrii oraz praktycznego zastosowania BSP w rolnictwie w ramach realizacji projektu „Nowoczesny inżynier dla branż kluczowych”",
+   "buyer": "Uniwersytet Kazimierza Wielkiego w Bydgoszczy (Bydgoszcz)",
+   "published": "2026-10-22",
+   "deadline": "2026-10-30",
+   "cpv": [
+    "80500000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df301d-65df-439c-701a-d00001b53930",
+   "match": [
+    "dron: „BSP“",
+    "mapovanie: „fotogram“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00501710",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Zakup i dostawa 5 zestawów Bezzałogowych Statków Powietrznych Policji w ramach pro. PROTECT zwiększenie kompet.Policji państw członk. UE w zakresie ochrony miejsc publicznych przed zagrożeniami CBRJW\"",
+   "buyer": "Komenda Wojewódzka Policji w Rzeszowie (Rzeszów)",
+   "published": "2026-10-22",
+   "deadline": "2026-10-30",
+   "cpv": [
+    "34711200"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3035-aa5a-5a0d-701a-d000016a13ee",
+   "match": [
+    "dron: „Bezzałogow“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00501988",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Przeprowadzenie kursów, szkoleń oraz warsztatów dla uczniów oraz organizacja i przeprowadzenie kursów oraz szkoleń nauczycieli Zespołu Szkół Ponadpodstawowych w Chojnie",
+   "buyer": "Zespół Szkół Ponadpodstawowych w Chojnie (Chojna)",
+   "published": "2026-10-22",
+   "deadline": "2026-10-30",
+   "cpv": [
+    "80000000",
+    "80510000",
+    "80530000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df303b-a4ed-e700-701a-d000016a1594",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00502081",
+   "source": "BZP",
+   "country": "PL",
+   "title": "SZP/243-286/2026 Dostawa zestawu do akwizycji obrazów wielkopowierzchniowych w świetle wykraczającym poza zakres widzialny",
+   "buyer": "POLITECHNIKA WROCŁAWSKA (Wrocław)",
+   "published": "2026-10-22",
+   "deadline": "2026-10-30",
+   "cpv": [
+    "32333200",
+    "34711200",
+    "38650000",
+    "38651000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df303e-b224-d3f6-701a-d000016a1615",
+   "match": [
+    "dron v texte oznámenia: „Bezzałogow“"
+   ]
+  },
+  {
+   "id": "TED-735839-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Specialist training services – Zorganizowanie i przeprowadzenie kursu operatora bezzałogowego statku powietrznego o masie do 25 kg oraz zorganizowanie i przeprowadzenie kursu programowania i obsługiwania procesu druku 3D z elementami dual-use w ramach projektu \"Regionalne wsparcie rozwoju szkolnictwa zawodowego\"",
+   "buyer": "Województwo Pomorskie",
+   "published": "2026-10-23",
+   "deadline": "2026-11-04",
+   "cpv": [
+    "80510000",
+    "80530000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/735839-2026",
+   "match": [
+    "dron: „bezzałogow“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-733992-2026",
+   "source": "TED",
+   "country": "SI",
+   "title": "Slovenia – Insurance services – Zavarovanje premoženja družbe Elektro Ljubljana d.d. za obdobje 2027 – 2029 in kibernetsko zavarovanje za 1 - letno obdobje",
+   "buyer": "ELEKTRO LJUBLJANA, podjetje za distribucijo električne energije, d.d.",
+   "published": "2026-10-23",
+   "deadline": "2026-11-02",
+   "cpv": [
+    "66510000",
+    "66516100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/733992-2026",
+   "match": [
+    "dron: „dron“"
+   ],
+   "notice_type": "cn-standard"
+  }
+ ]
+}
