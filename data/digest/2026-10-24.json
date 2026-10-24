@@ -1,0 +1,44 @@
+{
+ "run_at": "2026-10-24T05:24:27+00:00",
+ "date": "2026-10-24",
+ "window_from": "2026-10-20",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 43,
+   "read": null,
+   "seconds": 12
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 0,
+   "read": 4133,
+   "seconds": 20
+  },
+  "PL BZP": {
+   "status": "chyba",
+   "error": "BZP HTTP 403 (2026-10-24): <!DOCTYPE html>\n<html lang=\"pl\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>e-Zamówienia - Przerwa techniczna</title>\n<style>\n*,*::befo"
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 0,
+   "read": 7,
+   "seconds": 174
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 0,
+   "seconds": 2
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 0,
+ "new": []
+}
