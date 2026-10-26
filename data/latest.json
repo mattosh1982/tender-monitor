@@ -1,30 +1,32 @@
 {
- "run_at": "2026-10-25T05:25:15+00:00",
- "date": "2026-10-25",
- "window_from": "2026-10-21",
+ "run_at": "2026-10-26T05:34:29+00:00",
+ "date": "2026-10-26",
+ "window_from": "2026-10-22",
  "first_run": false,
  "sources": {
   "TED": {
    "status": "ok",
-   "matches": 30,
+   "matches": 35,
    "read": null,
-   "seconds": 9
+   "seconds": 14
   },
   "DE oeffentlichevergabe.de": {
    "status": "ok",
    "matches": 0,
-   "read": 3631,
-   "seconds": 18
+   "read": 3176,
+   "seconds": 17
   },
   "PL BZP": {
-   "status": "chyba",
-   "error": "BZP HTTP 403 (2026-10-25): <!DOCTYPE html>\n<html lang=\"pl\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>e-Zamówienia - Przerwa techniczna</title>\n<style>\n*,*::befo"
+   "status": "ok",
+   "matches": 10,
+   "read": 1582,
+   "seconds": 64
   },
   "CH simap": {
    "status": "ok",
    "matches": 0,
-   "read": 6,
-   "seconds": 144
+   "read": 8,
+   "seconds": 472
   },
   "SK ÚVO vestník": {
    "status": "ok",
@@ -39,6 +41,400 @@
    "status": "vypnuté (chýba API kľúč)"
   }
  },
- "new_count": 0,
- "new": []
+ "new_count": 21,
+ "new": [
+  {
+   "id": "TED-738925-2026",
+   "source": "TED",
+   "country": "CZ",
+   "title": "Czechia – Aerial mapping services – Prováděcí smlouva č. 17 k rámcové dohodě na poskytování služeb souvisejících s pořízením dat leteckého laserového skenování ČR - oblast 2100",
+   "buyer": "Zeměměřický úřad",
+   "published": "2026-10-26",
+   "deadline": "",
+   "cpv": [
+    "71354200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/738925-2026",
+   "match": [
+    "mapovanie: „fotogram“",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-738267-2026",
+   "source": "TED",
+   "country": "CZ",
+   "title": "Czechia – Aerial mapping services – Prováděcí smlouva č. 18 k rámcové dohodě na poskytování služeb souvisejících s pořízením dat leteckého laserového skenování ČR - oblast 2200",
+   "buyer": "Zeměměřický úřad",
+   "published": "2026-10-26",
+   "deadline": "",
+   "cpv": [
+    "71354200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/738267-2026",
+   "match": [
+    "mapovanie: „fotogram“",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-741002-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Planting and maintenance services of green areas – Planting of Seagrass for Ostwind 3 Offshore project between KP18.1-18.4",
+   "buyer": "50Hertz Offshore GmbH",
+   "published": "2026-10-26",
+   "deadline": "2026-11-05",
+   "cpv": [
+    "77310000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/741002-2026",
+   "match": [
+    "dron: „dron“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-739967-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Railway construction works – Generalsanierung des Korridors Rechter Rhein - Bauleistungen",
+   "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "published": "2026-10-26",
+   "deadline": "",
+   "cpv": [
+    "45234100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/739967-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-modif"
+  },
+  {
+   "id": "TED-738112-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Software package and information systems – Einreise B-Mitte im Terminal 1",
+   "buyer": "FraAlliance GmbH",
+   "published": "2026-10-26",
+   "deadline": "2026-12-07",
+   "cpv": [
+    "35125100",
+    "48000000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/738112-2026",
+   "match": [
+    "mapovanie: „LiDAR“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-737469-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Software package and information systems – Baggage Claim Area im Terminal 1",
+   "buyer": "FraAlliance GmbH",
+   "published": "2026-10-26",
+   "deadline": "2026-12-07",
+   "cpv": [
+    "35125100",
+    "48000000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/737469-2026",
+   "match": [
+    "mapovanie: „LiDAR“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-737217-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Software package and information systems – LH Service Center auf der Empore im Terminal 1",
+   "buyer": "FraAlliance GmbH",
+   "published": "2026-10-26",
+   "deadline": "2026-12-07",
+   "cpv": [
+    "35125100",
+    "48000000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/737217-2026",
+   "match": [
+    "mapovanie: „LiDAR“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-737480-2026",
+   "source": "TED",
+   "country": "DK",
+   "title": "Denmark – Sewer cleaning services – Udbud af TV-inspektion og spuling på Bornholm",
+   "buyer": "BORNHOLMS SPILDEVAND A/S",
+   "published": "2026-10-26",
+   "deadline": "2026-11-25",
+   "cpv": [
+    "90470000",
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/737480-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-inspektion“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-740269-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Software-related services – Avinor AS - T - 193166 - Framework agreement - Microsoft licence manager (LSP)",
+   "buyer": "AVINOR AS",
+   "published": "2026-10-26",
+   "deadline": "",
+   "cpv": [
+    "72260000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/740269-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-739882-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Airport equipment – Avinor AS - T-192893 - Qualification System - Security screening equipment - Category 1: Passenger",
+   "buyer": "AVINOR AS",
+   "published": "2026-10-26",
+   "deadline": "2026-11-23",
+   "cpv": [
+    "34960000",
+    "35113000",
+    "35120000",
+    "38520000",
+    "51220000",
+    "75241000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/739882-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-739814-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Research and development services and related consultancy services – Framework agreement for district reform.",
+   "buyer": "Oslo kommune v/ Byrådsavdeling for helse",
+   "published": "2026-10-26",
+   "deadline": "",
+   "cpv": [
+    "72224000",
+    "73000000",
+    "75000000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/739814-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-739182-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Repair, maintenance and associated services of vehicles and related equipment – Avinor AS - T - 192844 - Procurement - Framework agreement for the maintenance of radomes and steel masts.",
+   "buyer": "AVINOR AS; AVINOR FLYSIKRING AS",
+   "published": "2026-10-26",
+   "deadline": "",
+   "cpv": [
+    "50100000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/739182-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-737711-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Surveying services – Avinor AS – K-193321 - Framework agreement measuring and geodata work.",
+   "buyer": "AVINOR AS",
+   "published": "2026-10-26",
+   "deadline": "2026-12-02",
+   "cpv": [
+    "71354000",
+    "71355000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/737711-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "PL-2026/BZP00502382",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Ubezpieczenie mienia i odpowiedzialności cywilnej Gminy Janowiec Kościelny",
+   "buyer": "GMINA JANOWIEC KOŚCIELNY (Janowiec Kościelny)",
+   "published": "2026-10-23",
+   "deadline": "2026-11-06",
+   "cpv": [
+    "66510000",
+    "66512100",
+    "66514110",
+    "66514140",
+    "66515000",
+    "66515100",
+    "66515200",
+    "66515400"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df30c9-5faa-9337-701a-d000013b4f62",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00504064",
+   "source": "BZP",
+   "country": "PL",
+   "title": "UBEZPIECZENIE MAJĄTKU I INNYCH INTERESÓW GMINY LUBOMIERZ WRAZ Z JEDNOSTKAMI ORGANIZACYJNYMI",
+   "buyer": "GMINA LUBOMIERZ (Lubomierz)",
+   "published": "2026-10-23",
+   "deadline": "2026-11-10",
+   "cpv": [
+    "66510000",
+    "66512100",
+    "66514110",
+    "66515000",
+    "66515100",
+    "66515400",
+    "66516000",
+    "66516100"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df30fe-b268-e43c-701a-d00001a7d013",
+   "match": [
+    "dron v texte oznámenia: „bezzałogow“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00504338",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Dostawa POJAZDU UTV WRAZ Z WYPOSAŻENIEM",
+   "buyer": "GMINA NIEGOWA (Niegowa)",
+   "published": "2026-10-23",
+   "deadline": "2026-11-02",
+   "cpv": [
+    "18410000",
+    "34113300",
+    "34144000",
+    "34711200"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df310b-62ed-0f85-701a-d00001a7d17e",
+   "match": [
+    "dron v texte oznámenia: „Bezzałogow“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00504360",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Działania związane z rozbudową monitoringu sieci kanalizacji deszczowej na terenie Zielonej Góry",
+   "buyer": "\"Zielonogórskie Wodociągi i Kanalizacja\" Sp. z o.o. (Zielona Góra)",
+   "published": "2026-10-23",
+   "deadline": "2026-11-03",
+   "cpv": [
+    "38424000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3110-6700-cecb-701a-d00001a7d19d",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „monitoringu sieci kanal“"
+   ]
+  },
+  {
+   "id": "TED-740611-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Photographic equipment – Dostawa specjalistycznego sprzętu skanowania laserowego, lidar i fotogrametrii, opracowania, dokumentowania, archiwizowania dokumentacji cyfrowej obiektów zabytkowych",
+   "buyer": "BIURO DOKUMENTACJI ZABYTKÓW W SZCZECINIE",
+   "published": "2026-10-26",
+   "deadline": "",
+   "cpv": [
+    "33735000",
+    "38520000",
+    "38650000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/740611-2026",
+   "match": [
+    "dron: „dron“",
+    "mapovanie: „fotogram“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-738175-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Non-piloted aircraft – Dostawy bezzałogowych statków powietrznych (BSP)",
+   "buyer": "Komenda Stołeczna Policji",
+   "published": "2026-10-26",
+   "deadline": "",
+   "cpv": [
+    "34711200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/738175-2026",
+   "match": [
+    "dron: „bezzałogow“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-738665-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Refuse collection services – „Wywóz nieczystości komunalnych stałych oraz płynnych w rejonie odpowiedzialności 17 WOG w Koszalinie w 2027 r. (3 zadania)”",
+   "buyer": "17 WOJSKOWY ODDZIAŁ GOSPODARCZY",
+   "published": "2026-10-26",
+   "deadline": "2026-11-30",
+   "cpv": [
+    "90000000",
+    "90511000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/738665-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-739885-2026",
+   "source": "TED",
+   "country": "SI",
+   "title": "Slovenia – Insurance services – Zavarovanje premoženja družbe Elektro Ljubljana d.d. za obdobje 2027 – 2029 in kibernetsko zavarovanje za 1 - letno obdobje",
+   "buyer": "ELEKTRO LJUBLJANA, podjetje za distribucijo električne energije, d.d.",
+   "published": "2026-10-26",
+   "deadline": "2026-11-02",
+   "cpv": [
+    "66510000",
+    "66516100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/739885-2026",
+   "match": [
+    "dron: „dron“"
+   ],
+   "notice_type": "cn-standard"
+  }
+ ]
 }
