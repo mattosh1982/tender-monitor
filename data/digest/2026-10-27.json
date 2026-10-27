@@ -1,0 +1,268 @@
+{
+ "run_at": "2026-10-27T05:30:41+00:00",
+ "date": "2026-10-27",
+ "window_from": "2026-10-23",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 35,
+   "read": null,
+   "seconds": 9
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 0,
+   "read": 2215,
+   "seconds": 16
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 5,
+   "read": 843,
+   "seconds": 37
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 0,
+   "read": 7,
+   "seconds": 294
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 0,
+   "seconds": 1
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 11,
+ "new": [
+  {
+   "id": "TED-742129-2026",
+   "source": "TED",
+   "country": "CZ",
+   "title": "Czechia – Teaching equipment – Technické vybavení pro výuku robotiky-iDZ Praha",
+   "buyer": "Hospodářská komora hlavního města Prahy",
+   "published": "2026-10-27",
+   "deadline": "2026-11-30",
+   "cpv": [
+    "30213100",
+    "30230000",
+    "35613000",
+    "39162100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/742129-2026",
+   "match": [
+    "dron: „Dron“",
+    "CPV 35613000 – bezpilotné lietadlá (UAV)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-743973-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Engineering design services for the construction of civil engineering works – Änderung vom Mischsystem zum Trennsystem in Bad Kösen/ Neustadt",
+   "buyer": "Abwasserzweckverband Naumburg",
+   "published": "2026-10-27",
+   "deadline": "",
+   "cpv": [
+    "71322000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/743973-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-Inspektion“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-743592-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewage tankers – Ersatzbeschaffung für zwei TV-Fahrzeuge",
+   "buyer": "Stadtentwässerung Frankfurt am Main",
+   "published": "2026-10-27",
+   "deadline": "",
+   "cpv": [
+    "34144520"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/743592-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Kanal-TV“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-742792-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Aerial mapping services – Airborne Laserscanbefliegung 2027",
+   "buyer": "Landesamt für Geoinformation und Landentwicklung",
+   "published": "2026-10-27",
+   "deadline": "2026-11-03",
+   "cpv": [
+    "71354200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/742792-2026",
+   "match": [
+    "mapovanie: „fotogram“",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-741995-2026",
+   "source": "TED",
+   "country": "FI",
+   "title": "Finland – Sewage, refuse, cleaning and environmental services – Suurtehoimurointi-, puhallus-, viemärihuolto- ja puhdasvesipalveluiden hankinta 2027",
+   "buyer": "Espoon kaupunki; Espoon Elä ja Asu Oy; Kiinteistö Oy Espoon Keskuskeittiö; Kiinteistö Oy Matinkylän Uimahalli; KIINTEISTÖ Oy OPINMÄEN KAMPUS; Weegee Oy; Kiinteistö Oy Tapiolan Louhi; Espoon Asunnot Oy",
+   "published": "2026-10-27",
+   "deadline": "2026-11-30",
+   "cpv": [
+    "65111000",
+    "90000000",
+    "90460000",
+    "90470000",
+    "90491000",
+    "90513000",
+    "90513600",
+    "90640000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/741995-2026",
+   "match": [
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-744827-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Construction work – Prior information notice Stavanger Airport K-193388 Construction and asphalt contract 2027",
+   "buyer": "AVINOR AS",
+   "published": "2026-10-27",
+   "deadline": "2026-11-26",
+   "cpv": [
+    "45000000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/744827-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-744611-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Security services – Avinor AS - T-192886 - Procurement of security control services (Secon) OSL",
+   "buyer": "AVINOR AS",
+   "published": "2026-10-27",
+   "deadline": "2026-11-30",
+   "cpv": [
+    "79710000",
+    "79713000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/744611-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-744291-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Electrical wiring and fitting work – Avinor AS - Electro contractor services Banelys - K-193180",
+   "buyer": "AVINOR AS",
+   "published": "2026-10-27",
+   "deadline": "2026-11-23",
+   "cpv": [
+    "45310000",
+    "45311000",
+    "45316000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/744291-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-741490-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Tanks – Framework agreement diesel tanks 24m3",
+   "buyer": "Norsk Polarinstitutt",
+   "published": "2026-10-27",
+   "deadline": "",
+   "cpv": [
+    "44611000",
+    "44611400",
+    "44611410"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/741490-2026",
+   "match": [
+    "dron: „Dron“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "PL-2026/BZP00504759",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Usługi ubezpieczeniowe Część 1: Ubezpieczenie mienia, OC Gminy Mikołów Część 2: Ubezpieczenia komunikacyjne pojazdów Część. 3: Grupowe ubezpieczenia NNW Część 4: Ubezpieczenie lotnicze",
+   "buyer": "Gmina Mikołów (Mikołów)",
+   "published": "2026-10-26",
+   "deadline": "2026-11-06",
+   "cpv": [
+    "66510000",
+    "66512100",
+    "66514110",
+    "66515000",
+    "66515100",
+    "66515200",
+    "66515300",
+    "66515400"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3351-acdf-f2c4-c385-c6000103c81f",
+   "match": [
+    "dron v texte oznámenia: „bezzałogow“"
+   ]
+  },
+  {
+   "id": "TED-742178-2026",
+   "source": "TED",
+   "country": "SK",
+   "title": "Slovakia – Map-making services – Pasportizácia mestskej infraštruktúry a zelene mesta Košice",
+   "buyer": "Mesto Košice",
+   "published": "2026-10-27",
+   "deadline": "",
+   "cpv": [
+    "71354000",
+    "71354100",
+    "71355100",
+    "72227000",
+    "72268000",
+    "72300000",
+    "72310000",
+    "72319000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/742178-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Pasportizác“"
+   ],
+   "notice_type": "can-standard"
+  }
+ ]
+}
