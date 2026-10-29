@@ -1,0 +1,193 @@
+{
+ "run_at": "2026-10-29T05:42:36+00:00",
+ "date": "2026-10-29",
+ "window_from": "2026-10-25",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 45,
+   "read": null,
+   "seconds": 17
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 1,
+   "read": 2756,
+   "seconds": 13
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 4,
+   "read": 1503,
+   "seconds": 52
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 0,
+   "read": 4,
+   "seconds": 176
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 132,
+   "seconds": 218
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 8,
+ "new": [
+  {
+   "id": "DE-7319fdd9-f312-412d-95cc-c758528a33b5",
+   "source": "oeffentlichevergabe.de",
+   "country": "DE",
+   "title": "Befliegung und Herstsellung der Digitalen Bundeswasserstraßenkarte 1:2000 im Bereich Neckar km 80 bis 120",
+   "buyer": "(Stuttgart)",
+   "published": "2026-10-28",
+   "deadline": "2026-11-17",
+   "cpv": [],
+   "link": "https://www.evergabe-online.de/tenderdetails.html?id=902046",
+   "match": [
+    "mapovanie: „photogramm“"
+   ],
+   "description": "Vermessungstechnische, photogrammetrische und kartographische Leistungen zur Befliegung und Neuherstellung der DBWK2 im Bereich Neckar km 80 - 120. Bildflug (mittels Flugzeuges) mit anschließender photogrammetrischer Auswertung und digitaler Kartographie einschließlich Herstellung von Digitalen Orthophotos (DOPs)."
+  },
+  {
+   "id": "TED-750606-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Translation services – PROVISION OF LEGAL TRANSLATION AND OTHER RELATED ACTIVITIES IN SEVERAL EU OFFICIAL LANGUAGES (BG, FR, HR, HU, PL, RO, SL)",
+   "buyer": "European Central Bank",
+   "published": "2026-10-29",
+   "deadline": "2026-11-27",
+   "cpv": [
+    "79530000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/750606-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-750030-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Security services – Sicherheitsdienstleistungen im Projekt SüdOstLink",
+   "buyer": "50Hertz Transmission GmbH",
+   "published": "2026-10-29",
+   "deadline": "2026-11-16",
+   "cpv": [
+    "79710000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/750030-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "PL-2026/BZP00506008",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Ubezpieczenie mienia i odpowiedzialności cywilnej oraz ryzyk cybernetycznych Podlaskiego Zarządu Dróg Wojewódzkich w Białymstoku na 2027 rok z podziałem na części.",
+   "buyer": "Podlaski Zarząd Dróg Wojewódzkich w Białymstoku (Białystok)",
+   "published": "2026-10-28",
+   "deadline": "2026-11-06",
+   "cpv": [
+    "66510000",
+    "66512100",
+    "66514110",
+    "66514140",
+    "66515000",
+    "66515400",
+    "66516000",
+    "66516100"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df34b6-38cd-92e0-75d7-fc0001a43c96",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  },
+  {
+   "id": "TED-752541-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Agricultural machinery – Zakup oprogramowania, nowych maszyn i urządzeń wyposażonych w rozwiązania rolnictwa 4.0 w celu realizacji działań dydaktycznych zgodnych z podstawa programową dla zawodów: technik mechanizacji rolnictwa i agrotroniki, technik rolnik oraz technik agrobiznesu w Zespole Szkół Centrum Kształcenia Rolniczego w Żarnowcu",
+   "buyer": "ZESPÓŁ SZKÓŁ CENTRUM KSZTAŁCENIA ROLNICZEGO W ŻARNOWCU",
+   "published": "2026-10-29",
+   "deadline": "",
+   "cpv": [
+    "16000000",
+    "16600000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/752541-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-751674-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Air-rescue services – Zabezpieczenie medyczne 12. BBSP w Mirosławcu",
+   "buyer": "21 Baza Lotnictwa Taktycznego",
+   "published": "2026-10-29",
+   "deadline": "2026-11-27",
+   "cpv": [
+    "60443000",
+    "85120000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/751674-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-749717-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Agricultural machinery – Zakup oprogramowania, nowych maszyn i urządzeń wyposażonych w rozwiązania rolnictwa 4.0 w celu realizacji działań dydaktycznych zgodnych z podstawa programową dla zawodów: technik mechanizacji rolnictwa i agrotroniki, technik rolnik oraz technik agrobiznesu w Zespole Szkół Centrum Kształcenia Rolniczego w Żarnowcu",
+   "buyer": "ZESPÓŁ SZKÓŁ CENTRUM KSZTAŁCENIA ROLNICZEGO W ŻARNOWCU",
+   "published": "2026-10-29",
+   "deadline": "",
+   "cpv": [
+    "16000000",
+    "16600000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/749717-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-749124-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Photographic equipment – Dostawa specjalistycznego sprzętu skanowania laserowego, lidar i fotogrametrii na potrzeby Biura Dokumentacji Zabytków w Szczecinie",
+   "buyer": "Biuro Dokumentacji Zabytków w Szczecinie",
+   "published": "2026-10-29",
+   "deadline": "2026-12-02",
+   "cpv": [
+    "33735000",
+    "38520000",
+    "38650000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/749124-2026",
+   "match": [
+    "dron: „dron“",
+    "mapovanie: „fotogram“"
+   ],
+   "notice_type": "cn-standard"
+  }
+ ]
+}
