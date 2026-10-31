@@ -1,38 +1,38 @@
 {
- "run_at": "2026-10-30T05:43:09+00:00",
- "date": "2026-10-30",
- "window_from": "2026-10-26",
+ "run_at": "2026-10-31T05:37:35+00:00",
+ "date": "2026-10-31",
+ "window_from": "2026-10-27",
  "first_run": false,
  "sources": {
   "TED": {
    "status": "ok",
-   "matches": 55,
+   "matches": 38,
    "read": null,
-   "seconds": 14
+   "seconds": 10
   },
   "DE oeffentlichevergabe.de": {
    "status": "ok",
    "matches": 1,
-   "read": 3219,
-   "seconds": 15
+   "read": 4220,
+   "seconds": 16
   },
   "PL BZP": {
    "status": "ok",
-   "matches": 8,
-   "read": 3087,
-   "seconds": 87
+   "matches": 12,
+   "read": 4268,
+   "seconds": 125
   },
   "CH simap": {
    "status": "ok",
    "matches": 0,
-   "read": 8,
-   "seconds": 294
+   "read": 7,
+   "seconds": 169
   },
   "SK ÚVO vestník": {
    "status": "ok",
    "matches": 0,
    "read": 80,
-   "seconds": 134
+   "seconds": 168
   },
   "SK UVOstat": {
    "status": "vypnuté (chýba API kľúč)"
@@ -41,299 +41,103 @@
    "status": "vypnuté (chýba API kľúč)"
   }
  },
- "new_count": 14,
+ "new_count": 5,
  "new": [
   {
-   "id": "TED-754238-2026",
-   "source": "TED",
-   "country": "CZ",
-   "title": "Czechia – Sensors – SOUMOS – dodávka technologického, monitorovacího a aplikačního vybavení pro systém prevence komářích kalamit",
-   "buyer": "Město Břeclav",
-   "published": "2026-10-30",
-   "deadline": "",
-   "cpv": [
-    "16141000",
-    "34741000",
-    "35125100",
-    "35613000",
-    "38424000",
-    "42924300"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/754238-2026",
-   "match": [
-    "dron: „dron“",
-    "CPV 35613000 – bezpilotné lietadlá (UAV)"
-   ],
-   "notice_type": "can-standard"
-  },
-  {
-   "id": "TED-754224-2026",
-   "source": "TED",
-   "country": "DE",
-   "title": "Germany – Aerial mapping services – Geotopographischer Bildflug 2027",
-   "buyer": "Landesamt für Vermessung und Geoinformation Sachsen-Anhalt (LVermGeo)",
-   "published": "2026-10-30",
-   "deadline": "2026-12-03",
-   "cpv": [
-    "71354200"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/754224-2026",
-   "match": [
-    "mapovanie: „fotogram“",
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie"
-   ],
-   "notice_type": "cn-standard"
-  },
-  {
-   "id": "TED-753005-2026",
-   "source": "TED",
-   "country": "DK",
-   "title": "Denmark – Sewer survey services – Udbud af TV-inspektion og spuling på Frederiksberg",
-   "buyer": "Frederiksberg Spildevand A/S; FREDERIKSBERG VAND A/S",
-   "published": "2026-10-30",
-   "deadline": "2026-12-01",
-   "cpv": [
-    "90470000",
-    "90491000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/753005-2026",
-   "match": [
-    "vnútorná inšpekcia/kanalizácia: „TV-inspektion“",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
-   ],
-   "notice_type": "cn-standard"
-  },
-  {
-   "id": "TED-754269-2026",
-   "source": "TED",
-   "country": "FI",
-   "title": "Finland – Surveying, hydrographic, oceanographic and hydrological instruments and appliances – REQUEST FOR INFORMATION: Airborne lidar and measurement system",
-   "buyer": "Oulu University of Applied Sciences Ltd",
-   "published": "2026-10-30",
-   "deadline": "",
-   "cpv": [
-    "38290000",
-    "38291000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/754269-2026",
-   "match": [
-    "mapovanie: „lidar“"
-   ],
-   "notice_type": "pmc"
-  },
-  {
-   "id": "TED-754121-2026",
-   "source": "TED",
-   "country": "NO",
-   "title": "Norway – Consultative engineering and construction services – Framework agreement for planning and engineering design services in Vestfold county.",
-   "buyer": "Vestfold fylkeskommune",
-   "published": "2026-10-30",
-   "deadline": "",
-   "cpv": [
-    "71310000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/754121-2026",
-   "match": [
-    "TED fulltext (výraz v texte oznámenia)"
-   ],
-   "notice_type": "can-standard"
-  },
-  {
-   "id": "PL-2026/BZP00507632",
+   "id": "PL-2026/BZP00511817",
    "source": "BZP",
    "country": "PL",
-   "title": "Wykonanie robót budowlanych w ramach inwestycji pn.: „Budowa nabrzeża i slipu wraz z infrastrukturą w Porcie Wolin.”",
-   "buyer": "URZĄD MORSKI W SZCZECINIE (Szczecin)",
-   "published": "2026-10-29",
-   "deadline": "2026-11-17",
+   "title": "Dostawa TŚM i materiałów eksploatacyjnych do produkcji dronów typu HUNTER KILLER",
+   "buyer": "35 Wojskowy Oddział Gospodarczy (Rząska)",
+   "published": "2026-10-30",
+   "deadline": "2026-11-13",
    "cpv": [
-    "45240000"
+    "31700000",
+    "32520000",
+    "34711200"
    ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3590-6c72-8029-cfcf-e60001c05e31",
-   "match": [
-    "dron v texte oznámenia: „UAV“"
-   ]
-  },
-  {
-   "id": "PL-2026/BZP00508464",
-   "source": "BZP",
-   "country": "PL",
-   "title": "Pełnienie funkcji Inżyniera Kontraktu dotyczącej inwestycji pn. „Budowa nabrzeża i slipu wraz z infrastrukturą w Porcie Wolin.”",
-   "buyer": "URZĄD MORSKI W SZCZECINIE (Szczecin)",
-   "published": "2026-10-29",
-   "deadline": "2026-11-10",
-   "cpv": [
-    "71244000",
-    "71247000",
-    "71248000",
-    "71311000",
-    "71311100",
-    "71317000",
-    "71520000",
-    "71540000"
-   ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df35a8-41af-a42f-cfcf-e60001c061a4",
-   "match": [
-    "dron v texte oznámenia: „UAV“"
-   ]
-  },
-  {
-   "id": "PL-2026/BZP00509054",
-   "source": "BZP",
-   "country": "PL",
-   "title": "Zakupu i dostawy sprzętu fotograficznego i dronów w ramach projektów „Mistrzowskie Możliwości Młodych” oraz „Fach-mat! Wygrywamy karierę!” współfinansowanych...– 4 części",
-   "buyer": "Gmina Lublin (Lublin)",
-   "published": "2026-10-29",
-   "deadline": "2026-11-06",
-   "cpv": [
-    "34711200",
-    "38650000",
-    "38651000",
-    "38651200"
-   ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df35b3-6775-30e0-cfcf-e60001c06411",
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3662-8afd-d8b3-e2d6-6b000120ae64",
    "match": [
     "dron: „dron“"
    ]
   },
   {
-   "id": "PL-2026/BZP00510239",
+   "id": "PL-2026/BZP00512271",
    "source": "BZP",
    "country": "PL",
-   "title": "Organizacja szkoleń/kursów dla uczniów w ramach projektu pn. „Świętokrzyska Edukacja Zawodowa” - BIS",
-   "buyer": "WOJEWÓDZKI URZĄD PRACY W KIELCACH (Kielce)",
-   "published": "2026-10-29",
-   "deadline": "2026-11-06",
+   "title": "Zakup licencji na system służący do wspierania poszukiwań osób zaginionych dla Górskiego Ochotniczego Pogotowia Ratunkowego",
+   "buyer": "Górskie Ochotnicze Pogotowie Ratunkowe Zarząd Główny (Zakopane)",
+   "published": "2026-10-30",
+   "deadline": "2026-11-09",
    "cpv": [
-    "80500000",
-    "80530000"
+    "48000000"
    ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df35d4-15d2-3477-cfcf-e60001f8c0a5",
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3669-e2a5-2464-e2d6-6b000120b0ba",
    "match": [
-    "dron v texte oznámenia: „DRON“"
+    "dron v texte oznámenia: „dron“"
    ]
   },
   {
-   "id": "TED-754580-2026",
-   "source": "TED",
+   "id": "PL-2026/BZP00513158",
+   "source": "BZP",
    "country": "PL",
-   "title": "Poland – Medical consumables – DOSTAWA SPRZĘTU MEDYCZNEGO ORAZ ARTYKUŁÓW I WYROBÓW MEDYCZNYCH",
-   "buyer": "31 Wojskowy Oddział Gospodarczy",
+   "title": "„Kompleksowe ubezpieczenia dla Miasta Radlin z podziałem na 5 części:..\"",
+   "buyer": "Miasto Radlin (Radlin)",
    "published": "2026-10-30",
-   "deadline": "",
+   "deadline": "2026-11-09",
    "cpv": [
-    "33140000"
+    "66510000",
+    "66512100",
+    "66514110",
+    "66515000",
+    "66515100",
+    "66515200",
+    "66515400",
+    "66516000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/754580-2026",
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3679-131d-a61d-e2d6-6b000120b506",
    "match": [
-    "TED fulltext (výraz v texte oznámenia)"
-   ],
-   "notice_type": "can-standard"
+    "dron v texte oznámenia: „dron“"
+   ]
   },
   {
-   "id": "TED-755193-2026",
-   "source": "TED",
-   "country": "SE",
-   "title": "Sweden – Architectural, construction, engineering and inspection services – 93943 Trädinventering, Salem",
-   "buyer": "Telge Inköp AB",
+   "id": "PL-2026/BZP00513803",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Budowa ulicy Wegnera wraz z łącznikiem do ulicy Wróblewskiego i Janowieckiej w Wągrowcu",
+   "buyer": "Gmina Miejska Wągrowiec (Wągrowiec)",
    "published": "2026-10-30",
-   "deadline": "",
+   "deadline": "2026-11-16",
    "cpv": [
-    "71000000",
-    "71200000",
-    "71300000",
-    "71310000",
-    "71311000",
-    "71311300",
-    "71313000",
-    "71313100"
+    "45111200",
+    "45112710",
+    "45231300",
+    "45232452",
+    "45233120",
+    "45233200",
+    "45233221",
+    "45233290"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/755193-2026",
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3684-2e17-fc04-e2d6-6b000120b825",
    "match": [
-    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
-   ],
-   "notice_type": "can-standard"
+    "dron v texte oznámenia: „dron“"
+   ]
   },
   {
-   "id": "TED-753579-2026",
-   "source": "TED",
-   "country": "SE",
-   "title": "Sweden – Architectural, construction, engineering and inspection services – 84211 Byggledning och konstruktion konstbyggnader",
-   "buyer": "Telge Inköp AB",
+   "id": "PL-2026/BZP00513991",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Zakupy w ramach zabezpieczenia logistycznego i zapewnienia ciągłości dostaw- dostawa drona",
+   "buyer": "Gmina Miasto Biłgoraj (Biłgoraj)",
    "published": "2026-10-30",
-   "deadline": "",
+   "deadline": "2026-11-09",
    "cpv": [
-    "71000000",
-    "71200000",
-    "71300000",
-    "71310000",
-    "71311000",
-    "71311300",
-    "71313000",
-    "71313100"
+    "34711200"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/753579-2026",
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3687-d556-2bf7-e2d6-6b000120b8fa",
    "match": [
-    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
-   ],
-   "notice_type": "can-standard"
-  },
-  {
-   "id": "TED-752803-2026",
-   "source": "TED",
-   "country": "SE",
-   "title": "Sweden – Architectural, construction, engineering and inspection services – 93929 Miljökonsekvensbeskrivning till detaljplan för Rönninge kungsgård och Björknäs, Salem",
-   "buyer": "Telge Inköp AB",
-   "published": "2026-10-30",
-   "deadline": "",
-   "cpv": [
-    "71000000",
-    "71200000",
-    "71300000",
-    "71310000",
-    "71311000",
-    "71311300",
-    "71313000",
-    "71313100"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/752803-2026",
-   "match": [
-    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
-   ],
-   "notice_type": "can-standard"
-  },
-  {
-   "id": "TED-753829-2026",
-   "source": "TED",
-   "country": "SE",
-   "title": "Sweden – Transformers – Nätstationer och transformatorer för eldistributionsnät",
-   "buyer": "Tekniska verken Linköping Nät AB",
-   "published": "2026-10-30",
-   "deadline": "",
-   "cpv": [
-    "31170000",
-    "31200000",
-    "31213000",
-    "31213200",
-    "31214000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/753829-2026",
-   "match": [
-    "TED fulltext (výraz v texte oznámenia)"
-   ],
-   "notice_type": "can-standard"
+    "dron: „dron“"
+   ]
   }
  ]
 }

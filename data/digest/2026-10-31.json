@@ -1,0 +1,143 @@
+{
+ "run_at": "2026-10-31T05:37:35+00:00",
+ "date": "2026-10-31",
+ "window_from": "2026-10-27",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 38,
+   "read": null,
+   "seconds": 10
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 1,
+   "read": 4220,
+   "seconds": 16
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 12,
+   "read": 4268,
+   "seconds": 125
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 0,
+   "read": 7,
+   "seconds": 169
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 80,
+   "seconds": 168
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 5,
+ "new": [
+  {
+   "id": "PL-2026/BZP00511817",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Dostawa TŚM i materiałów eksploatacyjnych do produkcji dronów typu HUNTER KILLER",
+   "buyer": "35 Wojskowy Oddział Gospodarczy (Rząska)",
+   "published": "2026-10-30",
+   "deadline": "2026-11-13",
+   "cpv": [
+    "31700000",
+    "32520000",
+    "34711200"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3662-8afd-d8b3-e2d6-6b000120ae64",
+   "match": [
+    "dron: „dron“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00512271",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Zakup licencji na system służący do wspierania poszukiwań osób zaginionych dla Górskiego Ochotniczego Pogotowia Ratunkowego",
+   "buyer": "Górskie Ochotnicze Pogotowie Ratunkowe Zarząd Główny (Zakopane)",
+   "published": "2026-10-30",
+   "deadline": "2026-11-09",
+   "cpv": [
+    "48000000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3669-e2a5-2464-e2d6-6b000120b0ba",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00513158",
+   "source": "BZP",
+   "country": "PL",
+   "title": "„Kompleksowe ubezpieczenia dla Miasta Radlin z podziałem na 5 części:..\"",
+   "buyer": "Miasto Radlin (Radlin)",
+   "published": "2026-10-30",
+   "deadline": "2026-11-09",
+   "cpv": [
+    "66510000",
+    "66512100",
+    "66514110",
+    "66515000",
+    "66515100",
+    "66515200",
+    "66515400",
+    "66516000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3679-131d-a61d-e2d6-6b000120b506",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00513803",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Budowa ulicy Wegnera wraz z łącznikiem do ulicy Wróblewskiego i Janowieckiej w Wągrowcu",
+   "buyer": "Gmina Miejska Wągrowiec (Wągrowiec)",
+   "published": "2026-10-30",
+   "deadline": "2026-11-16",
+   "cpv": [
+    "45111200",
+    "45112710",
+    "45231300",
+    "45232452",
+    "45233120",
+    "45233200",
+    "45233221",
+    "45233290"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3684-2e17-fc04-e2d6-6b000120b825",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00513991",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Zakupy w ramach zabezpieczenia logistycznego i zapewnienia ciągłości dostaw- dostawa drona",
+   "buyer": "Gmina Miasto Biłgoraj (Biłgoraj)",
+   "published": "2026-10-30",
+   "deadline": "2026-11-09",
+   "cpv": [
+    "34711200"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3687-d556-2bf7-e2d6-6b000120b8fa",
+   "match": [
+    "dron: „dron“"
+   ]
+  }
+ ]
+}
