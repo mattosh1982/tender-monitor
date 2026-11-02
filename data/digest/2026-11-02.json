@@ -1,0 +1,312 @@
+{
+ "run_at": "2026-11-02T05:59:32+00:00",
+ "date": "2026-11-02",
+ "window_from": "2026-10-29",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 29,
+   "read": null,
+   "seconds": 14
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 0,
+   "read": 3256,
+   "seconds": 35
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 9,
+   "read": 2526,
+   "seconds": 82
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 0,
+   "read": 5,
+   "seconds": 285
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 91,
+   "seconds": 107
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 13,
+ "new": [
+  {
+   "id": "TED-758614-2026",
+   "source": "TED",
+   "country": "CH",
+   "title": "Switzerland – Engineering services – Ingenieurleistungen inkl. Bauleitung, SIA 41-53, Ausbau Seewenweg, 4146 Hochwald SO",
+   "buyer": "Einwohnergemeinde Hochwald",
+   "published": "2026-11-02",
+   "deadline": "2026-12-11",
+   "cpv": [
+    "71300000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/758614-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Kanal-TV“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-757238-2026",
+   "source": "TED",
+   "country": "CH",
+   "title": "Switzerland – Construction work – Sanierung Industriestrasse, Neuheim",
+   "buyer": "Einwohnergemeinde Neuheim / Abteilung Bau und Planung",
+   "published": "2026-11-02",
+   "deadline": "2026-11-27",
+   "cpv": [
+    "45000000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/757238-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Kanal TV“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-759887-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewer survey services – VG - Werke - Kanalinspektionsarbeiten",
+   "buyer": "Verbandsgemeinde Wittlich-Land",
+   "published": "2026-11-02",
+   "deadline": "2026-11-30",
+   "cpv": [
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/759887-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Kanalinspektion“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-757628-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewage services – Kanalinspektion 2027",
+   "buyer": "Stadt Münster - Zentrale Rechtsdienstleistungen und Vergabemanagement",
+   "published": "2026-11-02",
+   "deadline": "2026-12-01",
+   "cpv": [
+    "90400000",
+    "90470000",
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/757628-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Kanalinspektion“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-757260-2026",
+   "source": "TED",
+   "country": "DK",
+   "title": "Denmark – Surface surveying services – Udbud af rammeaftale om landinspektørydelser",
+   "buyer": "SILKEBORG FORSYNING A/S",
+   "published": "2026-11-02",
+   "deadline": "2026-11-30",
+   "cpv": [
+    "22114300",
+    "22114310",
+    "30221000",
+    "48220000",
+    "48326100",
+    "71000000",
+    "71250000",
+    "71353000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/757260-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-757322-2026",
+   "source": "TED",
+   "country": "DK",
+   "title": "Denmark – Architectural, construction, engineering and inspection services – Digital Oblique Image Acquisition and AT 2027-2030",
+   "buyer": "Klimadatastyrelsen",
+   "published": "2026-11-02",
+   "deadline": "2026-12-04",
+   "cpv": [
+    "71000000",
+    "71222100",
+    "71222200",
+    "71240000",
+    "71354100",
+    "71354200",
+    "71355100",
+    "79961200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/757322-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-759231-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Medical consumables – DOSTAWA SPRZĘTU MEDYCZNEGO ORAZ ARTYKUŁÓW I WYROBÓW MEDYCZNYCH",
+   "buyer": "31 Wojskowy Oddział Gospodarczy",
+   "published": "2026-11-02",
+   "deadline": "",
+   "cpv": [
+    "33140000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/759231-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-758314-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Medical consumables – DOSTAWA SPRZĘTU MEDYCZNEGO ORAZ ARTYKUŁÓW I WYROBÓW MEDYCZNYCH",
+   "buyer": "31 Wojskowy Oddział Gospodarczy",
+   "published": "2026-11-02",
+   "deadline": "",
+   "cpv": [
+    "33140000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/758314-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-756443-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Medical consumables – DOSTAWA SPRZĘTU MEDYCZNEGO ORAZ ARTYKUŁÓW I WYROBÓW MEDYCZNYCH",
+   "buyer": "31 Wojskowy Oddział Gospodarczy",
+   "published": "2026-11-02",
+   "deadline": "",
+   "cpv": [
+    "33140000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/756443-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-760150-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Architectural, construction, engineering and inspection services – Konkurrensutsättning av DIS Tekniska Konsulter 49848, Tullinge Skyfallsutredning",
+   "buyer": "Botkyrka kommun",
+   "published": "2026-11-02",
+   "deadline": "",
+   "cpv": [
+    "71000000",
+    "71200000",
+    "71210000",
+    "71220000",
+    "71221000",
+    "71222000",
+    "71223000",
+    "71230000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/760150-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-758244-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Architectural, construction, engineering and inspection services – Konkurrensutsättning av DIS Tekniska Konsulter 49848, Dagvattenutredning Tuna gård",
+   "buyer": "Botkyrka kommun",
+   "published": "2026-11-02",
+   "deadline": "",
+   "cpv": [
+    "71000000",
+    "71200000",
+    "71210000",
+    "71220000",
+    "71221000",
+    "71222000",
+    "71223000",
+    "71230000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/758244-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-757232-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Aircraft operating services – Upphandling av flygtjänster för geofysiska flygmätningar och strålskyddsberedskap",
+   "buyer": "Sveriges geologiska undersökning",
+   "published": "2026-11-02",
+   "deadline": "",
+   "cpv": [
+    "60445000",
+    "71351710",
+    "71354200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/757232-2026",
+   "match": [
+    "CPV 71354200 – letecké mapovanie"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-758017-2026",
+   "source": "TED",
+   "country": "SK",
+   "title": "Slovakia – Surveying, hydrographic, oceanographic and hydrological instruments and appliances – Batymetrický modul",
+   "buyer": "Geografický ústav Slovenskej akadémie vied, verejná výskumná inštitúcia",
+   "published": "2026-11-02",
+   "deadline": "",
+   "cpv": [
+    "38290000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/758017-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  }
+ ]
+}
