@@ -1,0 +1,245 @@
+{
+ "run_at": "2026-11-03T05:51:45+00:00",
+ "date": "2026-11-03",
+ "window_from": "2026-10-30",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 30,
+   "read": null,
+   "seconds": 8
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 0,
+   "read": 2327,
+   "seconds": 17
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 8,
+   "read": 2014,
+   "seconds": 68
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 0,
+   "read": 9,
+   "seconds": 281
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 55,
+   "seconds": 92
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 10,
+ "new": [
+  {
+   "id": "TED-763006-2026",
+   "source": "TED",
+   "country": "CZ",
+   "title": "Czechia – Sewer survey services – Čištění potrubí a monitoring s vyhodnocením",
+   "buyer": "Ředitelství silnic a dálnic s. p.",
+   "published": "2026-11-03",
+   "deadline": "",
+   "cpv": [
+    "90000000",
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/763006-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „monitoring potrub“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-761705-2026",
+   "source": "TED",
+   "country": "CZ",
+   "title": "Czechia – Sewer survey services – Čištění potrubí a monitoring s vyhodnocením",
+   "buyer": "Ředitelství silnic a dálnic s. p.",
+   "published": "2026-11-03",
+   "deadline": "",
+   "cpv": [
+    "90000000",
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/761705-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „monitoring potrub“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-763307-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – General construction work for pipelines – Stadtwerke Barsinghausen: Neubau des Wasserwerks Eckerde - VE 2 Tief- und Rohrleitungsbau (LV05)",
+   "buyer": "Stadtwerke Barsinghausen GmbH",
+   "published": "2026-11-03",
+   "deadline": "2026-11-30",
+   "cpv": [
+    "45221200",
+    "45231100",
+    "45231300",
+    "45232150"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/763307-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-Inspektion“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-761369-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Canal construction – BLB NRW BB/Aachen/AC_N_ BW DoKa San. Abwasseranlagen n.LAK/Erneuerung Kanal, 1.BA, RÜB & Kanal - 080-26-00548",
+   "buyer": "Bau- und Liegenschaftbetrieb NRW Bundesbau",
+   "published": "2026-11-03",
+   "deadline": "",
+   "cpv": [
+    "45247110"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/761369-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-Inspektion“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "PL-2026/BZP00516300",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Dostawa sensora LiDAR do drona dla WGGiIŚ z oprogramowaniem - KC-DE-zp.25.521.2026",
+   "buyer": "Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie (Kraków)",
+   "published": "2026-11-02",
+   "deadline": "2026-11-12",
+   "cpv": [
+    "34740000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df38d7-5297-d8cc-e2d6-6b000120c82b",
+   "match": [
+    "dron: „dron“",
+    "mapovanie: „LiDAR“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00516690",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Dostawa bezzałogowego statku powietrznego pionowego startu i lądowania oraz szkolenie z obsługi dla Komendy Wojewódzkiej Policji w Szczecinie",
+   "buyer": "Komenda Wojewódzka Policji w Szczecinie (Szczecin)",
+   "published": "2026-11-02",
+   "deadline": "2026-11-10",
+   "cpv": [
+    "34711200"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df38e0-c518-a2d4-e2d6-6b000120ca61",
+   "match": [
+    "dron: „bezzałogow“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00516789",
+   "source": "BZP",
+   "country": "PL",
+   "title": "„Doposażenie Powiatowego Magazynu Przeciwpowodziowego, Obrony Cywilnej i Zarządzania Kryzysowego w Poddębicach”",
+   "buyer": "POWIAT PODDĘBICKI (Poddębice)",
+   "published": "2026-11-02",
+   "deadline": "2026-11-10",
+   "cpv": [
+    "18100000",
+    "18930000",
+    "31122000",
+    "31520000",
+    "31521320",
+    "33140000",
+    "34144212",
+    "34992200"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df38e2-f7c3-5703-e2d6-6b000120cadb",
+   "match": [
+    "CPV 35613000 – bezpilotné lietadlá (UAV)"
+   ]
+  },
+  {
+   "id": "TED-762836-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Miscellaneous equipment – Dostawa sprzętu dla potrzeb projektu pn.: „Ochrona klimatu z użyciem nowych technologii”",
+   "buyer": "Gmina Rajcza",
+   "published": "2026-11-03",
+   "deadline": "",
+   "cpv": [
+    "30200000",
+    "31122000",
+    "32343200",
+    "32530000",
+    "32570000",
+    "34711200",
+    "38112100",
+    "39300000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/762836-2026",
+   "match": [
+    "dron: „bezzałogow“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-762398-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Machines and apparatus for testing and measuring – Dostawa specjalistycznego wyposażenia badawczo-pomiarowego dla Parku Naukowo-Technologicznego w Opolu Sp. z o.o.",
+   "buyer": "Park Naukowo-Technologiczny w Opolu Sp. z o.o.",
+   "published": "2026-11-03",
+   "deadline": "2026-11-30",
+   "cpv": [
+    "30232100",
+    "34711200",
+    "38300000",
+    "38400000",
+    "38433000",
+    "38434400",
+    "38500000",
+    "38510000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/762398-2026",
+   "match": [
+    "dron: „bezzałogow“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-761767-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Non-piloted aircraft – Zakup wraz z dostawą bezzałogowych statków powietrznych wraz z oprogramowaniem i wyposażeniem dodatkowym w związku z realizacją zadań z zakresu ochrony ludności i obrony cywilnej.",
+   "buyer": "Mazowiecki Urząd Wojewódzki w Warszawie",
+   "published": "2026-11-03",
+   "deadline": "",
+   "cpv": [
+    "34711200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/761767-2026",
+   "match": [
+    "dron: „bezzałogow“"
+   ],
+   "notice_type": "can-standard"
+  }
+ ]
+}
