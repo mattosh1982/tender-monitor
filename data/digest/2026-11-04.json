@@ -1,0 +1,210 @@
+{
+ "run_at": "2026-11-04T05:52:36+00:00",
+ "date": "2026-11-04",
+ "window_from": "2026-10-31",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 27,
+   "read": null,
+   "seconds": 15
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 0,
+   "read": 2270,
+   "seconds": 15
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 4,
+   "read": 2411,
+   "seconds": 84
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 0,
+   "read": 6,
+   "seconds": 32
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 67,
+   "seconds": 92
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 8,
+ "new": [
+  {
+   "id": "TED-766891-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Architectural, construction, engineering and inspection services – Vollausbau der Straße Mittelweg - Generalplanerleistungen",
+   "buyer": "Gemeinde Grömitz",
+   "published": "2026-11-04",
+   "deadline": "",
+   "cpv": [
+    "71000000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/766891-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Kanalinspektion“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-763892-2026",
+   "source": "TED",
+   "country": "FI",
+   "title": "Finland – Surveillance and security systems and devices – Remotely Operated Ground (UGV) and Aerial (UAV) Platforms with Ionizing Radiation Measurement Equipment",
+   "buyer": "Huoltovarmuuskeskus",
+   "published": "2026-11-04",
+   "deadline": "2027-01-15",
+   "cpv": [
+    "34711200",
+    "35120000",
+    "38300000",
+    "42997300"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/763892-2026",
+   "match": [
+    "dron: „UAV“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "PL-2026/BZP00518961",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Zakup sprzętu do monitoringu przyrodniczego oraz określenia presji antropogenicznej",
+   "buyer": "Mazurski Park Krajobrazowy (Piecki)",
+   "published": "2026-11-03",
+   "deadline": "2026-11-12",
+   "cpv": [
+    "32330000",
+    "32333100",
+    "34711200",
+    "34970000",
+    "35512400",
+    "38650000",
+    "38651000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df399d-4685-217c-e2d6-6b000120d958",
+   "match": [
+    "dron v texte oznámenia: „bezzałogow“"
+   ]
+  },
+  {
+   "id": "TED-766875-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Liability insurance services – Ubezpieczenie mienia oraz odpowiedzialności cywilnej",
+   "buyer": "Akademia Marynarki Wojennej im. Bohaterów Westerplatte",
+   "published": "2026-11-04",
+   "deadline": "",
+   "cpv": [
+    "66515000",
+    "66516000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/766875-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-766318-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Harbour construction works – Zaprojektowanie i wykonanie robót budowlanych dotyczących inwestycji pn. „Przylądek Pomerania - Budowa Portu Zewnętrznego w Świnoujściu.\"",
+   "buyer": "Dyrektor Urzędu Morskiego w Szczecinie; Zarząd Morskich Portów Szczecin i Świnoujście Spółka Akcyjna",
+   "published": "2026-11-04",
+   "deadline": "2026-12-02",
+   "cpv": [
+    "45241000",
+    "45241500",
+    "45243200",
+    "45244000",
+    "45247100",
+    "71320000",
+    "71322000",
+    "71332000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/766318-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-765008-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Electronic intelligence system – Zakup systemu detekcji i neutralizacji Bezzałogowych Statków Powietrznych dla PGE GiEK S.A. Oddział: KWB, ELB, KWT, ELT oraz ELO",
+   "buyer": "PGE GÓRNICTWO I ENERGETYKA KONWENCJONALNA SPÓŁKA AKCYJNA",
+   "published": "2026-11-04",
+   "deadline": "2026-12-07",
+   "cpv": [
+    "35721000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/765008-2026",
+   "match": [
+    "dron: „Bezzałogow“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-766187-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Sewer cleaning services – Högtrycksspolning, slamsugning och TV-inspektion – Ramavtal",
+   "buyer": "Sandviken Energi AB",
+   "published": "2026-11-04",
+   "deadline": "",
+   "cpv": [
+    "90470000",
+    "90491000",
+    "90513600",
+    "90513700"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/766187-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-inspektion“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-765121-2026",
+   "source": "TED",
+   "country": "SK",
+   "title": "Slovakia – Computer equipment and supplies – DNS 2/2026 „Nákup výpočtovej techniky a príslušenstva pre UKF v Nitre“",
+   "buyer": "Univerzita Konštantína Filozofa v Nitre",
+   "published": "2026-11-04",
+   "deadline": "",
+   "cpv": [
+    "30121100",
+    "30200000",
+    "31640000",
+    "32200000",
+    "32250000",
+    "32400000",
+    "48800000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/765121-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  }
+ ]
+}
