@@ -1,0 +1,418 @@
+{
+ "run_at": "2026-11-05T05:58:40+00:00",
+ "date": "2026-11-05",
+ "window_from": "2026-11-01",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 43,
+   "read": null,
+   "seconds": 13
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 0,
+   "read": 2479,
+   "seconds": 19
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 6,
+   "read": 3615,
+   "seconds": 114
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 0,
+   "read": 7,
+   "seconds": 340
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 0,
+   "seconds": 1
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 18,
+ "new": [
+  {
+   "id": "TED-767774-2026",
+   "source": "TED",
+   "country": "CZ",
+   "title": "Czechia – Sewer survey services – Čištění potrubí a monitoring s vyhodnocením",
+   "buyer": "Ředitelství silnic a dálnic s. p.",
+   "published": "2026-11-05",
+   "deadline": "",
+   "cpv": [
+    "90000000",
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/767774-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „monitoring potrub“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-769629-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Special-purpose motor vehicles – Mobile Crime Scene Investigation Vehicles / Mobile Forensic Laboratories",
+   "buyer": "GLOBAL SECURITY-SECTOR-REFORM FOUNDATION GGMBH",
+   "published": "2026-11-05",
+   "deadline": "2026-12-04",
+   "cpv": [
+    "34114000",
+    "34144000",
+    "38930000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/769629-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-769841-2026",
+   "source": "TED",
+   "country": "DK",
+   "title": "Denmark – Sewer cleaning services – Offentligt EU-udbud vedrørende TV-inspektion for Vandmiljø Randers A/S",
+   "buyer": "Vandmiljø Randers A/S",
+   "published": "2026-11-05",
+   "deadline": "2026-11-12",
+   "cpv": [
+    "76600000",
+    "90470000",
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/769841-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-inspektion“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-769803-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Repair and maintenance services for pumps, valves, taps and metal containers and machinery – Avinor AS - K-19324 - Purchase and service of Water and Sewage pumps",
+   "buyer": "AVINOR AS",
+   "published": "2026-11-05",
+   "deadline": "2026-11-30",
+   "cpv": [
+    "50500000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/769803-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "PL-2026/BZP00522566",
+   "source": "BZP",
+   "country": "PL",
+   "title": "DOSTAWA URZĄDZEŃ POMIAROWYCH GPS-GNSS I DRONÓW DLA ŻW",
+   "buyer": "ODDZIAŁ ZABEZPIECZENIA ŻANDARMERII WOJSKOWEJ (Warszawa)",
+   "published": "2026-11-04",
+   "deadline": "2026-11-13",
+   "cpv": [
+    "34711200",
+    "35200000",
+    "38200000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3a73-6f00-861b-e2d6-6b000120ee3e",
+   "match": [
+    "dron: „DRON“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00522848",
+   "source": "BZP",
+   "country": "PL",
+   "title": ",, Zakup i dostawa do Wyższej Szkoły Straży Granicznej w Koszalinie pojazdu podwodnego ROV ”",
+   "buyer": "Wyższa Szkoła Straży Granicznej (Koszalin)",
+   "published": "2026-11-04",
+   "deadline": "2026-11-16",
+   "cpv": [
+    "35512400"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3a79-89c7-f9da-e2d6-6b000120efaf",
+   "match": [
+    "dron v texte oznámenia: „Bezzałogow“"
+   ]
+  },
+  {
+   "id": "TED-771302-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Non-piloted aircraft – Dostawa bezzałogowych statków powietrznych (BSP) wraz z wyposażeniem, konfiguracją, instruktażem stanowiskowym",
+   "buyer": "Politechnika Poznańska",
+   "published": "2026-11-05",
+   "deadline": "2026-12-09",
+   "cpv": [
+    "30234600",
+    "31158000",
+    "31158100",
+    "34711200",
+    "38112100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/771302-2026",
+   "match": [
+    "dron: „bezzałogow“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-770278-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Aircraft liability insurance services – Obowiązkowe ubezpieczenie odpowiedzialności cywilnej operatora systemu bezzałogowego statku powietrznego",
+   "buyer": "Akademia Marynarki Wojennej im. Bohaterów Westerplatte",
+   "published": "2026-11-05",
+   "deadline": "",
+   "cpv": [
+    "66516200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/770278-2026",
+   "match": [
+    "dron: „bezzałogow“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-769098-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Vehicles for the emergency services – Dostawa lekkiego samochodu rozpoznawczo-ratowniczego do obsługi automatycznych operacji BSP z systemem łączności szerokopasmowej dla KG PSP.",
+   "buyer": "KOMENDA GŁÓWNA PAŃSTWOWEJ STRAŻY POŻARNEJ",
+   "published": "2026-11-05",
+   "deadline": "",
+   "cpv": [
+    "34113000",
+    "34144200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/769098-2026",
+   "match": [
+    "dron: „bezzałogow“"
+   ],
+   "notice_type": "pin-rtl"
+  },
+  {
+   "id": "TED-770861-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Architectural, construction, engineering and inspection services – 87112 Beställning av miljöteknisk markutredning fastigheten Brynjan 3 och en del av Östertälje 61:2",
+   "buyer": "Telge Inköp AB",
+   "published": "2026-11-05",
+   "deadline": "",
+   "cpv": [
+    "71000000",
+    "71200000",
+    "71300000",
+    "71310000",
+    "71311000",
+    "71311300",
+    "71313000",
+    "71313100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/770861-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-770500-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Architectural, construction, engineering and inspection services – 87713 Besiktning samt kulturhistorisk värdering av byggnad på fastigheten Tvetaberg 5:56",
+   "buyer": "Telge Inköp AB",
+   "published": "2026-11-05",
+   "deadline": "",
+   "cpv": [
+    "71000000",
+    "71200000",
+    "71300000",
+    "71310000",
+    "71311000",
+    "71311300",
+    "71313000",
+    "71313100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/770500-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-770288-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Architectural, construction, engineering and inspection services – 86893 Projektering av gator och gc-vägar samt trafiksäkerhetsåtgärder, Södertälje",
+   "buyer": "Telge Inköp AB",
+   "published": "2026-11-05",
+   "deadline": "",
+   "cpv": [
+    "71000000",
+    "71200000",
+    "71300000",
+    "71310000",
+    "71311000",
+    "71311300",
+    "71313000",
+    "71313100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/770288-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-769414-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Architectural, construction, engineering and inspection services – 86482 Skyfallsutredning Fas 1 med option på Fas 2",
+   "buyer": "Telge Inköp AB",
+   "published": "2026-11-05",
+   "deadline": "",
+   "cpv": [
+    "71000000",
+    "71200000",
+    "71300000",
+    "71310000",
+    "71311000",
+    "71311300",
+    "71313000",
+    "71313100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/769414-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-768168-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Architectural, construction, engineering and inspection services – 86941 Arkitektförfrågan_Cittran 1&2",
+   "buyer": "Telge Inköp AB",
+   "published": "2026-11-05",
+   "deadline": "",
+   "cpv": [
+    "71000000",
+    "71200000",
+    "71300000",
+    "71310000",
+    "71311000",
+    "71311300",
+    "71313000",
+    "71313100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/768168-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-768051-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Sewer survey and sewage treatment consultancy services – Konsulter besiktningar och generellt miljöstöd",
+   "buyer": "SÖRAB",
+   "published": "2026-11-05",
+   "deadline": "",
+   "cpv": [
+    "90000000",
+    "90490000",
+    "90700000",
+    "90710000",
+    "90720000",
+    "90730000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/768051-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Inspekce kanaliz“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-770917-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Repair and maintenance services of machinery – Ramavtal Service och underhåll av mindre arbetsmaskiner under 8 ton, släpfordon samt redskap för utemiljö",
+   "buyer": "Östhammars kommun",
+   "published": "2026-11-05",
+   "deadline": "2026-12-03",
+   "cpv": [
+    "50000000",
+    "50530000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/770917-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-769071-2026",
+   "source": "TED",
+   "country": "SI",
+   "title": "Slovenia – Insurance services – Zavarovanje zračnih plovil MORS v letu 2027",
+   "buyer": "MINISTRSTVO ZA OBRAMBO",
+   "published": "2026-11-05",
+   "deadline": "",
+   "cpv": [
+    "66510000",
+    "66514120",
+    "66514140",
+    "66516000",
+    "66516200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/769071-2026",
+   "match": [
+    "dron: „brezpilotn“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-768358-2026",
+   "source": "TED",
+   "country": "SK",
+   "title": "Slovakia – Computer equipment and supplies – DNS 2/2026 „Nákup výpočtovej techniky a príslušenstva pre UKF v Nitre“",
+   "buyer": "Univerzita Konštantína Filozofa v Nitre",
+   "published": "2026-11-05",
+   "deadline": "",
+   "cpv": [
+    "30121100",
+    "30200000",
+    "31640000",
+    "32200000",
+    "32250000",
+    "32400000",
+    "48800000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/768358-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  }
+ ]
+}
