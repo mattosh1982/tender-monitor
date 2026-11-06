@@ -1,0 +1,416 @@
+{
+ "run_at": "2026-11-06T05:59:53+00:00",
+ "date": "2026-11-06",
+ "window_from": "2026-11-02",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 57,
+   "read": null,
+   "seconds": 14
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 0,
+   "read": 2830,
+   "seconds": 15
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 10,
+   "read": 4341,
+   "seconds": 130
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 1,
+   "read": 11,
+   "seconds": 339
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 74,
+   "seconds": 107
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 19,
+ "new": [
+  {
+   "id": "CH-507012fd-f7e0-430c-aff8-baf9bd05e226",
+   "source": "simap.ch",
+   "country": "CH",
+   "title": "Drohnen",
+   "buyer": "Kantonspolizei Zürich",
+   "published": "2026-11-06",
+   "deadline": "",
+   "cpv": [],
+   "link": "https://www.simap.ch/de/project-detail/507012fd-f7e0-430c-aff8-baf9bd05e226",
+   "match": [
+    "dron: „Drohne“"
+   ],
+   "project_number": "47056"
+  },
+  {
+   "id": "TED-773079-2026",
+   "source": "TED",
+   "country": "CZ",
+   "title": "Czechia – Archaeological services – Služby výzkumu pro zajištění exkavační a postexkavační části archeologických výzkumů a služby operativního průzkumu a dokumentace staveb pro NPÚ, územní odborné pracoviště v Praze – 2027+",
+   "buyer": "Národní památkový ústav",
+   "published": "2026-11-06",
+   "deadline": "",
+   "cpv": [
+    "71351914",
+    "71354100",
+    "71355100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/773079-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-771454-2026",
+   "source": "TED",
+   "country": "CZ",
+   "title": "Czechia – Motorway construction works – D7 MÚK Knovíz - MÚK Slaný-západ",
+   "buyer": "Ředitelství silnic a dálnic s. p.",
+   "published": "2026-11-06",
+   "deadline": "",
+   "cpv": [
+    "45233110"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/771454-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-modif"
+  },
+  {
+   "id": "TED-771547-2026",
+   "source": "TED",
+   "country": "CZ",
+   "title": "Czechia – Installation services of meteorological equipment – DNS – Měření větru prostřednictvím technologie LiDAR",
+   "buyer": "ČEZ Obnovitelné zdroje, s.r.o.",
+   "published": "2026-11-06",
+   "deadline": "",
+   "cpv": [
+    "51215000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/771547-2026",
+   "match": [
+    "mapovanie: „LiDAR“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-771966-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Non-piloted aircraft – PolBln 331_26 EU 25 Drohnen inklusive Zubehör",
+   "buyer": "Polizei Berlin",
+   "published": "2026-11-06",
+   "deadline": "",
+   "cpv": [
+    "34711200",
+    "35613000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/771966-2026",
+   "match": [
+    "dron: „Drohne“",
+    "CPV 35613000 – bezpilotné lietadlá (UAV)",
+    "CPV 35613000 – bezpilotné lietadlá (UAV)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-773625-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewer cleaning services – Kanal- und Senkenreinigung im Stadtgebiet Kaarst 2027/2028",
+   "buyer": "Stadt Kaarst - Der Bürgermeister",
+   "published": "2026-11-06",
+   "deadline": "2026-11-12",
+   "cpv": [
+    "90470000",
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/773625-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Kanal-TV“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-772085-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewer survey services – Rahmenvertragsarbeiten Kanalinspektion und Sanierung in der Stadt Lingen (Ems)",
+   "buyer": "Stadt Lingen (Ems)",
+   "published": "2026-11-06",
+   "deadline": "2026-12-07",
+   "cpv": [
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/772085-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Kanalinspektion“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-774162-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Patrol services – SV-TDR-261028-004 - Fahrschein-Kontrolldienst",
+   "buyer": "Münchner Verkehrsgesellschaft mbH (MVG)",
+   "published": "2026-11-06",
+   "deadline": "2026-12-07",
+   "cpv": [
+    "79714000",
+    "79715000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/774162-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-773736-2026",
+   "source": "TED",
+   "country": "DK",
+   "title": "Denmark – Security, fire-fighting, police and defence equipment – Acquisition and support of Drone Remote ID (DRID) sensors",
+   "buyer": "Danish Ministry of Defence Acquisition and Logistics Organisation",
+   "published": "2026-11-06",
+   "deadline": "",
+   "cpv": [
+    "35000000",
+    "35125100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/773736-2026",
+   "match": [
+    "dron: „Dron“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-772794-2026",
+   "source": "TED",
+   "country": "FI",
+   "title": "Finland – Aerial mapping services – Ilmakuvauspalvelut 2027 - kevätkuvaus",
+   "buyer": "Maanmittauslaitos",
+   "published": "2026-11-06",
+   "deadline": "2026-12-11",
+   "cpv": [
+    "60440000",
+    "71350000",
+    "71354200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/772794-2026",
+   "match": [
+    "mapovanie: „fotogram“",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "PL-2026/BZP00524245",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Zakup bezzałogowych statków powietrznych dla KPP w Świdnicy oraz Laboratorium Kryminalistycznego KWP we Wrocławiu.",
+   "buyer": "Komenda Wojewódzka Policji we Wrocławiu (Wrocław)",
+   "published": "2026-11-05",
+   "deadline": "2026-11-17",
+   "cpv": [
+    "34711200"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3b28-562e-626f-c1c5-d5000193c678",
+   "match": [
+    "dron: „bezzałogow“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00524652",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Zakup i dostawa bezzałogowego statku powietrznego wraz z systemem pracy „na uwięzi”, megafonem, reflektorem, kompletem dodatkowych akumulatorów, przenośnymi źródłami zasilania oraz akcesoriami.",
+   "buyer": "ŁÓDZKI URZĄD WOJEWÓDZKI W ŁODZI (Łódź)",
+   "published": "2026-11-05",
+   "deadline": "2026-11-16",
+   "cpv": [
+    "34711200"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3b31-cf90-718c-c1c5-d5000193c883",
+   "match": [
+    "dron: „bezzałogow“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00524768",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Usługi ubezpieczenia mienia, odpowiedzialności cywilnej oraz następstw nieszczęśliwych wypadków Gminy Lubawa",
+   "buyer": "GMINA LUBAWA (Fijewo)",
+   "published": "2026-11-05",
+   "deadline": "2026-11-13",
+   "cpv": [
+    "66510000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3b34-969f-3649-c1c5-d5000193c92a",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00525081",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Zakup sprzętu i wyposażenia w ramach środków dotacji z Programu Ochrony Ludności i Obrony Cywilnej 2025/2026, w podziale na części",
+   "buyer": "Powiat Głogowski (Głogów)",
+   "published": "2026-11-05",
+   "deadline": "2026-11-13",
+   "cpv": [
+    "32000000",
+    "35112000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3b3a-cd14-3ce0-c1c5-d5000193cab8",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  },
+  {
+   "id": "TED-774985-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Architectural, construction, engineering and inspection services – 83518 Dagvattenutredning och gestaltningsförslag för Mamsell Hannas park, Katrineholms kommun",
+   "buyer": "Telge Inköp AB",
+   "published": "2026-11-06",
+   "deadline": "",
+   "cpv": [
+    "71000000",
+    "71200000",
+    "71300000",
+    "71310000",
+    "71311000",
+    "71311300",
+    "71313000",
+    "71313100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/774985-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-774911-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Architectural, construction, engineering and inspection services – 87906 Mätning av sedimentdjup dagvattendammar",
+   "buyer": "Telge Inköp AB",
+   "published": "2026-11-06",
+   "deadline": "",
+   "cpv": [
+    "71000000",
+    "71200000",
+    "71300000",
+    "71310000",
+    "71311000",
+    "71311300",
+    "71313000",
+    "71313100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/774911-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-774631-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Architectural, construction, engineering and inspection services – 90198 Risk‑ och sårbarhetsanalys samt planeringsriktlinjer för yt‑ och grundvatten i Södertälje",
+   "buyer": "Telge Inköp AB",
+   "published": "2026-11-06",
+   "deadline": "",
+   "cpv": [
+    "71000000",
+    "71200000",
+    "71300000",
+    "71310000",
+    "71311000",
+    "71311300",
+    "71313000",
+    "71313100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/774631-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-772802-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Architectural, construction, engineering and inspection services – 88284 Projektledare renovering av Farstanäs Camping",
+   "buyer": "Telge Inköp AB",
+   "published": "2026-11-06",
+   "deadline": "",
+   "cpv": [
+    "71000000",
+    "71200000",
+    "71300000",
+    "71310000",
+    "71311000",
+    "71311300",
+    "71313000",
+    "71313100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/772802-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-771372-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Architectural, construction, engineering and inspection services – 87942 Processtöd med trafikkompetens inom SUMP (Sustainable Urban Mobility Plan)",
+   "buyer": "Telge Inköp AB",
+   "published": "2026-11-06",
+   "deadline": "",
+   "cpv": [
+    "71000000",
+    "71200000",
+    "71300000",
+    "71310000",
+    "71311000",
+    "71311300",
+    "71313000",
+    "71313100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/771372-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
+   ],
+   "notice_type": "can-standard"
+  }
+ ]
+}
