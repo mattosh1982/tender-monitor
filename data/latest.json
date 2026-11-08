@@ -1,38 +1,38 @@
 {
- "run_at": "2026-11-07T05:46:09+00:00",
- "date": "2026-11-07",
- "window_from": "2026-11-03",
+ "run_at": "2026-11-08T05:48:34+00:00",
+ "date": "2026-11-08",
+ "window_from": "2026-11-04",
  "first_run": false,
  "sources": {
   "TED": {
    "status": "ok",
-   "matches": 44,
+   "matches": 37,
    "read": null,
-   "seconds": 14
+   "seconds": 15
   },
   "DE oeffentlichevergabe.de": {
    "status": "ok",
    "matches": 0,
-   "read": 2741,
-   "seconds": 20
+   "read": 1720,
+   "seconds": 14
   },
   "PL BZP": {
    "status": "ok",
-   "matches": 8,
-   "read": 4449,
-   "seconds": 130
+   "matches": 7,
+   "read": 3254,
+   "seconds": 115
   },
   "CH simap": {
    "status": "ok",
    "matches": 1,
-   "read": 12,
-   "seconds": 170
+   "read": 8,
+   "seconds": 279
   },
   "SK ÚVO vestník": {
    "status": "ok",
    "matches": 0,
    "read": 74,
-   "seconds": 96
+   "seconds": 99
   },
   "SK UVOstat": {
    "status": "vypnuté (chýba API kľúč)"
@@ -41,30 +41,6 @@
    "status": "vypnuté (chýba API kľúč)"
   }
  },
- "new_count": 1,
- "new": [
-  {
-   "id": "PL-2026/BZP00527602",
-   "source": "BZP",
-   "country": "PL",
-   "title": "„Zakup wraz z dostawą pomocy dydakt., mebli, narzędzi elektr. dla techników wchodzących w skład CKZiU ul. Kilińskiego 25 w S-cu w ramach realizowanego projektu „Zdobądź zawód i kwalifikacje\"",
-   "buyer": "Gmina Sosnowiec- miasto posiadające prawa powiatu (Sosnowiec)",
-   "published": "2026-11-06",
-   "deadline": "2026-11-16",
-   "cpv": [
-    "34965000",
-    "38342000",
-    "38424000",
-    "39130000",
-    "39160000",
-    "39294000",
-    "42623000",
-    "43414000"
-   ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3bfe-d5e4-1338-c1c5-d5000193db20",
-   "match": [
-    "dron v texte oznámenia: „Dron“"
-   ]
-  }
- ]
+ "new_count": 0,
+ "new": []
 }

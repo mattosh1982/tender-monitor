@@ -1,0 +1,46 @@
+{
+ "run_at": "2026-11-08T05:48:34+00:00",
+ "date": "2026-11-08",
+ "window_from": "2026-11-04",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 37,
+   "read": null,
+   "seconds": 15
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 0,
+   "read": 1720,
+   "seconds": 14
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 7,
+   "read": 3254,
+   "seconds": 115
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 1,
+   "read": 8,
+   "seconds": 279
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 74,
+   "seconds": 99
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 0,
+ "new": []
+}
