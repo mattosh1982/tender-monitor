@@ -1,0 +1,338 @@
+{
+ "run_at": "2026-11-10T05:51:46+00:00",
+ "date": "2026-11-10",
+ "window_from": "2026-11-06",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 36,
+   "read": null,
+   "seconds": 15
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 0,
+   "read": null,
+   "seconds": 11
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 4,
+   "read": 1918,
+   "seconds": 70
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 1,
+   "read": 7,
+   "seconds": 278
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 1,
+   "read": 80,
+   "seconds": 104
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 15,
+ "new": [
+  {
+   "id": "TED-782719-2026",
+   "source": "TED",
+   "country": "CZ",
+   "title": "Czechia – Industrial machinery – CirkArena – Dodávka přístrojů a Softwaru pro vyhodnocování pořizovaných dat",
+   "buyer": "MATERIÁLOVÝ A METALURGICKÝ VÝZKUM s.r.o.; Vysoká škola báňská – Technická univerzita Ostrava",
+   "published": "2026-11-10",
+   "deadline": "2026-11-16",
+   "cpv": [
+    "32333200",
+    "38000000",
+    "38200000",
+    "38300000",
+    "38500000",
+    "38600000",
+    "42000000",
+    "42300000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/782719-2026",
+   "match": [
+    "dron: „dron“",
+    "mapovanie: „LiDAR“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-781665-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewer survey services – Zustandserfassung Kanalnetz Hüsten - Teilgebiet Hüsten 2 (Hüsten Mitte, Flammberg)",
+   "buyer": "Stadt Arnsberg",
+   "published": "2026-11-10",
+   "deadline": "2026-12-08",
+   "cpv": [
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/781665-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-Inspektion“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-781635-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewer cleaning services – Bekanntmachung vergebener Auftrag: TV-Kanalinspektion und Reinigung im Ortsteil Wulfen 2027",
+   "buyer": "Stadt Dorsten",
+   "published": "2026-11-10",
+   "deadline": "",
+   "cpv": [
+    "90470000",
+    "90490000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/781635-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Kanalinspektion“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-781537-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewer cleaning services – Spülleistungen für die Jahre 2027 - 2030",
+   "buyer": "Osterholzer Stadtwerke GmbH & Co. KG c/o Landkreis Osterholz - Zentrale Vergabestelle",
+   "published": "2026-11-10",
+   "deadline": "2026-12-15",
+   "cpv": [
+    "90470000",
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/781537-2026",
+   "match": [
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-781268-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Pipeline-design services – Pannofenstraße, Kalkarer Straße, RBA, Entwässerungskonzept E12, Planungsleistungen",
+   "buyer": "Stadt Kleve für Umweltbetriebe der Stadt Kleve AöR",
+   "published": "2026-11-10",
+   "deadline": "",
+   "cpv": [
+    "71322200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/781268-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Kanalinspektion“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-781561-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Software programming and consultancy services – Contract award - Assistance mobile app developers for MinID and wallet - DPS",
+   "buyer": "Digitaliseringsdirektoratet",
+   "published": "2026-11-10",
+   "deadline": "",
+   "cpv": [
+    "72000000",
+    "72200000",
+    "72220000",
+    "72222200",
+    "72222300",
+    "72240000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/781561-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-780252-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Auditing services – 73/2026 Framework agreement audit services",
+   "buyer": "Oslo kommune v/ Vann- og avløpsetaten",
+   "published": "2026-11-10",
+   "deadline": "",
+   "cpv": [
+    "79210000",
+    "79212000",
+    "79212100",
+    "79212200",
+    "79212300",
+    "79212400"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/780252-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-779963-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Advertising and marketing services – Avinor AS - K-193367 - Advertising agency services",
+   "buyer": "AVINOR AS",
+   "published": "2026-11-10",
+   "deadline": "2026-12-10",
+   "cpv": [
+    "79340000",
+    "79342000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/779963-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "PL-2026/BZP00529847",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Usługa szkolenia z zakresu „STS-2: Europejskiej licencji pilota drona do 25 kg (BVLOS)” w ramach projektu nr umowy FERS.01.05-IP.08-0234/23-00",
+   "buyer": "Politechnika Świętokrzyska (Kielce)",
+   "published": "2026-11-09",
+   "deadline": "2026-11-17",
+   "cpv": [
+    "80500000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3e55-a405-c377-c1c5-d5000193eb5c",
+   "match": [
+    "dron: „dron“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00529953",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Dostawa urządzeń warsztatowych i akcesoriów do laboratorium druku 3 D dla 28 Wojskowego Oddziału Gospodarczego",
+   "buyer": "28 WOJSKOWY ODDZIAŁ GOSPODARCZY (Siedlce)",
+   "published": "2026-11-09",
+   "deadline": "2026-11-17",
+   "cpv": [
+    "43800000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3e58-3837-fe94-c1c5-d5000193ebf1",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00530470",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Dostawa, montaż, konfiguracja i uruchomienie wyposażenia dydaktycznego, TIK oraz stref wyciszenia dla szkół Gminy Barlinek",
+   "buyer": "GMINA BARLINEK (Barlinek)",
+   "published": "2026-11-09",
+   "deadline": "2026-11-17",
+   "cpv": [
+    "31527200",
+    "31600000",
+    "31710000",
+    "32342410",
+    "34711200",
+    "37520000",
+    "37524100",
+    "38000000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3e63-ee54-218c-c1c5-d5000193ee99",
+   "match": [
+    "dron v texte oznámenia: „Bezzałogow“"
+   ]
+  },
+  {
+   "id": "TED-782001-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Construction work – Budowa nowej zajezdni tramwajowej przy ul. Szosa Bydgoska oraz budowa nowej linii tramwajowej na odcinku od pętli Motoarena na zachód Torunia.",
+   "buyer": "Miejski Zakład Komunikacji w Toruniu spółka z ograniczoną odpowiedzialnością",
+   "published": "2026-11-10",
+   "deadline": "2026-12-15",
+   "cpv": [
+    "31174000",
+    "31213100",
+    "31213300",
+    "31682540",
+    "32323500",
+    "32412100",
+    "42961100",
+    "44613110"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/782001-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-780866-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Air-rescue services – Zabezpieczenie medyczne 12. BBSP w Mirosławcu",
+   "buyer": "21 Baza Lotnictwa Taktycznego",
+   "published": "2026-11-10",
+   "deadline": "2026-11-27",
+   "cpv": [
+    "60443000",
+    "85120000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/780866-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-781207-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Echo sounders – Dostawa zestawu echosondy wielowiązkowej (MBES) wraz z sensorami peryferyjnymi oraz LiDARem do skanowania topograficznej części akwenu i oprogramowaniem w ramach projektu „AquaCyber Lab – Innowacyjne kształcenie na potrzeby przemysłu w Politechnice Morskiej w Szczecinie”",
+   "buyer": "Politechnika Morska w Szczecinie",
+   "published": "2026-11-10",
+   "deadline": "",
+   "cpv": [
+    "38112100",
+    "38114000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/781207-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "SK-UVO-1424976",
+   "source": "ÚVO vestník",
+   "country": "SK",
+   "title": "Zavádzanie systému množstvového zberu v obci Rakúsy - Nákup krytov na nádoby, hardvéru a softvéru",
+   "buyer": "Obec Rakúsy",
+   "published": "2026-11-10",
+   "deadline": "2026-11-20",
+   "cpv": [],
+   "link": "https://www.uvo.gov.sk/vestnik-a-registre/vestnik/oznamenie/detail/1424976",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „pasportizác“"
+   ],
+   "description": "Predmetom zákazky je nákup krytov na odpadové nádoby spolu s hardvérom a softvérom pre potreby elektronickej evidencie výsypov odpadu, krytých kontajnerových státí s kontrolovaným vstupom na čip, s evidenčným systémom rozšíreným na celé územie obce a ručnými čítačkami RFID a QR kódov, čipmi a čítačkami na pasportizáciu nádob.",
+   "value_eur": ""
+  }
+ ]
+}
