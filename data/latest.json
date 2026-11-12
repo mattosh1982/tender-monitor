@@ -1,38 +1,38 @@
 {
- "run_at": "2026-11-11T05:58:31+00:00",
- "date": "2026-11-11",
- "window_from": "2026-11-07",
+ "run_at": "2026-11-12T05:57:29+00:00",
+ "date": "2026-11-12",
+ "window_from": "2026-11-08",
  "first_run": false,
  "sources": {
   "TED": {
    "status": "ok",
-   "matches": 30,
+   "matches": 42,
    "read": null,
-   "seconds": 17
+   "seconds": 18
   },
   "DE oeffentlichevergabe.de": {
    "status": "ok",
-   "matches": 0,
-   "read": 1218,
-   "seconds": 15
+   "matches": 1,
+   "read": 2978,
+   "seconds": 16
   },
   "PL BZP": {
    "status": "ok",
    "matches": 7,
-   "read": 2867,
-   "seconds": 95
+   "read": 2888,
+   "seconds": 102
   },
   "CH simap": {
    "status": "ok",
    "matches": 0,
    "read": 5,
-   "seconds": 340
+   "seconds": 175
   },
   "SK ÚVO vestník": {
    "status": "ok",
    "matches": 0,
-   "read": 70,
-   "seconds": 76
+   "read": 64,
+   "seconds": 78
   },
   "SK UVOstat": {
    "status": "vypnuté (chýba API kľúč)"
@@ -41,229 +41,254 @@
    "status": "vypnuté (chýba API kľúč)"
   }
  },
- "new_count": 12,
+ "new_count": 13,
  "new": [
   {
-   "id": "TED-785251-2026",
+   "id": "TED-789365-2026",
    "source": "TED",
    "country": "CZ",
-   "title": "Czechia – Construction, foundation and surface works for highways, roads – II/567 Rtyně v Podkrkonoší",
-   "buyer": "Královéhradecký kraj; Město Rtyně v Podkrkonoší",
-   "published": "2026-11-11",
+   "title": "Czechia – Industrial training services – Výcvik pilotů a operátorů bezpilotních letadel na taktickém simulátoru",
+   "buyer": "Česká republika - Ministerstvo obrany",
+   "published": "2026-11-12",
    "deadline": "",
    "cpv": [
-    "45232400",
-    "45233000"
+    "80531100"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/785251-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/789365-2026",
+   "match": [
+    "dron: „bezpilotn“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-789230-2026",
+   "source": "TED",
+   "country": "CZ",
+   "title": "Czechia – Sewer survey services – Čištění potrubí a monitoring s vyhodnocením",
+   "buyer": "Ředitelství silnic a dálnic s. p.",
+   "published": "2026-11-12",
+   "deadline": "",
+   "cpv": [
+    "90000000",
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/789230-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „monitoring potrub“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "DE-cd1a8e54-bdd1-4d51-88a7-fe6d68366fd3",
+   "source": "oeffentlichevergabe.de",
+   "country": "DE",
+   "title": "Kanalsanierung Nordhausen 2026 - geschlossene Bauweise, Förstemannstraße/Schillerstraße, Jahnstraße, Hohekreuzstraße und Freiherr von Stein Straße",
+   "buyer": "(Nordhausen)",
+   "published": "2026-11-10",
+   "deadline": "2026-12-03",
+   "cpv": [
+    "43000000",
+    "44000000",
+    "45000000",
+    "71000000"
+   ],
+   "link": "https://www.evergabe-online.de/tenderdetails.html?id=905508",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Befahrung“"
+   ],
+   "description": "Lieferung, Einbau und Aushärtung eines lichthärtenden Schlauchliners DN 200: ca. 811 m Lieferung, Einbau und Aushärtung eines lichthärtenden Schlauchliners DN 250: ca. 433 m Lieferung, Einbau und Aushärtung eines lichthärtenden Schlauchliners DN 300: ca. 160 m Lieferung, Einbau und Aushärtung eines lichthärtenden Schlauchliners DN 400: ca. 80 m Lieferung, Einbau und Aushärtung eines lichthärtenden Schlauchliners DN 600: ca. 310 m partielle Sanierung DN 200 - DN 400: ca. 32 m inkl. aller Vorarbeiten, Spülen, TV-Befahrung, Fräsarbeiten, Zulaufsanierung, Zulaufanbindung"
+  },
+  {
+   "id": "TED-788207-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Railway construction works – Generalsanierung des Korridors Rechter Rhein - Bauleistungen",
+   "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+   "published": "2026-11-12",
+   "deadline": "",
+   "cpv": [
+    "45234100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/788207-2026",
    "match": [
     "TED fulltext (výraz v texte oznámenia)"
    ],
    "notice_type": "can-modif"
   },
   {
-   "id": "TED-784758-2026",
+   "id": "TED-787303-2026",
    "source": "TED",
    "country": "DE",
    "title": "Germany – Software implementation services – Fernerkundungssystem mittels automatisiert gesteuerter Drohne für die Branddirektion München",
    "buyer": "Landeshauptstadt München, Kreisverwaltungsreferat, Branddirektion - Vergabestelle 9",
-   "published": "2026-11-11",
+   "published": "2026-11-12",
    "deadline": "",
    "cpv": [
     "72263000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/784758-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/787303-2026",
    "match": [
     "dron: „Drohne“"
    ],
    "notice_type": "can-standard"
   },
   {
-   "id": "TED-784643-2026",
+   "id": "TED-786305-2026",
    "source": "TED",
    "country": "DE",
-   "title": "Germany – Unmanned underwater vehicles – Remotely Operated Vehicle (ROV)",
-   "buyer": "GEOMAR Helmholtz-Zentrum für Ozeanforschung Kiel",
-   "published": "2026-11-11",
+   "title": "Germany – Government services – Geschäftsanbahnungen im Rahmen des BMWE-Markterschließungsprogramms für KMU 2027, 1. Tranche",
+   "buyer": "Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA)",
+   "published": "2026-11-12",
    "deadline": "",
    "cpv": [
-    "35512400"
+    "75131000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/784643-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/786305-2026",
    "match": [
-    "dron: „Bezzałogow“"
+    "dron: „Drohne“"
    ],
    "notice_type": "can-standard"
   },
   {
-   "id": "TED-785492-2026",
+   "id": "TED-787220-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewage, refuse, cleaning and environmental services – Ruhr-Universität Bochum - Wartung von Regenklärbecken/Regenrückhaltebecken",
+   "buyer": "Ruhr-Universität Bochum",
+   "published": "2026-11-12",
+   "deadline": "2026-11-25",
+   "cpv": [
+    "90000000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/787220-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Kanal TV“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-788532-2026",
    "source": "TED",
    "country": "NO",
-   "title": "Norway – Repair and maintenance services of electrical and mechanical building installations – Askøy municipality - framework agreement on electrician services",
-   "buyer": "HRP AS",
-   "published": "2026-11-11",
-   "deadline": "2026-12-18",
+   "title": "Norway – Business services: law, marketing, consulting, recruitment, printing and security – Internal Auditor",
+   "buyer": "Norsk Tipping",
+   "published": "2026-11-12",
+   "deadline": "",
    "cpv": [
-    "31681400",
-    "45310000",
-    "45311100",
-    "45315100",
-    "45317000",
-    "50710000",
-    "51110000"
+    "79000000",
+    "79200000",
+    "79210000",
+    "79212000",
+    "79212200"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/785492-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/788532-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-786377-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Safety consultancy services – Contract award - Consultancy services, analysis of incidents and problems handling - DPS",
+   "buyer": "Digitaliseringsdirektoratet",
+   "published": "2026-11-12",
+   "deadline": "",
+   "cpv": [
+    "79417000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/786377-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-789099-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Security services – Ochrona fizyczna realizowana przez Specjalistyczne Uzbrojone Formacje Ochrony (SUFO) w Jednostce Wojskowej nr 4101 w Lublińcu wraz z obiektami, mieniem i urządzeniami strzelnicy garnizonowej, obiektu”0” – Krupski Młyn, obiektu „WOT-Południe” oraz obiektu „SzP WS”",
+   "buyer": "Jednostka Wojskowa Nr 4101",
+   "published": "2026-11-12",
+   "deadline": "2026-12-11",
+   "cpv": [
+    "79710000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/789099-2026",
+   "match": [
+    "dron: „dron“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-787577-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Vessel insurance services – Ubezpieczenie osób i mienia Urzędu Morskiego w Gdyni",
+   "buyer": "Dyrektor Urzędu Morskiego w Gdyni",
+   "published": "2026-11-12",
+   "deadline": "2026-11-16",
+   "cpv": [
+    "66512100",
+    "66514110",
+    "66514140",
+    "66514150",
+    "66515411",
+    "66516200",
+    "66516300"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/787577-2026",
+   "match": [
+    "dron: „bezzałogow“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-787322-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Construction management services – Pełnienie funkcji Inżyniera dla zadania pod nazwą „Zabezpieczenie nawigacyjne dla nowego toru podejściowego do Świnoujścia realizowanego w ramach inwestycji: „Przeprowadzenie prac dla umożliwienia transportu wodnego do Portu Zewnętrznego w Świnoujściu.”",
+   "buyer": "Dyrektor Urzędu Morskiego w Szczecinie",
+   "published": "2026-11-12",
+   "deadline": "2026-11-25",
+   "cpv": [
+    "71244000",
+    "71247000",
+    "71248000",
+    "71311000",
+    "71311100",
+    "71317000",
+    "71520000",
+    "71540000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/787322-2026",
    "match": [
     "TED fulltext (výraz v texte oznámenia)"
    ],
    "notice_type": "cn-standard"
   },
   {
-   "id": "TED-785318-2026",
-   "source": "TED",
-   "country": "NO",
-   "title": "Norway – Accounting and auditing services – Framework agreement for audit services - Iris Salten IKS",
-   "buyer": "Iris Salten IKS",
-   "published": "2026-11-11",
-   "deadline": "",
-   "cpv": [
-    "79200000",
-    "79210000",
-    "79211200"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/785318-2026",
-   "match": [
-    "TED fulltext (výraz v texte oznámenia)"
-   ],
-   "notice_type": "can-standard"
-  },
-  {
-   "id": "TED-785030-2026",
-   "source": "TED",
-   "country": "NO",
-   "title": "Norway – Electricity, heating, solar and nuclear energy – Procurement of electricity for Sveio municipality",
-   "buyer": "Eos Energi AS",
-   "published": "2026-11-11",
-   "deadline": "",
-   "cpv": [
-    "09300000",
-    "09310000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/785030-2026",
-   "match": [
-    "TED fulltext (výraz v texte oznámenia)"
-   ],
-   "notice_type": "can-standard"
-  },
-  {
-   "id": "TED-783137-2026",
-   "source": "TED",
-   "country": "NO",
-   "title": "Norway – Sewage services – Market dialogue Framework agreement for flushing, sand and sludge suction, as well as pipe inspections for sewage pipes and service pipes.",
-   "buyer": "Bærum kommune",
-   "published": "2026-11-11",
-   "deadline": "",
-   "cpv": [
-    "90400000",
-    "90460000",
-    "90470000",
-    "90480000",
-    "90491000",
-    "90513500",
-    "90513600",
-    "90513700"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/783137-2026",
-   "match": [
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
-   ],
-   "notice_type": "pin-only"
-  },
-  {
-   "id": "PL-2026/BZP00531551",
-   "source": "BZP",
-   "country": "PL",
-   "title": "Świadczenie usług dowozu i odwozu uczniów do i ze szkół podstawowych oraz dzieci przedszkolnych na terenie Gminy Sława w roku 2027",
-   "buyer": "Gmina Sława (Sława)",
-   "published": "2026-11-10",
-   "deadline": "2026-11-18",
-   "cpv": [
-    "60112000"
-   ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3f06-8d37-a065-c1c5-d5000193f776",
-   "match": [
-    "dron v texte oznámenia: „Dron“"
-   ]
-  },
-  {
-   "id": "PL-2026/BZP00531582",
-   "source": "BZP",
-   "country": "PL",
-   "title": "Specjalistyczne szkolenie z zakresu teledetekcji, fotogrametrii oraz praktycznego zastosowania BSP w rolnictwie w ramach realizacji projektu „Nowoczesny inżynier dla branż kluczowych”",
-   "buyer": "Uniwersytet Kazimierza Wielkiego w Bydgoszczy (Bydgoszcz)",
-   "published": "2026-11-10",
-   "deadline": "2026-11-18",
-   "cpv": [
-    "80500000"
-   ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3f07-6669-11ae-c1c5-d5000193f79e",
-   "match": [
-    "dron: „BSP“",
-    "mapovanie: „fotogram“"
-   ]
-  },
-  {
-   "id": "PL-2026/BZP00532242",
-   "source": "BZP",
-   "country": "PL",
-   "title": "Remont nawierzchni asfaltowych w kompleksach wojskowych administrowanych przez 13 Wojskowy Oddział Gospodarczy w Grudziądzu, Brodnicy i Chełmnie - sprawa nr 115/2026",
-   "buyer": "13 WOJSKOWY ODDZIAŁ GOSPODARCZY (Grudziądz)",
-   "published": "2026-11-10",
-   "deadline": "2026-11-26",
-   "cpv": [
-    "45111300",
-    "45233140",
-    "45233142",
-    "45233222",
-    "90500000"
-   ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3f17-0703-d902-c1c5-d5000193fb0b",
-   "match": [
-    "dron v texte oznámenia: „Dron“"
-   ]
-  },
-  {
-   "id": "PL-2026/BZP00533435",
-   "source": "BZP",
-   "country": "PL",
-   "title": "Wyłapywanie i zapewnienie opieki bezdomnym zwierzętom z terenu Gminy Rząśnia",
-   "buyer": "Gmina Rząśnia (Rząśnia)",
-   "published": "2026-11-10",
-   "deadline": "2026-11-18",
-   "cpv": [
-    "85200000",
-    "85210000",
-    "98380000"
-   ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df3f30-d23a-d7da-c1c5-d5000194011e",
-   "match": [
-    "dron v texte oznámenia: „dron“"
-   ]
-  },
-  {
-   "id": "TED-785935-2026",
+   "id": "TED-786447-2026",
    "source": "TED",
    "country": "SE",
-   "title": "Sweden – Architectural, construction, engineering and inspection services – Besiktningstjänster - Ramavtal",
-   "buyer": "Norrtälje Vatten &amp; Avfall AB",
-   "published": "2026-11-11",
+   "title": "Sweden – Architectural, construction, engineering and inspection services – 94507 Marknadsanalys Påskynda detaljplaner på landsbygderna",
+   "buyer": "Telge Inköp AB",
+   "published": "2026-11-12",
    "deadline": "",
    "cpv": [
     "71000000",
-    "90490000"
+    "71200000",
+    "71300000",
+    "71310000",
+    "71311000",
+    "71311300",
+    "71313000",
+    "71313100"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/785935-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/786447-2026",
    "match": [
     "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
    ],
