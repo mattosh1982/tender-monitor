@@ -1,38 +1,38 @@
 {
- "run_at": "2026-11-13T06:00:12+00:00",
- "date": "2026-11-13",
- "window_from": "2026-11-09",
+ "run_at": "2026-11-14T05:44:56+00:00",
+ "date": "2026-11-14",
+ "window_from": "2026-11-10",
  "first_run": false,
  "sources": {
   "TED": {
    "status": "ok",
-   "matches": 47,
+   "matches": 36,
    "read": null,
-   "seconds": 16
+   "seconds": 8
   },
   "DE oeffentlichevergabe.de": {
    "status": "ok",
    "matches": 1,
-   "read": 3505,
-   "seconds": 14
+   "read": 4540,
+   "seconds": 13
   },
   "PL BZP": {
    "status": "ok",
-   "matches": 10,
-   "read": 3489,
-   "seconds": 117
+   "matches": 9,
+   "read": 3061,
+   "seconds": 101
   },
   "CH simap": {
    "status": "ok",
    "matches": 0,
    "read": 6,
-   "seconds": 276
+   "seconds": 29
   },
   "SK ÚVO vestník": {
    "status": "ok",
    "matches": 0,
    "read": 96,
-   "seconds": 133
+   "seconds": 107
   },
   "SK UVOstat": {
    "status": "vypnuté (chýba API kľúč)"
@@ -41,160 +41,38 @@
    "status": "vypnuté (chýba API kľúč)"
   }
  },
- "new_count": 8,
+ "new_count": 2,
  "new": [
   {
-   "id": "TED-791040-2026",
-   "source": "TED",
-   "country": "CZ",
-   "title": "Czechia – Aerial mapping services – Uzavření rámcové dohody na poskytování služeb v souvislosti s pořízením leteckých měřických snímků ČR v letech 2027 a 2028",
-   "buyer": "ČR – Český úřad zeměměřický a katastrální",
-   "published": "2026-11-13",
-   "deadline": "2026-12-14",
-   "cpv": [
-    "71354200"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/791040-2026",
-   "match": [
-    "mapovanie: „fotogram“",
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie"
-   ],
-   "notice_type": "cn-standard"
-  },
-  {
-   "id": "TED-792249-2026",
-   "source": "TED",
-   "country": "DE",
-   "title": "Germany – Sewer survey services – Kanalreinigung und -inspektion im Verbandsgebiet des AZV für die Jahre 2027-2028",
-   "buyer": "Abwasser-Zweckverband Südholstein",
-   "published": "2026-11-13",
-   "deadline": "2026-12-15",
-   "cpv": [
-    "90470000",
-    "90491000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/792249-2026",
-   "match": [
-    "vnútorná inšpekcia/kanalizácia: „Inspekce kanaliz“",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
-   ],
-   "notice_type": "cn-standard"
-  },
-  {
-   "id": "TED-791894-2026",
-   "source": "TED",
-   "country": "DE",
-   "title": "Germany – Sewer survey services – Bundesstadt Bonn: Wasserhaltung, Reinigung und Befahrung des Hauptsammlers in Rüngsdorf",
-   "buyer": "Bundesstadt Bonn - Referat Vergabedienste",
-   "published": "2026-11-13",
-   "deadline": "2026-12-17",
-   "cpv": [
-    "90000000",
-    "90491000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/791894-2026",
-   "match": [
-    "vnútorná inšpekcia/kanalizácia: „Befahrung“",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
-   ],
-   "notice_type": "cn-standard"
-  },
-  {
-   "id": "TED-790449-2026",
-   "source": "TED",
-   "country": "DE",
-   "title": "Germany – Sewage, refuse, cleaning and environmental services – 13528/64335 RV TV-Inspektionen mit anschließender Dichtheitsprüfung von Entwässerungsanlagen",
-   "buyer": "Berliner Wasserbetriebe",
-   "published": "2026-11-13",
-   "deadline": "2026-12-17",
-   "cpv": [
-    "90000000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/790449-2026",
-   "match": [
-    "vnútorná inšpekcia/kanalizácia: „TV-Inspektion“"
-   ],
-   "notice_type": "cn-standard"
-  },
-  {
-   "id": "TED-790612-2026",
-   "source": "TED",
-   "country": "DK",
-   "title": "Denmark – Weapons, ammunition and associated parts – Military Droneguardian shotguns",
-   "buyer": "Forsvarsministeriets Materiel- og Indkøbsstyrelse",
-   "published": "2026-11-13",
-   "deadline": "",
-   "cpv": [
-    "35300000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/790612-2026",
-   "match": [
-    "dron: „Dron“"
-   ],
-   "notice_type": "can-standard"
-  },
-  {
-   "id": "PL-2026/BZP00534468",
+   "id": "PL-2026/BZP00537695",
    "source": "BZP",
    "country": "PL",
-   "title": "Zakup i dostawa wyposażenie pracowni szkolnych projekt: „Przyszłość zaczyna się w szkole – lubuskie dla edukacji”, priorytet 6, działanie 6.4",
-   "buyer": "ZWIĄZEK POWIATÓW LUBUSKICH (Zielona Góra)",
-   "published": "2026-11-12",
-   "deadline": "2026-11-20",
+   "title": "„Ubezpieczenie mienia od wszystkich ryzyk i odpowiedzialności cywilnej dla Spółki Restrukturyzacji Kopalń S.A.“",
+   "buyer": "Spółka Restrukturyzacji Kopalń S.A. (Bytom)",
+   "published": "2026-11-13",
+   "deadline": "2026-11-23",
    "cpv": [
-    "39290000"
+    "66510000"
    ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4099-0611-c612-c1c5-d50001940a78",
-   "match": [
-    "dron v texte oznámenia: „Dron“"
-   ]
-  },
-  {
-   "id": "PL-2026/BZP00534950",
-   "source": "BZP",
-   "country": "PL",
-   "title": "usługa ubezpieczenia Województwa Warmińsko-Mazurskiego",
-   "buyer": "WOJEWÓDZTWO WARMIŃSKO-MAZURSKIE (Olsztyn)",
-   "published": "2026-11-12",
-   "deadline": "2026-11-27",
-   "cpv": [
-    "66510000",
-    "66512100",
-    "66514110",
-    "66514140",
-    "66515000",
-    "66515200",
-    "66516000",
-    "66516100"
-   ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df40a6-aa01-abae-c1c5-d50001940cfe",
-   "match": [
-    "dron v texte oznámenia: „dron“"
-   ]
-  },
-  {
-   "id": "PL-2026/BZP00535974",
-   "source": "BZP",
-   "country": "PL",
-   "title": "Organizacja szkoleń/kursów/studiów podyplomowych dla nauczycieli w ramach projektu pn. ,,Świętokrzyska Edukacja Zawodowa”",
-   "buyer": "WOJEWÓDZKI URZĄD PRACY W KIELCACH (Kielce)",
-   "published": "2026-11-12",
-   "deadline": "2026-11-20",
-   "cpv": [
-    "80430000",
-    "80500000",
-    "80530000"
-   ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df40be-e252-fd15-c1c5-d500019411fa",
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4174-9cc4-1c59-c1c5-d50001941d83",
    "match": [
     "dron v texte oznámenia: „bezzałogow“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00538179",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Usługa ubezpieczenia Dolnośląskiego Biura Geodezji i Terenów Rolnych we Wrocławiu",
+   "buyer": "Dolnośląskie Biuro Geodezji i Terenów Rolnych we Wrocławiu (Wrocław)",
+   "published": "2026-11-13",
+   "deadline": "2026-11-26",
+   "cpv": [
+    "66510000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df417f-df68-14e7-c1c5-d50001941ff5",
+   "match": [
+    "dron v texte oznámenia: „dron“"
    ]
   }
  ]

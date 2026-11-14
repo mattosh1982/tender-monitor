@@ -1,0 +1,79 @@
+{
+ "run_at": "2026-11-14T05:44:56+00:00",
+ "date": "2026-11-14",
+ "window_from": "2026-11-10",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 36,
+   "read": null,
+   "seconds": 8
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 1,
+   "read": 4540,
+   "seconds": 13
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 9,
+   "read": 3061,
+   "seconds": 101
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 0,
+   "read": 6,
+   "seconds": 29
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 96,
+   "seconds": 107
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 2,
+ "new": [
+  {
+   "id": "PL-2026/BZP00537695",
+   "source": "BZP",
+   "country": "PL",
+   "title": "„Ubezpieczenie mienia od wszystkich ryzyk i odpowiedzialności cywilnej dla Spółki Restrukturyzacji Kopalń S.A.“",
+   "buyer": "Spółka Restrukturyzacji Kopalń S.A. (Bytom)",
+   "published": "2026-11-13",
+   "deadline": "2026-11-23",
+   "cpv": [
+    "66510000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4174-9cc4-1c59-c1c5-d50001941d83",
+   "match": [
+    "dron v texte oznámenia: „bezzałogow“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00538179",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Usługa ubezpieczenia Dolnośląskiego Biura Geodezji i Terenów Rolnych we Wrocławiu",
+   "buyer": "Dolnośląskie Biuro Geodezji i Terenów Rolnych we Wrocławiu (Wrocław)",
+   "published": "2026-11-13",
+   "deadline": "2026-11-26",
+   "cpv": [
+    "66510000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df417f-df68-14e7-c1c5-d50001941ff5",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  }
+ ]
+}
