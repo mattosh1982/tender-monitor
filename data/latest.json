@@ -1,38 +1,38 @@
 {
- "run_at": "2026-11-16T13:27:29+00:00",
- "date": "2026-11-16",
- "window_from": "2026-11-12",
+ "run_at": "2026-11-17T14:09:44+00:00",
+ "date": "2026-11-17",
+ "window_from": "2026-11-13",
  "first_run": false,
  "sources": {
   "TED": {
    "status": "ok",
-   "matches": 26,
+   "matches": 30,
    "read": null,
-   "seconds": 8
+   "seconds": 10
   },
   "DE oeffentlichevergabe.de": {
    "status": "ok",
    "matches": 0,
-   "read": 3386,
-   "seconds": 14
+   "read": 2329,
+   "seconds": 16
   },
   "PL BZP": {
    "status": "ok",
-   "matches": 5,
-   "read": 2398,
-   "seconds": 89
+   "matches": 3,
+   "read": 2682,
+   "seconds": 96
   },
   "CH simap": {
    "status": "ok",
-   "matches": 1,
-   "read": 7,
-   "seconds": 276
+   "matches": 2,
+   "read": 12,
+   "seconds": 34
   },
   "SK ÚVO vestník": {
    "status": "ok",
    "matches": 0,
-   "read": 71,
-   "seconds": 65
+   "read": 72,
+   "seconds": 99
   },
   "SK UVOstat": {
    "status": "vypnuté (chýba API kľúč)"
@@ -41,189 +41,354 @@
    "status": "vypnuté (chýba API kľúč)"
   }
  },
- "new_count": 10,
+ "new_count": 18,
  "new": [
   {
-   "id": "CH-6c376bab-929a-49ef-bbe1-c426144ea6f5",
-   "source": "simap.ch",
+   "id": "TED-799615-2026",
+   "source": "TED",
    "country": "CH",
-   "title": "Beschaffung von Kanal TV-Inspektionsfahrzeug",
+   "title": "Switzerland – Special-purpose motor vehicles – Beschaffung von Kanal TV-Inspektionsfahrzeug",
    "buyer": "TED - Entsorgung + Recycling Zürich (ERZ) Bändlistrasse 108, 8010 Zürich",
-   "published": "2026-11-16",
-   "deadline": "",
-   "cpv": [],
-   "link": "https://www.simap.ch/de/project-detail/6c376bab-929a-49ef-bbe1-c426144ea6f5",
+   "published": "2026-11-17",
+   "deadline": "2027-01-11",
+   "cpv": [
+    "34144000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/799615-2026",
    "match": [
     "vnútorná inšpekcia/kanalizácia: „Kanal TV“"
    ],
-   "project_number": "44954"
+   "notice_type": "cn-standard"
   },
   {
-   "id": "TED-794499-2026",
-   "source": "TED",
-   "country": "DE",
-   "title": "Germany – Sewer survey services – Kanalzustandsuntersuchung 2027/2028",
-   "buyer": "Technische Betriebe Rheine",
-   "published": "2026-11-16",
-   "deadline": "2026-12-23",
-   "cpv": [
-    "90491000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/794499-2026",
+   "id": "CH-349c9a4f-fd69-4860-913d-aa2ac8fc6bd0",
+   "source": "simap.ch",
+   "country": "CH",
+   "title": "Wald ZH, Kanalreinigung und Kanalinspektion 2026 - 2027",
+   "buyer": "Gemeinde Wald ZH, Abteilung Infrastruktur",
+   "published": "2026-11-17",
+   "deadline": "",
+   "cpv": [],
+   "link": "https://www.simap.ch/de/project-detail/349c9a4f-fd69-4860-913d-aa2ac8fc6bd0",
    "match": [
-    "vnútorná inšpekcia/kanalizácia: „Kanalzustand“",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+    "vnútorná inšpekcia/kanalizácia: „Kanalinspektion“"
+   ],
+   "project_number": "42206"
+  },
+  {
+   "id": "TED-799893-2026",
+   "source": "TED",
+   "country": "CZ",
+   "title": "Czechia – Targets for shooting practice – Rámcová dohoda - Polotovar pro kompletaci bezpilotního terče",
+   "buyer": "Vojenský technický ústav, s.p.",
+   "published": "2026-11-17",
+   "deadline": "2026-11-27",
+   "cpv": [
+    "34740000",
+    "35210000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/799893-2026",
+   "match": [
+    "dron: „UAV“"
    ],
    "notice_type": "cn-standard"
   },
   {
-   "id": "TED-793614-2026",
+   "id": "TED-798968-2026",
    "source": "TED",
    "country": "DE",
-   "title": "Germany – Sewer cleaning services – ET - Rahmenvertrag für Regelspülarbeiten und Kanalbefahrung",
-   "buyer": "Gemeinde Emmerthal",
-   "published": "2026-11-16",
-   "deadline": "2026-12-15",
+   "title": "Germany – Electricity distribution – Luftgestützte Durchführung von Thermografiemessungen und deren Auswertung im Leitungsnetz der Tennet TSO GmbH 2027 - 2028",
+   "buyer": "TenneT TSO GmbH",
+   "published": "2026-11-17",
+   "deadline": "2026-11-30",
    "cpv": [
-    "90470000",
-    "90491000"
+    "33111640",
+    "34710000",
+    "34711000",
+    "65310000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/793614-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/798968-2026",
    "match": [
-    "vnútorná inšpekcia/kanalizácia: „befahrung“",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+    "mapovanie: „Befliegung“"
    ],
    "notice_type": "cn-standard"
   },
   {
-   "id": "TED-793249-2026",
+   "id": "TED-799501-2026",
    "source": "TED",
    "country": "DE",
-   "title": "Germany – Sewage services – Grundjahresreinigung und Notdienst Kanal 2027",
-   "buyer": "Magistrat der Stadt Rodgau",
-   "published": "2026-11-16",
-   "deadline": "2026-12-15",
-   "cpv": [
-    "90400000",
-    "90490000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/793249-2026",
-   "match": [
-    "TED fulltext (výraz v texte oznámenia)"
-   ],
-   "notice_type": "cn-standard"
-  },
-  {
-   "id": "TED-794753-2026",
-   "source": "TED",
-   "country": "DE",
-   "title": "Germany – Geotechnical engineering services – SV-TDR-260616-003 - LiDAR-Befliegung",
-   "buyer": "SWM Infrastruktur GmbH & Co. KG",
-   "published": "2026-11-16",
+   "title": "Germany – Sewage services – TV-Inspektion, Kanalreinigung im arrondierten Stadtgebiet der Stadt Bad Neuenahr-Ahrweiler - Los 2.1",
+   "buyer": "Stadt Bad Neuenahr-Ahrweiler",
+   "published": "2026-11-17",
    "deadline": "",
    "cpv": [
-    "71332000",
-    "71353000"
+    "72316000",
+    "90400000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/794753-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/799501-2026",
    "match": [
-    "mapovanie: „LiDAR“"
+    "vnútorná inšpekcia/kanalizácia: „TV-Inspektion“"
    ],
    "notice_type": "can-standard"
   },
   {
-   "id": "TED-794310-2026",
+   "id": "TED-799241-2026",
    "source": "TED",
-   "country": "FI",
-   "title": "Finland – Photographs – Satellite Orthoimages in Finland 2027",
-   "buyer": "National Land Survey of Finland",
-   "published": "2026-11-16",
-   "deadline": "2026-12-15",
+   "country": "DE",
+   "title": "Germany – Sewage services – TV-Inspektion, Kanalreinigung im arrondierten Stadtgebiet der Stadt Bad Neuenahr-Ahrweiler - Los 1.2",
+   "buyer": "Stadt Bad Neuenahr-Ahrweiler",
+   "published": "2026-11-17",
+   "deadline": "",
    "cpv": [
-    "22315000",
-    "71250000",
-    "71350000",
-    "71354100",
-    "71354200",
-    "71355100"
+    "72316000",
+    "90400000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/794310-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/799241-2026",
    "match": [
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie"
+    "vnútorná inšpekcia/kanalizácia: „TV-Inspektion“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-797614-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewage services – TV-Inspektion, Kanalreinigung im arrondierten Stadtgebiet der Stadt Bad Neuenahr-Ahrweiler - Los 1.1",
+   "buyer": "Stadt Bad Neuenahr-Ahrweiler",
+   "published": "2026-11-17",
+   "deadline": "",
+   "cpv": [
+    "72316000",
+    "90400000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/797614-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-Inspektion“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-797357-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewage services – TV-Inspektion, Kanalreinigung im arrondierten Stadtgebiet der Stadt Bad Neuenahr-Ahrweiler - Los 2.3",
+   "buyer": "Stadt Bad Neuenahr-Ahrweiler",
+   "published": "2026-11-17",
+   "deadline": "",
+   "cpv": [
+    "72316000",
+    "90400000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/797357-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-Inspektion“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-797032-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewage services – TV-Inspektion, Kanalreinigung im arrondierten Stadtgebiet der Stadt Bad Neuenahr-Ahrweiler - Los 2.2",
+   "buyer": "Stadt Bad Neuenahr-Ahrweiler",
+   "published": "2026-11-17",
+   "deadline": "",
+   "cpv": [
+    "72316000",
+    "90400000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/797032-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-Inspektion“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-796678-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – General construction work for pipelines – Stadtwerke Barsinghausen: Neubau des Wasserwerks Eckerde - VE 2 Tief- und Rohrleitungsbau (LV05)",
+   "buyer": "Stadtwerke Barsinghausen GmbH",
+   "published": "2026-11-17",
+   "deadline": "2026-12-14",
+   "cpv": [
+    "45221200",
+    "45231100",
+    "45231300",
+    "45232150"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/796678-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-Inspektion“"
    ],
    "notice_type": "cn-standard"
   },
   {
-   "id": "TED-794448-2026",
+   "id": "TED-798789-2026",
    "source": "TED",
    "country": "NO",
-   "title": "Norway – Non-residential property renting or leasing services – 26/07573 Avinor airports: Rental of premises for business activities within Bank and Exchange services.",
+   "title": "Norway – Construction work – Oslo Airport K-193214 Cargo West Alteration OV1000 and Road Construction Contract",
    "buyer": "AVINOR AS",
-   "published": "2026-11-16",
-   "deadline": "",
+   "published": "2026-11-17",
+   "deadline": "2026-12-17",
    "cpv": [
-    "66180000",
-    "70220000"
+    "45000000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/794448-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/798789-2026",
    "match": [
     "TED fulltext (výraz v texte oznámenia)"
    ],
    "notice_type": "cn-standard"
   },
   {
-   "id": "TED-795048-2026",
+   "id": "TED-796789-2026",
    "source": "TED",
-   "country": "PL",
-   "title": "Poland – Supervision of building work – Pełnienie nadzoru nad projektowaniem i realizacją robót oraz zarządzanie Kontraktem pn.: „Zaprojektowanie i budowa obwodnicy Limanowej w ciągu drogi krajowej nr 28”",
-   "buyer": "Generalna Dyrekcja Dróg Krajowych i Autostrad",
-   "published": "2026-11-16",
+   "country": "NO",
+   "title": "Norway – Procurement consultancy services – Procurement assistance",
+   "buyer": "Moss kommune; Sarpsborg kommune; Rakkestad kommune",
+   "published": "2026-11-17",
    "deadline": "",
    "cpv": [
-    "71247000",
-    "71248000",
-    "71540000"
+    "75231000",
+    "79000000",
+    "79100000",
+    "79140000",
+    "79418000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/795048-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/796789-2026",
    "match": [
     "TED fulltext (výraz v texte oznámenia)"
    ],
    "notice_type": "can-standard"
   },
   {
-   "id": "TED-793224-2026",
+   "id": "TED-799983-2026",
    "source": "TED",
    "country": "PL",
-   "title": "Poland – Construction work – Budowa nowej zajezdni tramwajowej przy ul. Szosa Bydgoska oraz budowa nowej linii tramwajowej na odcinku od pętli Motoarena na zachód Torunia.",
-   "buyer": "Miejski Zakład Komunikacji w Toruniu spółka z ograniczoną odpowiedzialnością",
-   "published": "2026-11-16",
-   "deadline": "2026-12-17",
+   "title": "Poland – Construction management services – Pełnienie funkcji Inżyniera dla zadania pod nazwą „Zabezpieczenie nawigacyjne dla nowego toru podejściowego do Świnoujścia realizowanego w ramach inwestycji: „Przeprowadzenie prac dla umożliwienia transportu wodnego do Portu Zewnętrznego w Świnoujściu.”",
+   "buyer": "Dyrektor Urzędu Morskiego w Szczecinie",
+   "published": "2026-11-17",
+   "deadline": "2026-12-15",
    "cpv": [
-    "31174000",
-    "31213100",
-    "31213300",
-    "31682540",
-    "32323500",
-    "32412100",
-    "42961100",
-    "44613110"
+    "71244000",
+    "71247000",
+    "71248000",
+    "71311000",
+    "71311100",
+    "71317000",
+    "71520000",
+    "71540000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/793224-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/799983-2026",
    "match": [
     "TED fulltext (výraz v texte oznámenia)"
    ],
    "notice_type": "cn-standard"
   },
   {
-   "id": "TED-795189-2026",
+   "id": "TED-798439-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Construction work – „Zabezpieczenie nawigacyjne dla nowego toru podejściowego do Świnoujścia” realizowanego w ramach inwestycji pn. „Przeprowadzenie prac dla umożliwienia transportu wodnego do Portu Zewnętrznego w Świnoujściu”",
+   "buyer": "Dyrektor Urzędu Morskiego w Szczecinie",
+   "published": "2026-11-17",
+   "deadline": "2026-12-15",
+   "cpv": [
+    "45000000",
+    "45200000",
+    "45210000",
+    "45213000",
+    "45240000",
+    "45241000",
+    "45300000",
+    "45310000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/798439-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "PL-2026/BZP00542788",
+   "source": "BZP",
+   "country": "PL",
+   "title": "KOMPLEKSOWA OCHRONA UBEZPIECZENIOWA MIENIA, NASTĘPSTW NIESZCZĘŚLIWYCH WYPADKÓW I ODPOWIEDZIALNOŚCI CYWILNEJ TATRZAŃSKIEGO PARKU NARODOWEGO na okres 2027-2028",
+   "buyer": "TATRZAŃSKI PARK NARODOWY (Zakopane)",
+   "published": "2026-11-17",
+   "deadline": "2026-11-27",
+   "cpv": [
+    "66510000",
+    "66512100",
+    "66514110",
+    "66515000",
+    "66515100",
+    "66515400",
+    "66516000",
+    "66516100"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4494-d3c6-7c7e-c1c5-d50001943f37",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  },
+  {
+   "id": "TED-797870-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Architectural, construction, engineering and inspection services – 95323 Kulturmiljöanalys för Detaljplan för Tvetaberg 4:1 och Hovsjö 2:1",
+   "buyer": "Telge Inköp AB",
+   "published": "2026-11-17",
+   "deadline": "",
+   "cpv": [
+    "71000000",
+    "71200000",
+    "71300000",
+    "71310000",
+    "71311000",
+    "71311300",
+    "71313000",
+    "71313100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/797870-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „inšpekčné služb“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-800008-2026",
+   "source": "TED",
+   "country": "SI",
+   "title": "Slovenia – Laboratory, optical and precision equipments (excl. glasses) – Dobava naprav za obdobje štirih let",
+   "buyer": "PLINOVODI, Družba za upravljanje s prenosnim sistemom, d.o.o.",
+   "published": "2026-11-17",
+   "deadline": "2026-12-17",
+   "cpv": [
+    "16160000",
+    "16311000",
+    "30170000",
+    "30174000",
+    "30190000",
+    "30191000",
+    "30192800",
+    "30199760"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/800008-2026",
+   "match": [
+    "mapovanie: „LiDAR“",
+    "CPV 35613000 – bezpilotné lietadlá (UAV)",
+    "CPV 35613000 – bezpilotné lietadlá (UAV)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-799088-2026",
    "source": "TED",
    "country": "SK",
    "title": "Slovakia – Computer equipment and supplies – DNS 2/2026 „Nákup výpočtovej techniky a príslušenstva pre UKF v Nitre“",
    "buyer": "Univerzita Konštantína Filozofa v Nitre",
-   "published": "2026-11-16",
+   "published": "2026-11-17",
    "deadline": "",
    "cpv": [
     "30121100",
@@ -234,7 +399,7 @@
     "32400000",
     "48800000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/795189-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/799088-2026",
    "match": [
     "TED fulltext (výraz v texte oznámenia)"
    ],
