@@ -1,0 +1,257 @@
+{
+ "run_at": "2026-11-18T13:49:59+00:00",
+ "date": "2026-11-18",
+ "window_from": "2026-11-14",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 34,
+   "read": null,
+   "seconds": 16
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 1,
+   "read": 2196,
+   "seconds": 12
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 2,
+   "read": 3458,
+   "seconds": 105
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 2,
+   "read": 12,
+   "seconds": 285
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 76,
+   "seconds": 210
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 11,
+ "new": [
+  {
+   "id": "DE-0bd0d0bd-417e-48f8-b6b1-6a5990c7bfbd",
+   "source": "oeffentlichevergabe.de",
+   "country": "DE",
+   "title": "Drohnendetektionssystem SENID für die Polizei Sachsen",
+   "buyer": "Polizeipräsidium für Service und IT - Logistikzentrum (Markkleeberg)",
+   "published": "2026-11-17",
+   "deadline": "2026-11-30",
+   "cpv": [
+    "31000000"
+   ],
+   "link": "https://www.evergabe.sachsen.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1a1e35775d9-11d2a921621bc9c4",
+   "match": [
+    "dron: „Drohne“"
+   ],
+   "description": "Drohnendetektionssystem SENID für die Polizei Sachsen"
+  },
+  {
+   "id": "TED-801710-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Specialist vehicles – Beschaffung und Ausstattung eines Fahrzeugs zum Einsatz als Mobiler Tele-Arbeitsplatz (MoTA)",
+   "buyer": "Universitätsklinikum Aachen AöR",
+   "published": "2026-11-18",
+   "deadline": "2026-12-08",
+   "cpv": [
+    "34114000",
+    "34144200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/801710-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-801453-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewer survey services – TV-Inspektion der Kanäle der Stadtentwässerung Hamm zur Grundlagenermittlung.",
+   "buyer": "Lippeverband; Einkauf-Lippeverband",
+   "published": "2026-11-18",
+   "deadline": "2027-01-12",
+   "cpv": [
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/801453-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-Inspektion“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-801280-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewer survey services – Jahresvertrag 2027 Kanalreinigung und TV Untersuchung im Stadtgebiet",
+   "buyer": "Stadt Kempen",
+   "published": "2026-11-18",
+   "deadline": "2026-12-16",
+   "cpv": [
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/801280-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV Untersuchung“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-800678-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewage, refuse, cleaning and environmental services – Ruhr-Universität Bochum - Wartung von Regenklärbecken/Regenrückhaltebecken",
+   "buyer": "Ruhr-Universität Bochum",
+   "published": "2026-11-18",
+   "deadline": "2026-11-27",
+   "cpv": [
+    "90000000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/800678-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Kanal TV“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-800554-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Special-purpose motor vehicles – Fahrzeug für Kanalinspektion",
+   "buyer": "Zweckverband Wasserwerke Westerzgebirge",
+   "published": "2026-11-18",
+   "deadline": "2027-01-04",
+   "cpv": [
+    "34144000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/800554-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Kanalinspektion“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-803516-2026",
+   "source": "TED",
+   "country": "FI",
+   "title": "Finland – Surveillance and security systems and devices – Turvallisuustekniikka 2026–2030",
+   "buyer": "Liikenteenohjausyhtiö Fintraffic Oy",
+   "published": "2026-11-18",
+   "deadline": "2026-12-18",
+   "cpv": [
+    "31100000",
+    "31127000",
+    "31130000",
+    "31160000",
+    "31351000",
+    "31400000",
+    "31440000",
+    "31625000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/803516-2026",
+   "match": [
+    "dron: „Dron“",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 35613000 – bezpilotné lietadlá (UAV)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-800407-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Airport operation services – Avinor AS - T-193306 - Procurement - Contract - Queue and capacity management",
+   "buyer": "AVINOR AS",
+   "published": "2026-11-18",
+   "deadline": "2026-12-18",
+   "cpv": [
+    "30196000",
+    "34960000",
+    "34972000",
+    "63731000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/800407-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-803456-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Computer servers – „Dostawa serwerów komputerowych wraz z dedykowanymi kartami graficznymi dla Copernicus PL Sp. z o.o.”",
+   "buyer": "COPERNICUS PODMIOT LECZNICZY SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "published": "2026-11-18",
+   "deadline": "",
+   "cpv": [
+    "48822000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/803456-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-800706-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Agricultural machinery – Zakup maszyn i urządzeń w celu unowocześnienia bazy dydaktycznej i demonstracyjnej ZSCKR im. Adama Mickiewicza w Radymnie na potrzeby edukacji w zakresie Rolnictwa 4.0.",
+   "buyer": "ZESPÓŁ SZKÓŁ CENTRUM KSZTAŁCENIA ROLNICZEGO IM. ADAMA MICKIEWICZA W RADYMNIE",
+   "published": "2026-11-18",
+   "deadline": "",
+   "cpv": [
+    "16000000",
+    "16130000",
+    "16141000",
+    "16400000",
+    "16700000",
+    "30213100",
+    "31682210",
+    "34711200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/800706-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "PL-2026/BZP00546426",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Sukcesywne dostawy galaretek chłodzonych w 2027r. – wraz z rozładunkiem w magazynach 32 WOG w Zamościu: Zamość, Hrubieszów w zakresie 2 cz.",
+   "buyer": "32 Wojskowy Oddział Gospodarczy w Zamościu (Zamość)",
+   "published": "2026-11-18",
+   "deadline": "2026-11-26",
+   "cpv": [
+    "15833100"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4578-50f0-61ec-c1c5-d500019454d2",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  }
+ ]
+}
