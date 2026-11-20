@@ -1,0 +1,79 @@
+{
+ "run_at": "2026-11-20T13:58:15+00:00",
+ "date": "2026-11-20",
+ "window_from": "2026-11-16",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 47,
+   "read": null,
+   "seconds": 13
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 2,
+   "read": 3227,
+   "seconds": 13
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 7,
+   "read": 5603,
+   "seconds": 164
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 2,
+   "read": 13,
+   "seconds": 292
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 58,
+   "seconds": 87
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 2,
+ "new": [
+  {
+   "id": "PL-2026/BZP00550210",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Opracowanie projektu aerodynamicznego bezzałogowego celu powietrznego.",
+   "buyer": "Instytut Techniczny Wojsk Lotniczych (Warszawa)",
+   "published": "2026-11-20",
+   "deadline": "2026-12-03",
+   "cpv": [
+    "71320000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df46e1-bf5a-1c2d-7343-eb000163ace4",
+   "match": [
+    "dron: „bezzałogow“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00551990",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Zakup dronów w ramach Programu OLiOC",
+   "buyer": "Państwowe Gospodarstwo Wodne Wody Polskie (Warszawa)",
+   "published": "2026-11-20",
+   "deadline": "2026-11-30",
+   "cpv": [
+    "34711200"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df470a-960a-32b4-7343-eb000163b5a6",
+   "match": [
+    "dron: „dron“"
+   ]
+  }
+ ]
+}
