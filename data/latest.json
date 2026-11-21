@@ -1,38 +1,38 @@
 {
- "run_at": "2026-11-20T13:58:15+00:00",
- "date": "2026-11-20",
- "window_from": "2026-11-16",
+ "run_at": "2026-11-21T13:18:00+00:00",
+ "date": "2026-11-21",
+ "window_from": "2026-11-17",
  "first_run": false,
  "sources": {
   "TED": {
    "status": "ok",
-   "matches": 47,
+   "matches": 50,
    "read": null,
-   "seconds": 13
+   "seconds": 15
   },
   "DE oeffentlichevergabe.de": {
    "status": "ok",
    "matches": 2,
-   "read": 3227,
-   "seconds": 13
+   "read": 4195,
+   "seconds": 14
   },
   "PL BZP": {
    "status": "ok",
-   "matches": 7,
-   "read": 5603,
-   "seconds": 164
+   "matches": 11,
+   "read": 4672,
+   "seconds": 136
   },
   "CH simap": {
    "status": "ok",
-   "matches": 2,
-   "read": 13,
-   "seconds": 292
+   "matches": 1,
+   "read": 10,
+   "seconds": 30
   },
   "SK ÚVO vestník": {
    "status": "ok",
    "matches": 0,
    "read": 58,
-   "seconds": 87
+   "seconds": 79
   },
   "SK UVOstat": {
    "status": "vypnuté (chýba API kľúč)"
@@ -41,39 +41,322 @@
    "status": "vypnuté (chýba API kľúč)"
   }
  },
- "new_count": 2,
+ "new_count": 16,
  "new": [
   {
-   "id": "PL-2026/BZP00550210",
-   "source": "BZP",
-   "country": "PL",
-   "title": "Opracowanie projektu aerodynamicznego bezzałogowego celu powietrznego.",
-   "buyer": "Instytut Techniczny Wojsk Lotniczych (Warszawa)",
+   "id": "TED-810202-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Specialist vehicles – Beschaffung und Ausstattung eines Fahrzeugs zum Einsatz als Mobiler Tele-Arbeitsplatz (MoTA)",
+   "buyer": "Universitätsklinikum Aachen AöR",
    "published": "2026-11-20",
-   "deadline": "2026-12-03",
+   "deadline": "2026-12-08",
    "cpv": [
-    "71320000"
+    "34114000",
+    "34144200"
    ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df46e1-bf5a-1c2d-7343-eb000163ace4",
+   "link": "https://ted.europa.eu/en/notice/-/detail/810202-2026",
    "match": [
-    "dron: „bezzałogow“"
-   ]
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
   },
   {
-   "id": "PL-2026/BZP00551990",
+   "id": "TED-809256-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewer cleaning services – Stadt Bad Neuenahr-Ahrweiler - Kanalreinigung und Notdienst",
+   "buyer": "Stadt Bad Neuenahr-Ahrweiler",
+   "published": "2026-11-20",
+   "deadline": "",
+   "cpv": [
+    "90470000",
+    "90480000",
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/809256-2026",
+   "match": [
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-808855-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewer survey services – Stadt Bad Neuenahr-Ahrweiler - TV-Inspektion im Stadtgebiet Bad Neuenahr-Ahrweiler -TV-Abnahme und Kanalreinigung",
+   "buyer": "Stadt Bad Neuenahr-Ahrweiler",
+   "published": "2026-11-20",
+   "deadline": "",
+   "cpv": [
+    "71631430",
+    "90470000",
+    "90480000",
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/808855-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-Inspektion“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-808118-2026",
+   "source": "TED",
+   "country": "DK",
+   "title": "Denmark – Sewer cleaning services – Udbud af TV-inspektion og spuling på Bornholm",
+   "buyer": "BORNHOLMS SPILDEVAND A/S",
+   "published": "2026-11-20",
+   "deadline": "2026-11-25",
+   "cpv": [
+    "90470000",
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/808118-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-inspektion“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-807969-2026",
+   "source": "TED",
+   "country": "FI",
+   "title": "Finland – Unmanned aerial vehicles – Micro-UAS Procurement v2",
+   "buyer": "The Finnish Border Guard",
+   "published": "2026-11-20",
+   "deadline": "2026-12-28",
+   "cpv": [
+    "35613000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/807969-2026",
+   "match": [
+    "dron: „dron“",
+    "CPV 35613000 – bezpilotné lietadlá (UAV)",
+    "CPV 35613000 – bezpilotné lietadlá (UAV)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-808685-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Energy-management services – Avinor AS - T-193041 - Management and procurement of electricity.",
+   "buyer": "AVINOR AS",
+   "published": "2026-11-20",
+   "deadline": "2026-12-22",
+   "cpv": [
+    "09300000",
+    "09310000",
+    "71314000",
+    "71314200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/808685-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-808214-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Petroleum products, fuel, electricity and other sources of energy – Procurement of electricity for Askøy municipality",
+   "buyer": "Eos Energi AS on behalf of Askøy kommune",
+   "published": "2026-11-20",
+   "deadline": "",
+   "cpv": [
+    "09000000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/808214-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-808047-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Non-residential property renting or leasing services – 26/08404 Kristiansand Airport: Hire of area for business activities within Food and Beverages.",
+   "buyer": "AVINOR AS",
+   "published": "2026-11-20",
+   "deadline": "",
+   "cpv": [
+    "55300000",
+    "55400000",
+    "55900000",
+    "70220000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/808047-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-807579-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Consultative engineering and construction services – Avinor AS - T-193041 - Electricity management contract",
+   "buyer": "AVINOR AS",
+   "published": "2026-11-20",
+   "deadline": "",
+   "cpv": [
+    "09300000",
+    "09310000",
+    "71310000",
+    "71314000",
+    "71314200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/807579-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-807502-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Counselling services – Framework agreement for consultancy services within energy and water resource management in connection with NVE ́s international programmes.",
+   "buyer": "Norges vassdrags- og energidirektorat (NVE)",
+   "published": "2026-11-20",
+   "deadline": "",
+   "cpv": [
+    "71314000",
+    "71314200",
+    "71800000",
+    "85312320"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/807502-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-808613-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Radio, television, communication, telecommunication and related equipment – Dostawa systemu łączności, w tym radiotelefonów, akumulatorów do radiotelefonów, ładowarek stanowiskowych, megafonów, zestawów z mikrofonem kostnym oraz akumulatorów do drona w ramach realizacji Programu Ochrony Ludności i Obrony Cywilnej na lata 2025-2026",
+   "buyer": "Gmina Wrocław - Urząd Miejski Wrocławia",
+   "published": "2026-11-20",
+   "deadline": "",
+   "cpv": [
+    "31158000",
+    "31430000",
+    "32000000",
+    "32343100",
+    "32500000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/808613-2026",
+   "match": [
+    "dron: „dron“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "PL-2026/BZP00552131",
    "source": "BZP",
    "country": "PL",
-   "title": "Zakup dronów w ramach Programu OLiOC",
-   "buyer": "Państwowe Gospodarstwo Wodne Wody Polskie (Warszawa)",
+   "title": "„Zakup i dostawa zestawów BSPP w ramach projektu „PROTECT – zwiększenie kompetencji Policji państw członkowskich UE w zakresie ochrony miejsc publicznych przed zagrożeniami CBRJW\"",
+   "buyer": "Komenda Wojewódzka Policji w Rzeszowie (Rzeszów)",
    "published": "2026-11-20",
    "deadline": "2026-11-30",
    "cpv": [
     "34711200"
    ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df470a-960a-32b4-7343-eb000163b5a6",
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df470e-d133-d20a-7343-eb000163b666",
    "match": [
-    "dron: „dron“"
+    "dron v texte oznámenia: „Bezzałogow“"
    ]
+  },
+  {
+   "id": "PL-2026/BZP00552397",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Szkolenia podnoszące kompetencje zawodowe uczniów i uczennic w ramach projektu „Akademia FarmTech” nr FEWP.06.07-IZ.00-0014/25",
+   "buyer": "ZESPÓŁ SZKÓŁ CENTRUM KSZTAŁCENIA ROLNICZEGO W MARSZEWIE (Marszew)",
+   "published": "2026-11-20",
+   "deadline": "2026-11-30",
+   "cpv": [
+    "80000000",
+    "80500000",
+    "80530000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4734-d6ad-dcaa-7343-eb000163b822",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00552415",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Usługi szkoleń dla Nauczycieli i Nauczycielek w ramach projektu „Akademia FarmTech” nr FEWP.06.07-IZ.00-0014/25",
+   "buyer": "ZESPÓŁ SZKÓŁ CENTRUM KSZTAŁCENIA ROLNICZEGO W MARSZEWIE (Marszew)",
+   "published": "2026-11-20",
+   "deadline": "2026-11-30",
+   "cpv": [
+    "80000000",
+    "80500000",
+    "80530000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4741-0676-808d-7343-eb000163b844",
+   "match": [
+    "dron v texte oznámenia: „Dron“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00552425",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Dostawa POJAZDU UTV WRAZ Z WYPOSAŻENIEM",
+   "buyer": "GMINA NIEGOWA (Niegowa)",
+   "published": "2026-11-20",
+   "deadline": "2026-11-30",
+   "cpv": [
+    "18410000",
+    "34113300",
+    "34144000",
+    "34711200"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4745-ecd1-a26f-7343-eb000163b854",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  },
+  {
+   "id": "TED-808582-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Sewer cleaning services – Spolbilstjänster",
+   "buyer": "Stenungsunds kommun",
+   "published": "2026-11-20",
+   "deadline": "2026-11-25",
+   "cpv": [
+    "90470000",
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/808582-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-inspektion“",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
+   ],
+   "notice_type": "cn-standard"
   }
  ]
 }
