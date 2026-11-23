@@ -1,0 +1,225 @@
+{
+ "run_at": "2026-11-23T15:45:23+00:00",
+ "date": "2026-11-23",
+ "window_from": "2026-11-19",
+ "first_run": false,
+ "sources": {
+  "TED": {
+   "status": "ok",
+   "matches": 30,
+   "read": null,
+   "seconds": 8
+  },
+  "DE oeffentlichevergabe.de": {
+   "status": "ok",
+   "matches": 0,
+   "read": 3001,
+   "seconds": 13
+  },
+  "PL BZP": {
+   "status": "ok",
+   "matches": 12,
+   "read": 3101,
+   "seconds": 98
+  },
+  "CH simap": {
+   "status": "ok",
+   "matches": 0,
+   "read": 4,
+   "seconds": 174
+  },
+  "SK ÚVO vestník": {
+   "status": "ok",
+   "matches": 0,
+   "read": 44,
+   "seconds": 47
+  },
+  "SK UVOstat": {
+   "status": "vypnuté (chýba API kľúč)"
+  },
+  "NO Doffin": {
+   "status": "vypnuté (chýba API kľúč)"
+  }
+ },
+ "new_count": 9,
+ "new": [
+  {
+   "id": "TED-812582-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Electrical installation work – PRO-2879502764 - D4450 – LED Lighting Installation Works - DA-PRE-CPM",
+   "buyer": "European Central Bank",
+   "published": "2026-11-23",
+   "deadline": "2027-01-12",
+   "cpv": [
+    "31500000",
+    "31520000",
+    "45310000",
+    "45311000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/812582-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-813464-2026",
+   "source": "TED",
+   "country": "DK",
+   "title": "Denmark – Works for complete or part construction and civil engineering work – EU-udbud af rammeaftaler vedrørende håndværkerydelser til Middelfart Kommune",
+   "buyer": "Middelfart kommune",
+   "published": "2026-11-23",
+   "deadline": "2027-01-13",
+   "cpv": [
+    "45200000",
+    "45231300",
+    "45232400",
+    "45262500",
+    "45262520",
+    "45310000",
+    "45330000",
+    "45422000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/813464-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Tv inspektion“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-813297-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Technical building-inspection services – EFU-10974 Framework agreement for independent inspections",
+   "buyer": "Bergen kommune - Etat for utbygging",
+   "published": "2026-11-23",
+   "deadline": "",
+   "cpv": [
+    "71310000",
+    "71312000",
+    "71317100",
+    "71351220",
+    "71631300",
+    "71631400"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/813297-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-811094-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Custom software development services – Dynamic Purchasing System - System Development",
+   "buyer": "Registerenheten i Brønnøysund",
+   "published": "2026-11-23",
+   "deadline": "",
+   "cpv": [
+    "72220000",
+    "72221000",
+    "72222300",
+    "72223000",
+    "72224000",
+    "72225000",
+    "72230000",
+    "72240000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/811094-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-814221-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Medical practice services – Usługi z zakresu medycyny pracy II",
+   "buyer": "21 Baza Lotnictwa Taktycznego",
+   "published": "2026-11-23",
+   "deadline": "2026-12-22",
+   "cpv": [
+    "85121000",
+    "85121200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/814221-2026",
+   "match": [
+    "dron: „Bezzałogow“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "PL-2026/BZP00553528",
+   "source": "BZP",
+   "country": "PL",
+   "title": "ZP/46/2026 Przegląd, serwis, konserwacja hangarów typu lekkiego oraz bram MEGADOOR w kompleksie wojskowym w Mirosławcu",
+   "buyer": "21. Baza Lotnictwa Taktycznego w Świdwinie (Świdwin)",
+   "published": "2026-11-23",
+   "deadline": "2026-12-03",
+   "cpv": [
+    "45000000",
+    "45310000",
+    "50800000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df494b-0fc7-b64d-7343-eb000163c0db",
+   "match": [
+    "dron v texte oznámenia: „bezzałogow“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00553734",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Dostawa bezzałogowych statków powietrznych (BSP) klas C0, C5 i C6 wraz z osprzętem i urządzeniami pomiarowymi w ramach realizacji projektu „Nowoczesny inżynier dla branż kluczowych”",
+   "buyer": "Uniwersytet Kazimierza Wielkiego w Bydgoszczy (Bydgoszcz)",
+   "published": "2026-11-23",
+   "deadline": "2026-12-01",
+   "cpv": [
+    "34711200",
+    "66510000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4950-b52a-6fdd-7343-eb000163c200",
+   "match": [
+    "dron: „bezzałogow“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00554587",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Dostawa pojazdu specjalnego terenowego w ramach zadania pn.: „Realizacja Programu OLiOC na lata 2025-2026”",
+   "buyer": "GMINA WIELICZKA (Wieliczka)",
+   "published": "2026-11-23",
+   "deadline": "2026-12-01",
+   "cpv": [
+    "34113000",
+    "34144000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4965-011f-6459-7343-eb000163c662",
+   "match": [
+    "dron v texte oznámenia: „dron“"
+   ]
+  },
+  {
+   "id": "PL-2026/BZP00554757",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Kompleksowa usługa szkolenia specjalistycznego dla 40 funkcjonariuszy Policji z zakresu bezzałogowych statków powietrznych",
+   "buyer": "Komenda Wojewódzka Policji w Rzeszowie (Rzeszów)",
+   "published": "2026-11-23",
+   "deadline": "2026-12-01",
+   "cpv": [
+    "55110000",
+    "55300000",
+    "80510000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4968-b3f4-762c-7343-eb000163c73b",
+   "match": [
+    "dron: „bezzałogow“"
+   ]
+  }
+ ]
+}
