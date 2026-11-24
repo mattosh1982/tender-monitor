@@ -1,38 +1,38 @@
 {
- "run_at": "2026-11-23T15:45:23+00:00",
- "date": "2026-11-23",
- "window_from": "2026-11-19",
+ "run_at": "2026-11-24T15:34:04+00:00",
+ "date": "2026-11-24",
+ "window_from": "2026-11-20",
  "first_run": false,
  "sources": {
   "TED": {
    "status": "ok",
    "matches": 30,
    "read": null,
-   "seconds": 8
+   "seconds": 9
   },
   "DE oeffentlichevergabe.de": {
    "status": "ok",
    "matches": 0,
-   "read": 3001,
-   "seconds": 13
+   "read": 2175,
+   "seconds": 16
   },
   "PL BZP": {
    "status": "ok",
-   "matches": 12,
-   "read": 3101,
-   "seconds": 98
+   "matches": 11,
+   "read": 3007,
+   "seconds": 97
   },
   "CH simap": {
    "status": "ok",
    "matches": 0,
-   "read": 4,
-   "seconds": 174
+   "read": 2,
+   "seconds": 34
   },
   "SK ÚVO vestník": {
    "status": "ok",
    "matches": 0,
-   "read": 44,
-   "seconds": 47
+   "read": 89,
+   "seconds": 103
   },
   "SK UVOstat": {
    "status": "vypnuté (chýba API kľúč)"
@@ -41,185 +41,274 @@
    "status": "vypnuté (chýba API kľúč)"
   }
  },
- "new_count": 9,
+ "new_count": 14,
  "new": [
   {
-   "id": "TED-812582-2026",
+   "id": "TED-815724-2026",
+   "source": "TED",
+   "country": "CZ",
+   "title": "Czechia – Water-tender vehicles – Město Skalná – pořízení cisternové automobilové stříkačky s dronem",
+   "buyer": "Město Skalná",
+   "published": "2026-11-24",
+   "deadline": "2026-12-28",
+   "cpv": [
+    "34144212"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/815724-2026",
+   "match": [
+    "dron: „dron“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-814983-2026",
+   "source": "TED",
+   "country": "CZ",
+   "title": "Czechia – Air traffic control software development services – Digitální mapa",
+   "buyer": "Řízení letového provozu České republiky, státní podnik (ŘLP ČR, s.p.)",
+   "published": "2026-11-24",
+   "deadline": "",
+   "cpv": [
+    "48326100",
+    "72212121",
+    "72254100",
+    "72263000",
+    "72265000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/814983-2026",
+   "match": [
+    "dron: „bezpilotn“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-814639-2026",
+   "source": "TED",
+   "country": "CZ",
+   "title": "Czechia – Motorway construction works – D3 0310/I Úsilné - Hodějovice",
+   "buyer": "Ředitelství silnic a dálnic s. p.",
+   "published": "2026-11-24",
+   "deadline": "",
+   "cpv": [
+    "45233110"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/814639-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-modif"
+  },
+  {
+   "id": "TED-814414-2026",
+   "source": "TED",
+   "country": "CZ",
+   "title": "Czechia – Motorway construction works – D3 0310/I Úsilné - Hodějovice",
+   "buyer": "Ředitelství silnic a dálnic s. p.",
+   "published": "2026-11-24",
+   "deadline": "",
+   "cpv": [
+    "45233110"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/814414-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-modif"
+  },
+  {
+   "id": "TED-817449-2026",
    "source": "TED",
    "country": "DE",
-   "title": "Germany – Electrical installation work – PRO-2879502764 - D4450 – LED Lighting Installation Works - DA-PRE-CPM",
-   "buyer": "European Central Bank",
-   "published": "2026-11-23",
-   "deadline": "2027-01-12",
+   "title": "Germany – Workshop equipment – Modernisierung der Ausstattung im Bildungszentrum Rosenheim IZBN 71102 - Teil 2",
+   "buyer": "Handwerkskammer für München und Oberbayern",
+   "published": "2026-11-24",
+   "deadline": "",
    "cpv": [
-    "31500000",
-    "31520000",
-    "45310000",
-    "45311000"
+    "43800000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/812582-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/817449-2026",
    "match": [
-    "TED fulltext (výraz v texte oznámenia)"
+    "dron: „Drohne“"
    ],
-   "notice_type": "cn-standard"
+   "notice_type": "can-standard"
   },
   {
-   "id": "TED-813464-2026",
+   "id": "TED-817018-2026",
    "source": "TED",
    "country": "DK",
-   "title": "Denmark – Works for complete or part construction and civil engineering work – EU-udbud af rammeaftaler vedrørende håndværkerydelser til Middelfart Kommune",
-   "buyer": "Middelfart kommune",
-   "published": "2026-11-23",
-   "deadline": "2027-01-13",
-   "cpv": [
-    "45200000",
-    "45231300",
-    "45232400",
-    "45262500",
-    "45262520",
-    "45310000",
-    "45330000",
-    "45422000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/813464-2026",
-   "match": [
-    "vnútorná inšpekcia/kanalizácia: „Tv inspektion“"
-   ],
-   "notice_type": "cn-standard"
-  },
-  {
-   "id": "TED-813297-2026",
-   "source": "TED",
-   "country": "NO",
-   "title": "Norway – Technical building-inspection services – EFU-10974 Framework agreement for independent inspections",
-   "buyer": "Bergen kommune - Etat for utbygging",
-   "published": "2026-11-23",
+   "title": "Denmark – Sewer cleaning services – Levering af slamsugning, Spuling, drift af pumpestationer og TV-inspektion til Ringsted Spildevand og Ringsted Centralrenseanlæg",
+   "buyer": "RINGSTED SPILDEVAND A/S; RINGSTED CENTRALRENSEANLÆG A/S",
+   "published": "2026-11-24",
    "deadline": "",
    "cpv": [
-    "71310000",
-    "71312000",
-    "71317100",
-    "71351220",
-    "71631300",
-    "71631400"
+    "90470000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/813297-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/817018-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-inspektion“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-815657-2026",
+   "source": "TED",
+   "country": "NO",
+   "title": "Norway – Education and training services – Courses in fire protection and first aid RA",
+   "buyer": "NTNU",
+   "published": "2026-11-24",
+   "deadline": "",
+   "cpv": [
+    "80000000",
+    "80400000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/815657-2026",
    "match": [
     "TED fulltext (výraz v texte oznámenia)"
    ],
    "notice_type": "can-standard"
   },
   {
-   "id": "TED-811094-2026",
+   "id": "TED-814333-2026",
    "source": "TED",
    "country": "NO",
-   "title": "Norway – Custom software development services – Dynamic Purchasing System - System Development",
-   "buyer": "Registerenheten i Brønnøysund",
-   "published": "2026-11-23",
+   "title": "Norway – Underwater exploration services – New Tender for Riverbed Mapping 2026",
+   "buyer": "Norges vassdrags- og energidirektorat (NVE)",
+   "published": "2026-11-24",
    "deadline": "",
-   "cpv": [
-    "72220000",
-    "72221000",
-    "72222300",
-    "72223000",
-    "72224000",
-    "72225000",
-    "72230000",
-    "72240000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/811094-2026",
-   "match": [
-    "TED fulltext (výraz v texte oznámenia)"
-   ],
-   "notice_type": "can-standard"
-  },
-  {
-   "id": "TED-814221-2026",
-   "source": "TED",
-   "country": "PL",
-   "title": "Poland – Medical practice services – Usługi z zakresu medycyny pracy II",
-   "buyer": "21 Baza Lotnictwa Taktycznego",
-   "published": "2026-11-23",
-   "deadline": "2026-12-22",
-   "cpv": [
-    "85121000",
-    "85121200"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/814221-2026",
-   "match": [
-    "dron: „Bezzałogow“"
-   ],
-   "notice_type": "cn-standard"
-  },
-  {
-   "id": "PL-2026/BZP00553528",
-   "source": "BZP",
-   "country": "PL",
-   "title": "ZP/46/2026 Przegląd, serwis, konserwacja hangarów typu lekkiego oraz bram MEGADOOR w kompleksie wojskowym w Mirosławcu",
-   "buyer": "21. Baza Lotnictwa Taktycznego w Świdwinie (Świdwin)",
-   "published": "2026-11-23",
-   "deadline": "2026-12-03",
    "cpv": [
     "45000000",
-    "45310000",
-    "50800000"
+    "71000000",
+    "71351200",
+    "71351900",
+    "71351924",
+    "71353100",
+    "71354400"
    ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df494b-0fc7-b64d-7343-eb000163c0db",
+   "link": "https://ted.europa.eu/en/notice/-/detail/814333-2026",
    "match": [
-    "dron v texte oznámenia: „bezzałogow“"
-   ]
+    "mapovanie: „Lidar“"
+   ],
+   "notice_type": "can-standard"
   },
   {
-   "id": "PL-2026/BZP00553734",
+   "id": "PL-2026/BZP00555136",
    "source": "BZP",
    "country": "PL",
-   "title": "Dostawa bezzałogowych statków powietrznych (BSP) klas C0, C5 i C6 wraz z osprzętem i urządzeniami pomiarowymi w ramach realizacji projektu „Nowoczesny inżynier dla branż kluczowych”",
-   "buyer": "Uniwersytet Kazimierza Wielkiego w Bydgoszczy (Bydgoszcz)",
+   "title": "Sukcesywna dostawa warzyw i owoców dla Bursy Szkolnictwa Ponadpodstawowego nr 1 w Krakowie w 2027 roku",
+   "buyer": "Bursa Szkolnictwa Ponadpodstawowego Nr 1 (Kraków)",
    "published": "2026-11-23",
    "deadline": "2026-12-01",
    "cpv": [
-    "34711200",
+    "03200000",
+    "15000000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df49a6-b5cd-5a5f-9ef4-5c0001e7cf08",
+   "match": [
+    "dron v texte oznámenia: „BSP“"
+   ]
+  },
+  {
+   "id": "TED-816514-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Harbour construction works – Zaprojektowanie i wykonanie robót budowlanych dotyczących inwestycji pn. „Przylądek Pomerania - Budowa Portu Zewnętrznego w Świnoujściu.\"",
+   "buyer": "Dyrektor Urzędu Morskiego w Szczecinie; Zarząd Morskich Portów Szczecin i Świnoujście Spółka Akcyjna",
+   "published": "2026-11-24",
+   "deadline": "2026-12-15",
+   "cpv": [
+    "45241000",
+    "45241500",
+    "45243200",
+    "45244000",
+    "45247100",
+    "71320000",
+    "71322000",
+    "71332000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/816514-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-816018-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Firefighting, rescue and safety equipment – Dostawa wyposażenia ratowniczo – gaśniczego dla Ochotniczej Straży Pożarnej Tomaszów Mazowiecki – Białobrzegi oraz Ochotniczej Straży Pożarnej Tomaszów Mazowiecki - Ludwików.Zamówienie podzielono na 2 odrębne części. 1) część 1: dostawa wyposażenia samochodów strażackich, 2) część 2: dostawa agregatu prądotwórczego na przyczepie.",
+   "buyer": "GMINA MIASTO TOMASZÓW MAZOWIECKI",
+   "published": "2026-11-24",
+   "deadline": "",
+   "cpv": [
+    "31122000",
+    "35110000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/816018-2026",
+   "match": [
+    "dron: „Dron“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-815785-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Construction work for waterways – Zaprojektowanie i wykonanie robót budowlanych dotyczących inwestycji pn. „Poszerzenie odcinka toru wodnego na podejściu do portu morskiego w Świnoujściu”",
+   "buyer": "Dyrektor Urzędu Morskiego w Szczecinie",
+   "published": "2026-11-24",
+   "deadline": "2026-12-21",
+   "cpv": [
+    "45247100",
+    "71322000",
+    "71351700",
+    "90523100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/815785-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-815205-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Construction management services – Pełnienie funkcji Inżyniera Kontraktu dotyczącej inwestycji pn. „Poszerzenie odcinka toru wodnego na podejściu do portu morskiego w Świnoujściu”",
+   "buyer": "Dyrektor Urzędu Morskiego w Szczecinie",
+   "published": "2026-11-24",
+   "deadline": "2026-12-22",
+   "cpv": [
+    "71244000",
+    "71247000",
+    "71248000",
+    "71311000",
+    "71311100",
+    "71317000",
+    "71520000",
+    "71540000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/815205-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-815106-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Insurance services – Ubezpieczenie odpowiedzialności cywilnej, mienia, rzeczy osobistych, następstw nieszczęśliwych wypadków i kosztów leczenia, pojazdów mechanicznych oraz jednostek pływających z dodatkowym wyposażeniem, dronów w okresie od 01.01.2027 r. do 31.12.2028 r.",
+   "buyer": "Dyrektor Urzędu Morskiego w Szczecinie",
+   "published": "2026-11-24",
+   "deadline": "2026-11-30",
+   "cpv": [
     "66510000"
    ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4950-b52a-6fdd-7343-eb000163c200",
+   "link": "https://ted.europa.eu/en/notice/-/detail/815106-2026",
    "match": [
-    "dron: „bezzałogow“"
-   ]
-  },
-  {
-   "id": "PL-2026/BZP00554587",
-   "source": "BZP",
-   "country": "PL",
-   "title": "Dostawa pojazdu specjalnego terenowego w ramach zadania pn.: „Realizacja Programu OLiOC na lata 2025-2026”",
-   "buyer": "GMINA WIELICZKA (Wieliczka)",
-   "published": "2026-11-23",
-   "deadline": "2026-12-01",
-   "cpv": [
-    "34113000",
-    "34144000"
+    "dron: „dron“"
    ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4965-011f-6459-7343-eb000163c662",
-   "match": [
-    "dron v texte oznámenia: „dron“"
-   ]
-  },
-  {
-   "id": "PL-2026/BZP00554757",
-   "source": "BZP",
-   "country": "PL",
-   "title": "Kompleksowa usługa szkolenia specjalistycznego dla 40 funkcjonariuszy Policji z zakresu bezzałogowych statków powietrznych",
-   "buyer": "Komenda Wojewódzka Policji w Rzeszowie (Rzeszów)",
-   "published": "2026-11-23",
-   "deadline": "2026-12-01",
-   "cpv": [
-    "55110000",
-    "55300000",
-    "80510000"
-   ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4968-b3f4-762c-7343-eb000163c73b",
-   "match": [
-    "dron: „bezzałogow“"
-   ]
+   "notice_type": "cn-standard"
   }
  ]
 }
