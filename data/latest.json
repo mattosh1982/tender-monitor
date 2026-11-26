@@ -1,38 +1,38 @@
 {
- "run_at": "2026-11-25T15:19:53+00:00",
- "date": "2026-11-25",
- "window_from": "2026-11-21",
+ "run_at": "2026-11-26T14:52:14+00:00",
+ "date": "2026-11-26",
+ "window_from": "2026-11-22",
  "first_run": false,
  "sources": {
   "TED": {
    "status": "ok",
-   "matches": 26,
+   "matches": 37,
    "read": null,
-   "seconds": 7
+   "seconds": 15
   },
   "DE oeffentlichevergabe.de": {
    "status": "ok",
    "matches": 0,
-   "read": 2052,
-   "seconds": 12
+   "read": 2621,
+   "seconds": 16
   },
   "PL BZP": {
    "status": "ok",
    "matches": 7,
-   "read": 3664,
-   "seconds": 100
+   "read": 4916,
+   "seconds": 143
   },
   "CH simap": {
    "status": "ok",
-   "matches": 1,
-   "read": 5,
-   "seconds": 30
+   "matches": 2,
+   "read": 10,
+   "seconds": 341
   },
   "SK ÚVO vestník": {
    "status": "ok",
    "matches": 0,
-   "read": 65,
-   "seconds": 37
+   "read": 58,
+   "seconds": 62
   },
   "SK UVOstat": {
    "status": "vypnuté (chýba API kľúč)"
@@ -41,184 +41,230 @@
    "status": "vypnuté (chýba API kľúč)"
   }
  },
- "new_count": 10,
+ "new_count": 12,
  "new": [
   {
-   "id": "TED-817574-2026",
+   "id": "TED-823474-2026",
    "source": "TED",
-   "country": "AT",
-   "title": "Austria – Photogrammetry services – Luftbildbefliegung Wien Nadir/Oblique 2027",
-   "buyer": "Magistrat der Stadt Wien - Magistratsabteilung 41",
-   "published": "2026-11-25",
-   "deadline": "2026-12-09",
+   "country": "CH",
+   "title": "Switzerland – Aerial and related services – Drohnen",
+   "buyer": "Kantonspolizei Zürich",
+   "published": "2026-11-26",
+   "deadline": "2026-12-18",
    "cpv": [
-    "71355100"
+    "34711200",
+    "50211000",
+    "60440000",
+    "80412000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/817574-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/823474-2026",
    "match": [
-    "mapovanie: „Photogramm“"
+    "dron: „Drohne“"
    ],
    "notice_type": "cn-standard"
   },
   {
-   "id": "TED-818294-2026",
-   "source": "TED",
-   "country": "CZ",
-   "title": "Czechia – Targets for shooting practice – Rámcová dohoda - Polotovar pro kompletaci bezpilotního terče",
-   "buyer": "Vojenský technický ústav, s.p.",
-   "published": "2026-11-25",
-   "deadline": "2026-12-07",
-   "cpv": [
-    "34740000",
-    "35210000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/818294-2026",
+   "id": "CH-c33525d6-482a-4b12-9179-491b7a5d223b",
+   "source": "simap.ch",
+   "country": "CH",
+   "title": "MP-090070 EP VZ Wiggertal – Aarau Ost, Kanal-TV Aufnahmen",
+   "buyer": "Bundesamt für Strassen ASTRA -Abteilung Strasseninfrastruktur-Ost - F3 Zofingen",
+   "published": "2026-11-26",
+   "deadline": "",
+   "cpv": [],
+   "link": "https://www.simap.ch/de/project-detail/c33525d6-482a-4b12-9179-491b7a5d223b",
    "match": [
-    "dron: „UAV“"
+    "vnútorná inšpekcia/kanalizácia: „Kanal-TV“"
    ],
-   "notice_type": "cn-standard"
+   "project_number": "43152"
   },
   {
-   "id": "TED-819074-2026",
+   "id": "TED-824037-2026",
    "source": "TED",
    "country": "DE",
-   "title": "Germany – Surveying services – Rahmenvereinbarung Vermessungsleistungen Planungsphase",
-   "buyer": "Creos Deutschland GmbH",
-   "published": "2026-11-25",
-   "deadline": "2027-01-11",
+   "title": "Germany – Translation services – PROVISION OF LEGAL TRANSLATION AND OTHER RELATED ACTIVITIES IN SEVERAL EU OFFICIAL LANGUAGES (BG, FR, HR, HU, PL, RO, SL)",
+   "buyer": "European Central Bank",
+   "published": "2026-11-26",
+   "deadline": "2027-01-13",
    "cpv": [
-    "71355000"
+    "79530000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/819074-2026",
-   "match": [
-    "mapovanie: „LIDAR“"
-   ],
-   "notice_type": "cn-standard"
-  },
-  {
-   "id": "TED-820151-2026",
-   "source": "TED",
-   "country": "PL",
-   "title": "Poland – Generator units – Dostawa agregatów prądotwórczych w ramach projektu grantowego pn. „Development and maintenance of rescEU shelter capacities in Poland”, z podziałem na czternaście Części",
-   "buyer": "Rządowa Agencja Rezerw Strategicznych",
-   "published": "2026-11-25",
-   "deadline": "2026-12-10",
-   "cpv": [
-    "31122000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/820151-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/824037-2026",
    "match": [
     "TED fulltext (výraz v texte oznámenia)"
    ],
    "notice_type": "cn-standard"
   },
   {
-   "id": "TED-818647-2026",
+   "id": "TED-823374-2026",
    "source": "TED",
-   "country": "PL",
-   "title": "Poland – Surveillance and security systems and devices – Instalacja Systemów Detekcji Zagrożeń oraz Systemów Detekcji i Neutralizacji BSP na obiektach KSE.",
-   "buyer": "Polskie Sieci Elektroenergetyczne Spółka Akcyjna",
-   "published": "2026-11-25",
-   "deadline": "2027-01-04",
+   "country": "DE",
+   "title": "Germany – Aircraft or spacecraft equipment, trainers, simulators and associated parts – 1907-CK-Simulator FPV Drohnenausbildung",
+   "buyer": "BWI GmbH",
+   "published": "2026-11-26",
+   "deadline": "",
    "cpv": [
-    "34900000",
-    "35000000",
-    "35120000"
+    "34740000",
+    "34741400"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/818647-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/823374-2026",
    "match": [
-    "dron: „BSP“"
+    "dron: „Drohne“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-823201-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewer cleaning services – Reinigung und bauliche Zustandserfassung Kanäle, Leitungen und Schächte",
+   "buyer": "Stadt Bad Rappenau",
+   "published": "2026-11-26",
+   "deadline": "2027-01-25",
+   "cpv": [
+    "90470000",
+    "90491000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/823201-2026",
+   "match": [
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
+    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
    ],
    "notice_type": "cn-standard"
   },
   {
-   "id": "TED-817906-2026",
+   "id": "TED-822163-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Sewage services – Ex-Post: Vergabe von Dienstleistungen zur Betriebsführung des Abwassernetzes der Samtgemeinde Ilmenau",
+   "buyer": "Abwassergesellschaft Ilmenau mbH",
+   "published": "2026-11-26",
+   "deadline": "",
+   "cpv": [
+    "45232400",
+    "90400000",
+    "90713100"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/822163-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „Kanalinspektion“"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-820640-2026",
+   "source": "TED",
+   "country": "DE",
+   "title": "Germany – Aerial mapping services – 23251-2026-ALS 2027 - Vergabebekanntmachung",
+   "buyer": "Landesamt für Geoinformation und Landesvermessung Niedersachsen (LGLN) - Landesvermessung und Geobasisinformation - Landesbetrieb -",
+   "published": "2026-11-26",
+   "deadline": "",
+   "cpv": [
+    "71354200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/820640-2026",
+   "match": [
+    "mapovanie: „fotogram“",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie",
+    "CPV 71354200 – letecké mapovanie"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-822849-2026",
+   "source": "TED",
+   "country": "FI",
+   "title": "Finland – Research and experimental development services – Exceptional negotiated procedure relative to the increase of FWC ECHA/2024/OP/0004 LOT2 ceiling - Ecotoxicology, environmental fate and environmental exposure assessment",
+   "buyer": "European Chemicals Agency",
+   "published": "2026-11-26",
+   "deadline": "",
+   "cpv": [
+    "73100000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/822849-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-modif"
+  },
+  {
+   "id": "TED-824403-2026",
    "source": "TED",
    "country": "PL",
-   "title": "Poland – Insurance services – Kompleksowe ubezpieczenie majątku i odpowiedzialności cywilnej Gminy Tarnowskie Góry",
-   "buyer": "Gmina Tarnowskie Góry",
-   "published": "2026-11-25",
-   "deadline": "2026-12-30",
+   "title": "Poland – Construction supervision services – „Świadczenie usługi nadzoru inwestorskiego przy realizacji przedsięwzięcia pn. Działania inwestycyjne w zakresie budowy infrastruktury Klastra Energii Energia Południa”",
+   "buyer": "GMINA GNOJNIK; Gmina Borzęcin; Gmina Czchów; Gmina Dębno; Gmina Iwkowa; Gmina Szczurowa",
+   "published": "2026-11-26",
+   "deadline": "2026-12-29",
    "cpv": [
-    "66510000"
+    "71247000",
+    "71310000",
+    "71520000",
+    "71631300",
+    "72220000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/817906-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/824403-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-822827-2026",
+   "source": "TED",
+   "country": "PL",
+   "title": "Poland – Insurance services – Kompleksowe ubezpieczenie Gminy Miasta Gdyni oraz jednostek organizacyjnych i pomocniczych na lata 2027-2030",
+   "buyer": "Gmina Miasta Gdyni",
+   "published": "2026-11-26",
+   "deadline": "2026-12-28",
+   "cpv": [
+    "66510000",
+    "66512100",
+    "66512200",
+    "66514110",
+    "66515000",
+    "66515200",
+    "66516100",
+    "66516200"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/822827-2026",
    "match": [
     "dron: „dron“"
    ],
    "notice_type": "cn-standard"
   },
   {
-   "id": "PL-2026/BZP00559304",
-   "source": "BZP",
-   "country": "PL",
-   "title": "WYKONANIE POMIARÓW STĘŻEŃ WYBRANYCH ZANIECZYSZCZEŃ Z WYKORZYSTANIEM BEZZAŁOGOWYCH STATKÓW POWIETRZNYCH",
-   "buyer": "Instytut Technologii Paliw i Energii (Zabrze)",
-   "published": "2026-11-25",
-   "deadline": "2026-12-03",
-   "cpv": [
-    "90731400"
-   ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4ae7-fbbc-ff42-9ef4-5c0001e7ea77",
-   "match": [
-    "dron: „BEZZAŁOGOW“"
-   ]
-  },
-  {
-   "id": "PL-2026/BZP00560364",
-   "source": "BZP",
-   "country": "PL",
-   "title": "Dostawa zestawu do fotogrametrii 3D na potrzeby Wojewódzkiego Biura Geodezji i Urządzania Terenów Rolnych w Lublinie",
-   "buyer": "WOJEWÓDZKIE BIURO GEODEZJI I URZĄDZANIA TERENÓW ROLNYCH W LUBLINIE (Lublin)",
-   "published": "2026-11-25",
-   "deadline": "2026-12-03",
-   "cpv": [
-    "30124500",
-    "38520000",
-    "38651000",
-    "48000000"
-   ],
-   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4b00-7bab-94d0-9ef4-5c0001e7efef",
-   "match": [
-    "mapovanie: „fotogram“"
-   ]
-  },
-  {
-   "id": "TED-818528-2026",
+   "id": "TED-824443-2026",
    "source": "TED",
-   "country": "SK",
-   "title": "Slovakia – Non-piloted aircraft – SOŠ lesnícka BŠ - Centrum excelentnosti - Geonavigačné systémy",
-   "buyer": "Stredná odborná škola lesnícka, Akademická 16, Banská Štiavnica",
-   "published": "2026-11-25",
+   "country": "SE",
+   "title": "Sweden – Unmanned underwater vehicles – Utökad anskaffning AUV MCM Bärbar",
+   "buyer": "FMV",
+   "published": "2026-11-26",
    "deadline": "",
    "cpv": [
-    "34711200",
-    "38112100"
+    "35512400"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/818528-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/824443-2026",
    "match": [
     "dron: „Bezzałogow“"
    ],
    "notice_type": "can-standard"
   },
   {
-   "id": "TED-817668-2026",
+   "id": "TED-821001-2026",
    "source": "TED",
-   "country": "SK",
-   "title": "Slovakia – Computer equipment and supplies – DNS 2/2026 „Nákup výpočtovej techniky a príslušenstva pre UKF v Nitre“",
-   "buyer": "Univerzita Konštantína Filozofa v Nitre",
-   "published": "2026-11-25",
+   "country": "SE",
+   "title": "Sweden – Medical consumables – Provtagningsmaterial",
+   "buyer": "Region Skåne, Koncernstab inköp och ekonomistyrning",
+   "published": "2026-11-26",
    "deadline": "",
    "cpv": [
-    "30121100",
-    "30200000",
-    "31640000",
-    "32200000",
-    "32250000",
-    "32400000",
-    "48800000"
+    "33140000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/817668-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/821001-2026",
    "match": [
     "TED fulltext (výraz v texte oznámenia)"
    ],
