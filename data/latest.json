@@ -1,38 +1,38 @@
 {
- "run_at": "2026-11-26T14:52:14+00:00",
- "date": "2026-11-26",
- "window_from": "2026-11-22",
+ "run_at": "2026-11-27T14:49:55+00:00",
+ "date": "2026-11-27",
+ "window_from": "2026-11-23",
  "first_run": false,
  "sources": {
   "TED": {
    "status": "ok",
-   "matches": 37,
+   "matches": 45,
    "read": null,
-   "seconds": 15
+   "seconds": 18
   },
   "DE oeffentlichevergabe.de": {
    "status": "ok",
-   "matches": 0,
-   "read": 2621,
+   "matches": 1,
+   "read": 3202,
    "seconds": 16
   },
   "PL BZP": {
    "status": "ok",
-   "matches": 7,
-   "read": 4916,
-   "seconds": 143
+   "matches": 8,
+   "read": 5613,
+   "seconds": 172
   },
   "CH simap": {
    "status": "ok",
    "matches": 2,
-   "read": 10,
-   "seconds": 341
+   "read": 12,
+   "seconds": 279
   },
   "SK ÚVO vestník": {
    "status": "ok",
    "matches": 0,
-   "read": 58,
-   "seconds": 62
+   "read": 92,
+   "seconds": 93
   },
   "SK UVOstat": {
    "status": "vypnuté (chýba API kľúč)"
@@ -41,230 +41,201 @@
    "status": "vypnuté (chýba API kľúč)"
   }
  },
- "new_count": 12,
+ "new_count": 10,
  "new": [
   {
-   "id": "TED-823474-2026",
-   "source": "TED",
-   "country": "CH",
-   "title": "Switzerland – Aerial and related services – Drohnen",
-   "buyer": "Kantonspolizei Zürich",
-   "published": "2026-11-26",
-   "deadline": "2026-12-18",
-   "cpv": [
-    "34711200",
-    "50211000",
-    "60440000",
-    "80412000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/823474-2026",
-   "match": [
-    "dron: „Drohne“"
-   ],
-   "notice_type": "cn-standard"
-  },
-  {
-   "id": "CH-c33525d6-482a-4b12-9179-491b7a5d223b",
-   "source": "simap.ch",
-   "country": "CH",
-   "title": "MP-090070 EP VZ Wiggertal – Aarau Ost, Kanal-TV Aufnahmen",
-   "buyer": "Bundesamt für Strassen ASTRA -Abteilung Strasseninfrastruktur-Ost - F3 Zofingen",
-   "published": "2026-11-26",
-   "deadline": "",
-   "cpv": [],
-   "link": "https://www.simap.ch/de/project-detail/c33525d6-482a-4b12-9179-491b7a5d223b",
-   "match": [
-    "vnútorná inšpekcia/kanalizácia: „Kanal-TV“"
-   ],
-   "project_number": "43152"
-  },
-  {
-   "id": "TED-824037-2026",
-   "source": "TED",
+   "id": "DE-438d42cf-a802-4ef8-b755-b1731f418382",
+   "source": "oeffentlichevergabe.de",
    "country": "DE",
-   "title": "Germany – Translation services – PROVISION OF LEGAL TRANSLATION AND OTHER RELATED ACTIVITIES IN SEVERAL EU OFFICIAL LANGUAGES (BG, FR, HR, HU, PL, RO, SL)",
-   "buyer": "European Central Bank",
+   "title": "Digitalisierung der Juristischen Dokumentation in Fachgebiet S2",
+   "buyer": "(Regensburg)",
    "published": "2026-11-26",
-   "deadline": "2027-01-13",
+   "deadline": "2027-01-19",
    "cpv": [
-    "79530000"
+    "79999100"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/824037-2026",
+   "link": "https://www.evergabe-online.de/tenderdetails.html?id=910035",
    "match": [
-    "TED fulltext (výraz v texte oznámenia)"
+    "dron: „Bsp“"
    ],
-   "notice_type": "cn-standard"
+   "description": "Das Wasserstraßen- und Schifffahrtsamt Donau MDK unterhält die Bundeswasserstraßen Donau und Main-Donau-Kanal. Im Rahmen der Digitalisierung ist es erforderlich Dokumente und Papier-Pläne zu Scannen, zu benennen nach Angaben des Auftraggebers (AG) und zu archivieren. Die übergebenen Papierunterlagen sind nach dem Scannen oder Kopieren wieder vollständig und im Ursprungszustand (z.B. geheftet) binnen einer Woche wieder zurückzugeben. Bereitgestellt Papierunterlagen wie bspw. Pläne in allen Größen, sowie Übergröße und Textdokumente sind als Standard PDF-Format oder PDF/A1-Format (ISO 19005-1:200"
   },
   {
-   "id": "TED-823374-2026",
-   "source": "TED",
-   "country": "DE",
-   "title": "Germany – Aircraft or spacecraft equipment, trainers, simulators and associated parts – 1907-CK-Simulator FPV Drohnenausbildung",
-   "buyer": "BWI GmbH",
-   "published": "2026-11-26",
-   "deadline": "",
-   "cpv": [
-    "34740000",
-    "34741400"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/823374-2026",
-   "match": [
-    "dron: „Drohne“"
-   ],
-   "notice_type": "can-standard"
-  },
-  {
-   "id": "TED-823201-2026",
-   "source": "TED",
-   "country": "DE",
-   "title": "Germany – Sewer cleaning services – Reinigung und bauliche Zustandserfassung Kanäle, Leitungen und Schächte",
-   "buyer": "Stadt Bad Rappenau",
-   "published": "2026-11-26",
-   "deadline": "2027-01-25",
-   "cpv": [
-    "90470000",
-    "90491000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/823201-2026",
-   "match": [
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)",
-    "CPV 90491000 – kontrola kanalizácie (sewer inspection)"
-   ],
-   "notice_type": "cn-standard"
-  },
-  {
-   "id": "TED-822163-2026",
-   "source": "TED",
-   "country": "DE",
-   "title": "Germany – Sewage services – Ex-Post: Vergabe von Dienstleistungen zur Betriebsführung des Abwassernetzes der Samtgemeinde Ilmenau",
-   "buyer": "Abwassergesellschaft Ilmenau mbH",
-   "published": "2026-11-26",
-   "deadline": "",
-   "cpv": [
-    "45232400",
-    "90400000",
-    "90713100"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/822163-2026",
-   "match": [
-    "vnútorná inšpekcia/kanalizácia: „Kanalinspektion“"
-   ],
-   "notice_type": "can-standard"
-  },
-  {
-   "id": "TED-820640-2026",
-   "source": "TED",
-   "country": "DE",
-   "title": "Germany – Aerial mapping services – 23251-2026-ALS 2027 - Vergabebekanntmachung",
-   "buyer": "Landesamt für Geoinformation und Landesvermessung Niedersachsen (LGLN) - Landesvermessung und Geobasisinformation - Landesbetrieb -",
-   "published": "2026-11-26",
-   "deadline": "",
-   "cpv": [
-    "71354200"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/820640-2026",
-   "match": [
-    "mapovanie: „fotogram“",
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie",
-    "CPV 71354200 – letecké mapovanie"
-   ],
-   "notice_type": "can-standard"
-  },
-  {
-   "id": "TED-822849-2026",
-   "source": "TED",
-   "country": "FI",
-   "title": "Finland – Research and experimental development services – Exceptional negotiated procedure relative to the increase of FWC ECHA/2024/OP/0004 LOT2 ceiling - Ecotoxicology, environmental fate and environmental exposure assessment",
-   "buyer": "European Chemicals Agency",
-   "published": "2026-11-26",
-   "deadline": "",
-   "cpv": [
-    "73100000"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/822849-2026",
-   "match": [
-    "TED fulltext (výraz v texte oznámenia)"
-   ],
-   "notice_type": "can-modif"
-  },
-  {
-   "id": "TED-824403-2026",
+   "id": "TED-827076-2026",
    "source": "TED",
    "country": "PL",
-   "title": "Poland – Construction supervision services – „Świadczenie usługi nadzoru inwestorskiego przy realizacji przedsięwzięcia pn. Działania inwestycyjne w zakresie budowy infrastruktury Klastra Energii Energia Południa”",
-   "buyer": "GMINA GNOJNIK; Gmina Borzęcin; Gmina Czchów; Gmina Dębno; Gmina Iwkowa; Gmina Szczurowa",
-   "published": "2026-11-26",
-   "deadline": "2026-12-29",
+   "title": "Poland – Police cars – Zakup i dostawa 1 szt. Mobilnej platformy do transportowania bieżącej, niejawnej eksploatacji bezzałogowych statków powietrznych policji (BSPP) w terenie zurbanizowanym oraz leśnym wraz z zabudową wraz ze szkoleniem kursu operatora BSP kończącym się certyfikatem NTS6 na potrzeby KWP w Gorzowie Wlkp. w Policyjnej wersji nieoznakowanej dla projektu pn.Zakup sprzętu operacyjneg",
+   "buyer": "Komenda Wojewódzka Policji w Gorzowie Wlkp.",
+   "published": "2026-11-27",
+   "deadline": "",
    "cpv": [
-    "71247000",
-    "71310000",
-    "71520000",
-    "71631300",
-    "72220000"
+    "34114200"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/824403-2026",
-   "match": [
-    "TED fulltext (výraz v texte oznámenia)"
-   ],
-   "notice_type": "cn-standard"
-  },
-  {
-   "id": "TED-822827-2026",
-   "source": "TED",
-   "country": "PL",
-   "title": "Poland – Insurance services – Kompleksowe ubezpieczenie Gminy Miasta Gdyni oraz jednostek organizacyjnych i pomocniczych na lata 2027-2030",
-   "buyer": "Gmina Miasta Gdyni",
-   "published": "2026-11-26",
-   "deadline": "2026-12-28",
-   "cpv": [
-    "66510000",
-    "66512100",
-    "66512200",
-    "66514110",
-    "66515000",
-    "66515200",
-    "66516100",
-    "66516200"
-   ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/822827-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/827076-2026",
    "match": [
     "dron: „dron“"
    ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "PL-2026/BZP00565107",
+   "source": "BZP",
+   "country": "PL",
+   "title": "Organizacja i przeprowadzenie szkoleń z zakresu wykorzystania dronów w turystyce dla studentów UKW w ramach realizacji projektu „Kierunki drogi dla gospodarki”",
+   "buyer": "Uniwersytet Kazimierza Wielkiego w Bydgoszczy (Bydgoszcz)",
+   "published": "2026-11-27",
+   "deadline": "2026-12-07",
+   "cpv": [
+    "80500000"
+   ],
+   "link": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df4c81-67a2-3b89-9ef4-5c0001e80e5c",
+   "match": [
+    "dron: „dron“"
+   ]
+  },
+  {
+   "id": "TED-825536-2026",
+   "source": "TED",
+   "country": "SE",
+   "title": "Sweden – Sewage, refuse, cleaning and environmental services – Spoltjänster Härjedalens kommun",
+   "buyer": "Vatten och Miljöresurs Mitt AB",
+   "published": "2026-11-27",
+   "deadline": "2027-01-15",
+   "cpv": [
+    "90000000",
+    "90470000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/825536-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „TV-inspektion“"
+   ],
    "notice_type": "cn-standard"
   },
   {
-   "id": "TED-824443-2026",
+   "id": "TED-825287-2026",
    "source": "TED",
    "country": "SE",
-   "title": "Sweden – Unmanned underwater vehicles – Utökad anskaffning AUV MCM Bärbar",
-   "buyer": "FMV",
-   "published": "2026-11-26",
+   "title": "Sweden – Sewage, refuse, cleaning and environmental services – Slamsugning och spolning av ledningsnät",
+   "buyer": "ENKÖPINGS KOMMUN",
+   "published": "2026-11-27",
+   "deadline": "2026-12-16",
+   "cpv": [
+    "90000000",
+    "90470000",
+    "90513600",
+    "90513700",
+    "90513900"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/825287-2026",
+   "match": [
+    "vnútorná inšpekcia/kanalizácia: „tv-inspektion“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-826938-2026",
+   "source": "TED",
+   "country": "SI",
+   "title": "Slovenia – Repair, maintenance and associated services related to aircraft and other equipment – IZVAJANJE STORITEV FLEET MANAGEMENT ZA FLOTO BREZPILOTNIH ZRAKOPLOVOV PODJETJA LUKA KOPER D.D., ZA DOBO TREH LET",
+   "buyer": "LUKA KOPER, pristaniški in logistični sistem, delniška družba",
+   "published": "2026-11-27",
+   "deadline": "2026-12-28",
+   "cpv": [
+    "50210000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/826938-2026",
+   "match": [
+    "dron: „BREZPILOTN“"
+   ],
+   "notice_type": "cn-standard"
+  },
+  {
+   "id": "TED-826725-2026",
+   "source": "TED",
+   "country": "SK",
+   "title": "Slovakia – Computer equipment and supplies – DNS 2/2026 „Nákup výpočtovej techniky a príslušenstva pre UKF v Nitre“",
+   "buyer": "Univerzita Konštantína Filozofa v Nitre",
+   "published": "2026-11-27",
    "deadline": "",
    "cpv": [
-    "35512400"
+    "30121100",
+    "30200000",
+    "31640000",
+    "32200000",
+    "32250000",
+    "32400000",
+    "48800000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/824443-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/826725-2026",
    "match": [
-    "dron: „Bezzałogow“"
+    "TED fulltext (výraz v texte oznámenia)"
    ],
    "notice_type": "can-standard"
   },
   {
-   "id": "TED-821001-2026",
+   "id": "TED-826482-2026",
    "source": "TED",
-   "country": "SE",
-   "title": "Sweden – Medical consumables – Provtagningsmaterial",
-   "buyer": "Region Skåne, Koncernstab inköp och ekonomistyrning",
-   "published": "2026-11-26",
+   "country": "SK",
+   "title": "Slovakia – Computer equipment and supplies – DNS 2/2026 „Nákup výpočtovej techniky a príslušenstva pre UKF v Nitre“",
+   "buyer": "Univerzita Konštantína Filozofa v Nitre",
+   "published": "2026-11-27",
    "deadline": "",
    "cpv": [
-    "33140000"
+    "30121100",
+    "30200000",
+    "31640000",
+    "32200000",
+    "32250000",
+    "32400000",
+    "48800000"
    ],
-   "link": "https://ted.europa.eu/en/notice/-/detail/821001-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/826482-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-826059-2026",
+   "source": "TED",
+   "country": "SK",
+   "title": "Slovakia – Computer equipment and supplies – DNS 2/2026 „Nákup výpočtovej techniky a príslušenstva pre UKF v Nitre“",
+   "buyer": "Univerzita Konštantína Filozofa v Nitre",
+   "published": "2026-11-27",
+   "deadline": "",
+   "cpv": [
+    "30121100",
+    "30200000",
+    "31640000",
+    "32200000",
+    "32250000",
+    "32400000",
+    "48800000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/826059-2026",
+   "match": [
+    "TED fulltext (výraz v texte oznámenia)"
+   ],
+   "notice_type": "can-standard"
+  },
+  {
+   "id": "TED-825662-2026",
+   "source": "TED",
+   "country": "SK",
+   "title": "Slovakia – Computer equipment and supplies – DNS 2/2026 „Nákup výpočtovej techniky a príslušenstva pre UKF v Nitre“",
+   "buyer": "Univerzita Konštantína Filozofa v Nitre",
+   "published": "2026-11-27",
+   "deadline": "",
+   "cpv": [
+    "30121100",
+    "30200000",
+    "31640000",
+    "32200000",
+    "32250000",
+    "32400000",
+    "48800000"
+   ],
+   "link": "https://ted.europa.eu/en/notice/-/detail/825662-2026",
    "match": [
     "TED fulltext (výraz v texte oznámenia)"
    ],
